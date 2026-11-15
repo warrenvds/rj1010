@@ -1,0 +1,3162 @@
+year,athlete,day,km,pace,elevation_m
+2018,Alexander Thomson,0,61.00,,
+2018,Brendan Gittins,0,38.00,,
+2018,Candice Mack,0,103.00,,
+2018,Carlos Morais,0,130.00,,
+2018,Cavin Coutsides,0,31.00,,
+2018,Dale Ebell,0,50.00,,
+2018,Diego Hamuy Blanco,0,110.00,,
+2018,Greg Papadopulos,0,101.00,,
+2018,Jason Merrifield,0,101.00,,
+2018,Jessica Hamuy Blanco,0,105.00,,
+2018,Jono Baiocchi,0,100.00,,
+2018,Kent Raines,0,51.00,,
+2018,Kieren Jacobsen,0,55.00,,
+2018,Kim Dempsey,0,11.00,,
+2018,Lyndon Le Roux,0,8.00,,
+2018,Marco Ghisleni,0,42.00,,
+2018,Mark Grace,0,55.00,,
+2018,Michael Blake,0,5.00,,
+2018,Michael Dempsey,0,11.00,,
+2018,Rui Morais,0,14.00,,
+2018,Vince Dalais,0,52.00,,
+2018,Warren Maxwell-Pear,0,93.00,,
+2018,Warren van der Struys,0,24.00,,
+2019,Alex Szewczenko,1,10.04,,
+2019,Alex Szewczenko,2,10.27,,
+2019,Alex Szewczenko,3,10.02,,
+2019,Alex Szewczenko,4,10.05,,
+2019,Alex Szewczenko,5,10.02,,
+2019,Alex Szewczenko,6,10.02,,
+2019,Alex Szewczenko,7,11.37,,
+2019,Alex Szewczenko,8,13.07,,
+2019,Alex Szewczenko,9,10.11,,
+2019,Alex Szewczenko,10,10.09,,
+2019,Alexander Thomson,1,11.00,,
+2019,Alexander Thomson,2,10.00,,
+2019,Bianca Morais,1,10.24,,
+2019,Bianca Morais,2,10.16,,
+2019,Bianca Morais,3,10.37,,
+2019,Bianca Morais,4,10.22,,
+2019,Bianca Morais,5,10.18,,
+2019,Bianca Morais,6,10.50,,
+2019,Bianca Morais,7,10.00,,
+2019,Bianca Morais,8,10.29,,
+2019,Bianca Morais,9,10.00,,
+2019,Bianca Morais,10,10.00,,
+2019,Bradley Nqumba,1,13.51,,
+2019,Bradley Nqumba,2,11.56,,
+2019,Bradley Nqumba,3,12.07,,
+2019,Bradley Nqumba,4,9.82,,
+2019,Bradley Nqumba,5,12.50,,
+2019,Bradley Nqumba,6,11.61,,
+2019,Bradley Nqumba,7,11.97,,
+2019,Bradley Nqumba,8,42.24,,
+2019,Bradley Nqumba,9,9.92,,
+2019,Bradley Nqumba,10,26.18,,
+2019,Brendan Gittins,2,3.19,,
+2019,Brendan Gittins,3,11.56,,
+2019,Brendan Gittins,5,13.03,,
+2019,Brendan Gittins,7,14.26,,
+2019,Brendan Gittins,8,12.00,,
+2019,Brendan Gittins,9,15.12,,
+2019,Brendan Gittins,10,12.62,,
+2019,Candice Mack,1,20.28,,
+2019,Candice Mack,2,10.78,,
+2019,Candice Mack,3,11.08,,
+2019,Candice Mack,4,12.51,,
+2019,Candice Mack,5,13.11,,
+2019,Candice Mack,6,10.25,,
+2019,Candice Mack,7,10.02,,
+2019,Candice Mack,8,16.01,,
+2019,Candice Mack,9,10.08,,
+2019,Candice Mack,10,21.73,,
+2019,Carlos Morais,1,10.75,,
+2019,Carlos Morais,2,14.04,,
+2019,Carlos Morais,3,15.25,,
+2019,Carlos Morais,4,10.17,,
+2019,Carlos Morais,5,18.49,,
+2019,Carlos Morais,6,15.65,,
+2019,Carlos Morais,7,16.07,,
+2019,Carlos Morais,8,15.69,,
+2019,Carlos Morais,9,14.15,,
+2019,Carlos Morais,10,30.73,,
+2019,Cavin Coutsides,1,11.23,,
+2019,Cavin Coutsides,2,10.48,,
+2019,Cavin Coutsides,4,12.01,,
+2019,Cavin Coutsides,7,10.17,,
+2019,Cavin Coutsides,9,10.02,,
+2019,Cavin Coutsides,10,17.88,,
+2019,Craig Swanepoel,1,10.72,,
+2019,Craig Swanepoel,3,10.14,,
+2019,Craig Swanepoel,5,7.55,,
+2019,Craig Swanepoel,7,11.04,,
+2019,Dale Ebell,1,10.18,,
+2019,Dale Ebell,2,10.37,,
+2019,Dale Ebell,4,12.51,,
+2019,Dale Ebell,5,10.01,,
+2019,Dale Ebell,6,10.09,,
+2019,Dale Ebell,7,10.01,,
+2019,Dale Ebell,8,10.35,,
+2019,Dale Ebell,10,10.04,,
+2019,Diego Hamuy Blanco,1,10.76,,
+2019,Diego Hamuy Blanco,2,10.02,,
+2019,Diego Hamuy Blanco,3,10.13,,
+2019,Diego Hamuy Blanco,4,10.06,,
+2019,Diego Hamuy Blanco,5,10.20,,
+2019,Diego Hamuy Blanco,6,10.12,,
+2019,Diego Hamuy Blanco,7,10.05,,
+2019,Diego Hamuy Blanco,8,10.17,,
+2019,Diego Hamuy Blanco,9,10.03,,
+2019,Diego Hamuy Blanco,10,10.16,,
+2019,Dylan Tennant,1,10.57,,
+2019,Dylan Tennant,2,13.05,,
+2019,Dylan Tennant,3,10.50,,
+2019,Dylan Tennant,4,11.79,,
+2019,Dylan Tennant,5,17.18,,
+2019,Dylan Tennant,6,10.84,,
+2019,Dylan Tennant,7,11.01,,
+2019,Dylan Tennant,8,17.32,,
+2019,Dylan Tennant,9,10.60,,
+2019,Dylan Tennant,10,11.30,,
+2019,Gilbert de Villiers,1,10.34,,
+2019,Gilbert de Villiers,3,11.73,,
+2019,Gilbert de Villiers,6,10.53,,
+2019,Gilbert de Villiers,7,7.65,,
+2019,Gilbert de Villiers,9,15.40,,
+2019,Gilbert de Villiers,10,8.67,,
+2019,Grant Morgan,1,10.84,,
+2019,Grant Morgan,2,10.00,,
+2019,Grant Morgan,3,10.17,,
+2019,Grant Morgan,4,10.01,,
+2019,Grant Morgan,5,10.01,,
+2019,Grant Morgan,6,14.17,,
+2019,Grant Morgan,7,10.25,,
+2019,Grant Morgan,8,5.06,,
+2019,Grant Morgan,10,20.56,,
+2019,Greg Papadopulos,1,10.01,,
+2019,Greg Papadopulos,2,10.37,,
+2019,Greg Papadopulos,3,10.10,,
+2019,Greg Papadopulos,4,10.01,,
+2019,Greg Papadopulos,5,10.04,,
+2019,Greg Papadopulos,6,10.00,,
+2019,Greg Papadopulos,7,10.08,,
+2019,Greg Papadopulos,8,10.00,,
+2019,Greg Papadopulos,9,10.01,,
+2019,Greg Papadopulos,10,15.02,,
+2019,Jacques Peeperkorn,1,10.01,,
+2019,Jacques Peeperkorn,2,7.18,,
+2019,Jacques Peeperkorn,4,11.39,,
+2019,Jacques Peeperkorn,10,13.78,,
+2019,Jason Merrifield,1,7.11,,
+2019,Jason Merrifield,3,5.95,,
+2019,Jason Merrifield,6,6.13,,
+2019,Jason Merrifield,7,11.03,,
+2019,Jessica Hamuy Blanco,1,10.49,,
+2019,Jessica Hamuy Blanco,2,10.44,,
+2019,Jessica Hamuy Blanco,3,10.37,,
+2019,Jessica Hamuy Blanco,4,10.09,,
+2019,Jessica Hamuy Blanco,5,10.47,,
+2019,Jessica Hamuy Blanco,6,10.17,,
+2019,Jessica Hamuy Blanco,7,10.00,,
+2019,Jessica Hamuy Blanco,8,10.44,,
+2019,Jessica Hamuy Blanco,9,10.00,,
+2019,Jessica Hamuy Blanco,10,10.79,,
+2019,Jono Baiocchi,6,9.53,,
+2019,Jono Baiocchi,7,10.09,,
+2019,Jules Damstra,1,2.14,,
+2019,Jules Damstra,2,2.15,,
+2019,Jules Damstra,3,3.11,,
+2019,Jules Damstra,4,2.14,,
+2019,Jules Damstra,5,3.17,,
+2019,Jules Damstra,6,2.43,,
+2019,Jules Damstra,7,12.32,,
+2019,Jules Damstra,8,5.12,,
+2019,Jules Damstra,9,4.13,,
+2019,Jules Damstra,10,5.10,,
+2019,Kent Raines,1,10.04,,
+2019,Kent Raines,5,5.50,,
+2019,Kent Raines,8,5.12,,
+2019,Kevin Leathem,3,10.25,,
+2019,Kieren Jacobsen,1,10.04,,
+2019,Kieren Jacobsen,2,10.45,,
+2019,Kieren Jacobsen,3,10.16,,
+2019,Kieren Jacobsen,4,11.51,,
+2019,Kieren Jacobsen,5,10.04,,
+2019,Kieren Jacobsen,6,10.02,,
+2019,Kieren Jacobsen,7,10.02,,
+2019,Kieren Jacobsen,8,10.27,,
+2019,Kieren Jacobsen,9,10.45,,
+2019,Kieren Jacobsen,10,10.18,,
+2019,Kim Dempsey,1,10.23,,
+2019,Kim Dempsey,2,10.31,,
+2019,Kim Dempsey,7,10.10,,
+2019,Kim Dempsey,8,10.39,,
+2019,Kim Dempsey,9,10.03,,
+2019,Kim Dempsey,10,11.31,,
+2019,Lee Botha,2,8.36,,
+2019,Lee Botha,3,8.17,,
+2019,Lee Botha,10,8.01,,
+2019,Leon Maritz,1,15.03,,
+2019,Leon Maritz,2,6.34,,
+2019,Leon Maritz,3,10.00,,
+2019,Leon Maritz,5,10.20,,
+2019,Leon Maritz,6,10.00,,
+2019,Leon Maritz,7,15.00,,
+2019,Leon Maritz,8,17.50,,
+2019,Leon Maritz,9,10.00,,
+2019,Leon Maritz,10,10.00,,
+2019,Lyndon Le Roux,1,10.05,,
+2019,Lyndon Le Roux,2,10.07,,
+2019,Lyndon Le Roux,3,10.00,,
+2019,Lyndon Le Roux,5,7.01,,
+2019,Lyndon Le Roux,6,7.00,,
+2019,Lyndon Le Roux,10,7.00,,
+2019,Marco Ghisleni,7,15.33,,
+2019,Maria Ghisleni,2,10.63,,
+2019,Maria Ghisleni,3,10.54,,
+2019,Maria Ghisleni,5,11.14,,
+2019,Maria Ghisleni,7,21.10,,
+2019,Maria Ghisleni,8,22.15,,
+2019,Mark Grace,1,10.35,,
+2019,Mark Grace,2,10.15,,
+2019,Mark Grace,7,10.00,,
+2019,Mark Grace,9,10.02,,
+2019,Michael Dempsey,1,10.23,,
+2019,Michael Dempsey,2,10.31,,
+2019,Michael Dempsey,7,10.10,,
+2019,Michael Dempsey,8,10.39,,
+2019,Michael Dempsey,9,10.03,,
+2019,Michael Dempsey,10,11.31,,
+2019,Nik Mladenovic,2,10.12,,
+2019,Pieter Grobbelaar,1,10.05,,
+2019,Pieter Grobbelaar,2,10.67,,
+2019,Pieter Grobbelaar,3,10.03,,
+2019,Pieter Grobbelaar,7,10.17,,
+2019,Pieter Grobbelaar,8,10.78,,
+2019,Roxzanne Morais,6,7.00,,
+2019,Rui Morais,1,10.09,,
+2019,Rui Morais,2,10.20,,
+2019,Rui Morais,3,11.00,,
+2019,Rui Morais,4,15.00,,
+2019,Rui Morais,5,11.00,,
+2019,Rui Morais,6,10.43,,
+2019,Rui Morais,7,10.01,,
+2019,Rui Morais,8,21.15,,
+2019,Rui Morais,9,13.07,,
+2019,Rui Morais,10,11.37,,
+2019,Sam da Costa,2,5.01,,
+2019,Sam da Costa,5,5.09,,
+2019,Sam da Costa,7,5.01,,
+2019,Shaun Williams,2,15.59,,
+2019,Shaun Williams,3,11.01,,
+2019,Shaun Williams,4,10.30,,
+2019,Shaun Williams,5,12.40,,
+2019,Shaun Williams,7,12.90,,
+2019,Shaun Williams,8,10.70,,
+2019,Shaun Williams,9,10.31,,
+2019,Shaun Williams,10,8.06,,
+2019,Vince Dalais,10,10.01,,
+2019,Vincent Ghisleni,2,10.77,,
+2019,Vincent Ghisleni,3,14.95,,
+2019,Vincent Ghisleni,5,11.84,,
+2019,Vincent Ghisleni,7,22.02,,
+2019,Vincent Ghisleni,8,22.86,,
+2019,Warren Maxwell-Pear,1,10.64,,
+2019,Warren Maxwell-Pear,5,10.04,,
+2019,Warren van der Struys,1,10.91,,
+2019,Warren van der Struys,2,12.09,,
+2019,Warren van der Struys,3,10.23,,
+2019,Warren van der Struys,4,14.30,,
+2019,Warren van der Struys,5,10.79,,
+2019,Warren van der Struys,6,10.43,,
+2019,Warren van der Struys,7,10.10,,
+2019,Warren van der Struys,8,15.75,,
+2019,Warren van der Struys,9,10.33,,
+2019,Warren van der Struys,10,25.09,,
+2020,Alex Szewczenko,2,10.04,06:14,82
+2020,Alex Szewczenko,7,10.03,05:42,67
+2020,Alex Szewczenko,10,20.35,05:59,171
+2020,Armindo Morais,1,13.06,04:38,0
+2020,Armindo Morais,9,13.21,04:37,0
+2020,Bianca Matulovich,7,10.64,05:58,133
+2020,Bianca Matulovich,10,10.35,05:58,136
+2020,Bianca Morais,1,10.03,05:32,92
+2020,Bianca Morais,2,10.01,05:18,166
+2020,Bianca Morais,3,10.65,05:54,151
+2020,Bianca Morais,4,10.06,05:39,136
+2020,Bianca Morais,5,10.05,05:46,133
+2020,Bianca Morais,6,14.11,05:54,268
+2020,Bianca Morais,7,10.64,05:58,123
+2020,Bianca Morais,8,10.03,06:04,178
+2020,Bianca Morais,9,10.13,05:46,134
+2020,Bianca Morais,10,10.35,05:58,136
+2020,Brendan Gittins,1,11.02,06:07,120
+2020,Brendan Gittins,2,11.03,05:56,128
+2020,Brendan Gittins,3,11.32,05:56,163
+2020,Brendan Gittins,4,11.21,05:50,21
+2020,Brendan Gittins,5,11.20,05:45,71
+2020,Brendan Gittins,6,12.29,06:20,135
+2020,Brendan Gittins,7,11.21,05:51,64
+2020,Brendan Gittins,8,16.05,05:56,223
+2020,Brendan Gittins,9,12.29,06:01,35
+2020,Brendan Gittins,10,10.22,07:27,50
+2020,Candice Mack,1,10.09,06:21,0
+2020,Candice Mack,2,10.00,06:18,96
+2020,Candice Mack,3,10.29,06:54,0
+2020,Candice Mack,5,10.27,06:10,0
+2020,Candice Mack,7,20.62,05:34,208
+2020,Candice Mack,8,10.15,05:58,0
+2020,Candice Mack,9,10.10,05:15,141
+2020,Candice Mack,10,20.24,05:53,181
+2020,Carlos Morais,1,11.08,04:52,59
+2020,Carlos Morais,2,10.11,05:23,121
+2020,Carlos Morais,3,12.01,04:59,140
+2020,Carlos Morais,4,0.83,06:27,4
+2020,Cavin Coutsides,1,10.05,05:30,91
+2020,Cavin Coutsides,3,10.32,05:09,66
+2020,Cavin Coutsides,5,11.02,05:16,145
+2020,Cavin Coutsides,6,10.10,05:47,114
+2020,Cavin Coutsides,9,10.27,05:27,135
+2020,Craig Swanepoel,1,8.10,05:21,105
+2020,Craig Swanepoel,3,11.01,04:56,159
+2020,Craig Swanepoel,6,9.01,04:59,89
+2020,Craig Swanepoel,8,7.12,04:47,82
+2020,Dale Ebell,2,10.01,05:57,0
+2020,Dale Ebell,4,6.52,06:02,0
+2020,Dale Ebell,5,10.04,05:37,118
+2020,Dale Ebell,7,10.60,05:32,108
+2020,Dale Ebell,9,6.26,06:04,0
+2020,Dale Ebell,10,10.20,05:44,95
+2020,Darryn Whelan,1,3.10,07:47,0
+2020,Darryn Whelan,3,3.14,07:41,0
+2020,Darryn Whelan,5,3.26,07:24,0
+2020,Darryn Whelan,7,0.41,21:33,0
+2020,Darryn Whelan,8,4.25,06:37,0
+2020,Darryn Whelan,10,4.30,06:33,0
+2020,Diego Hamuy Blanco,1,10.13,05:40,93
+2020,Diego Hamuy Blanco,2,10.15,05:44,119
+2020,Diego Hamuy Blanco,3,10.59,05:52,154
+2020,Diego Hamuy Blanco,4,10.07,05:35,59
+2020,Diego Hamuy Blanco,5,10.09,05:47,130
+2020,Diego Hamuy Blanco,6,14.03,05:43,195
+2020,Diego Hamuy Blanco,7,10.61,05:28,123
+2020,Diego Hamuy Blanco,8,10.12,05:51,169
+2020,Diego Hamuy Blanco,9,10.16,05:42,131
+2020,Diego Hamuy Blanco,10,10.30,05:54,100
+2020,Dylan Tennant,1,12.28,05:50,62
+2020,Dylan Tennant,2,14.37,05:19,56
+2020,Gilbert de Villiers,1,10.83,06:08,161
+2020,Gilbert de Villiers,2,11.03,05:56,128
+2020,Gilbert de Villiers,3,11.44,05:56,171
+2020,Gilbert de Villiers,4,11.21,05:52,81
+2020,Gilbert de Villiers,5,11.21,05:47,117
+2020,Gilbert de Villiers,6,11.23,05:42,128
+2020,Gilbert de Villiers,7,11.30,05:56,129
+2020,Gilbert de Villiers,8,16.05,05:56,223
+2020,Gilbert de Villiers,9,13.33,05:06,205
+2020,Gilbert de Villiers,10,42.30,05:22,539
+2020,Grant Morgan,1,10.00,05:31,66
+2020,Grant Morgan,2,10.00,05:39,54
+2020,Grant Morgan,3,10.33,05:33,56
+2020,Grant Morgan,4,10.05,05:24,9
+2020,Grant Morgan,5,10.03,05:33,29
+2020,Grant Morgan,6,10.05,05:47,57
+2020,Grant Morgan,7,10.03,05:34,74
+2020,Grant Morgan,8,10.30,05:36,32
+2020,Grant Morgan,9,10.04,06:06,42
+2020,Grant Morgan,10,12.95,05:41,60
+2020,Greg Papadopulos,1,2.79,11:07,59
+2020,Greg Papadopulos,2,9.62,05:08,57
+2020,Greg Papadopulos,3,5.12,10:52,159
+2020,Greg Papadopulos,4,5.09,13:11,138
+2020,Greg Papadopulos,7,7.79,13:40,343
+2020,Greg Papadopulos,8,12.52,05:23,48
+2020,Greg Papadopulos,9,6.24,08:28,0
+2020,Greg Papadopulos,10,4.26,11:49,148
+2020,Jayson Rebelo,1,10.16,06:33,128
+2020,Jayson Rebelo,2,10.04,05:51,52
+2020,Jayson Rebelo,3,10.04,06:18,94
+2020,Jayson Rebelo,4,10.10,06:35,117
+2020,Jayson Rebelo,5,10.22,06:10,48
+2020,Jayson Rebelo,6,10.19,06:40,118
+2020,Jayson Rebelo,7,10.59,06:27,96
+2020,Jayson Rebelo,8,10.05,,46
+2020,Jayson Rebelo,9,10.02,06:14,108
+2020,Jayson Rebelo,10,15.26,06:23,191
+2020,Jessica Hamuy Blanco,1,10.00,05:43,88
+2020,Jessica Hamuy Blanco,2,10.17,05:40,121
+2020,Jessica Hamuy Blanco,3,10.53,05:57,150
+2020,Jessica Hamuy Blanco,4,6.64,06:07,59
+2020,Jessica Hamuy Blanco,5,11.05,06:17,143
+2020,Jessica Hamuy Blanco,6,11.80,06:02,135
+2020,Jessica Hamuy Blanco,7,10.02,06:00,144
+2020,Jessica Hamuy Blanco,8,10.03,05:47,162
+2020,Jessica Hamuy Blanco,9,10.09,05:38,129
+2020,Jessica Hamuy Blanco,10,10.27,05:36,99
+2020,Julia Ebell,1,10.01,05:31,88
+2020,Julia Ebell,2,10.96,05:32,100
+2020,Julia Ebell,3,10.48,05:54,151
+2020,Julia Ebell,4,10.12,05:31,50
+2020,Julia Ebell,5,10.03,05:38,115
+2020,Julia Ebell,6,10.01,06:13,102
+2020,Julia Ebell,7,10.48,05:36,133
+2020,Julia Ebell,8,10.01,06:01,160
+2020,Julia Ebell,9,10.15,05:41,118
+2020,Julia Ebell,10,10.18,05:37,93
+2020,Kent Raines,1,10.55,05:02,93
+2020,Kent Raines,9,10.61,05:24,166
+2020,Kevin Leathem,1,10.49,05:42,153
+2020,Kevin Leathem,2,10.33,05:40,144
+2020,Kevin Leathem,3,10.54,05:51,153
+2020,Kevin Leathem,4,10.46,05:52,142
+2020,Kevin Leathem,5,9.19,05:34,124
+2020,Kevin Leathem,7,12.14,05:38,249
+2020,Kevin Leathem,8,12.12,04:51,211
+2020,Kevin Leathem,9,11.11,05:54,223
+2020,Kevin Leathem,10,13.99,05:53,280
+2020,Kieren Jacobsen,1,10.01,05:27,120
+2020,Kieren Jacobsen,2,10.21,05:25,109
+2020,Kieren Jacobsen,3,10.28,05:38,120
+2020,Kieren Jacobsen,4,10.13,05:46,113
+2020,Kieren Jacobsen,5,10.08,05:34,120
+2020,Kieren Jacobsen,6,14.31,05:47,178
+2020,Kieren Jacobsen,7,10.52,05:44,102
+2020,Kieren Jacobsen,8,10.10,05:46,149
+2020,Kieren Jacobsen,9,10.30,05:21,122
+2020,Kieren Jacobsen,10,10.35,05:34,92
+2020,Kim Dempsey,1,10.07,06:05,125
+2020,Kim Dempsey,2,10.62,06:17,139
+2020,Kim Dempsey,3,10.66,05:57,154
+2020,Kim Dempsey,4,10.03,05:40,66
+2020,Kim Dempsey,5,10.05,05:46,129
+2020,Kim Dempsey,6,10.65,06:04,139
+2020,Kim Dempsey,7,10.40,05:55,124
+2020,Kim Dempsey,8,17.88,05:54,289
+2020,Kim Dempsey,9,10.24,05:34,127
+2020,Kim Dempsey,10,10.38,05:59,110
+2020,Leon Maritz,1,6.00,,
+2020,Leon Maritz,2,10.00,,
+2020,Leon Maritz,6,10.00,,
+2020,Leon Maritz,7,6.30,,
+2020,Leon Maritz,8,6.30,,
+2020,Leon Maritz,9,10.50,,
+2020,Leon Maritz,10,5.00,,
+2020,Lyndon Le Roux,1,10.40,05:42,106
+2020,Lyndon Le Roux,2,10.44,05:42,97
+2020,Lyndon Le Roux,3,10.61,05:33,106
+2020,Lyndon Le Roux,4,10.32,05:16,119
+2020,Lyndon Le Roux,5,10.08,05:58,0
+2020,Lyndon Le Roux,7,10.46,05:47,207
+2020,Lyndon Le Roux,8,10.11,05:55,105
+2020,Lyndon Le Roux,10,10.22,05:42,110
+2020,Marco Ghisleni,1,10.08,05:41,93
+2020,Marco Ghisleni,2,10.17,05:45,119
+2020,Marco Ghisleni,3,10.63,05:51,153
+2020,Marco Ghisleni,4,10.04,05:37,61
+2020,Marco Ghisleni,5,10.00,05:48,131
+2020,Marco Ghisleni,6,13.74,05:55,252
+2020,Marco Ghisleni,7,10.59,05:37,119
+2020,Marco Ghisleni,8,10.08,05:57,178
+2020,Marco Ghisleni,9,10.22,05:51,126
+2020,Marco Ghisleni,10,10.25,05:57,110
+2020,Maria Ghisleni,1,9.24,05:53,52
+2020,Maria Ghisleni,3,10.40,05:51,132
+2020,Maria Ghisleni,6,21.07,06:11,365
+2020,Maria Ghisleni,8,11.22,05:40,100
+2020,Maria Ghisleni,9,7.68,07:15,74
+2020,Maria Ghisleni,10,10.00,06:06,126
+2020,Mark Grace,2,3.07,06:35,21
+2020,Mark Grace,7,3.63,06:02,14
+2020,Mark Grace,9,5.30,05:51,7
+2020,Mark Grace,10,5.30,05:48,7
+2020,Megan Whelan,1,10.61,04:59,92
+2020,Megan Whelan,2,10.18,05:15,118
+2020,Megan Whelan,3,10.09,04:47,87
+2020,Megan Whelan,4,10.13,05:00,61
+2020,Megan Whelan,5,10.15,05:01,130
+2020,Megan Whelan,6,10.11,04:41,89
+2020,Megan Whelan,7,10.67,05:11,118
+2020,Megan Whelan,8,10.18,05:21,179
+2020,Megan Whelan,9,16.42,04:56,181
+2020,Megan Whelan,10,21.80,05:36,257
+2020,Michael Dempsey,1,10.26,05:51,124
+2020,Michael Dempsey,2,10.67,06:15,123
+2020,Michael Dempsey,3,10.76,05:57,127
+2020,Michael Dempsey,4,10.19,05:39,62
+2020,Michael Dempsey,5,10.11,05:40,129
+2020,Michael Dempsey,6,10.13,05:37,124
+2020,Michael Dempsey,7,10.71,05:27,122
+2020,Michael Dempsey,8,17.91,05:55,285
+2020,Michael Dempsey,9,10.24,05:34,127
+2020,Michael Dempsey,10,10.38,05:59,110
+2020,Nick Matulovich,1,10.68,05:01,99
+2020,Nick Matulovich,2,10.18,05:16,118
+2020,Nick Matulovich,3,10.71,05:48,166
+2020,Nick Matulovich,4,10.19,05:08,68
+2020,Nick Matulovich,5,10.68,05:04,144
+2020,Nick Matulovich,6,24.62,05:21,305
+2020,Nick Matulovich,7,10.82,05:28,130
+2020,Nick Matulovich,8,10.20,05:33,178
+2020,Nick Matulovich,9,18.79,05:19,286
+2020,Nick Matulovich,10,50.65,06:00,536
+2020,Rainer Nowicki,1,6.08,05:08,77
+2020,Rainer Nowicki,2,5.11,04:49,19
+2020,Rainer Nowicki,4,10.23,05:23,64
+2020,Rainer Nowicki,7,10.68,05:27,125
+2020,Rainer Nowicki,9,10.23,05:29,132
+2020,Rainer Nowicki,10,10.37,05:49,110
+2020,Richard Tandy,1,4.50,,
+2020,Richard Tandy,2,10.00,,
+2020,Richard Tandy,4,5.50,,
+2020,Richard Tandy,7,5.00,,
+2020,Richard Tandy,9,11.00,,
+2020,Roxzanne Morais,1,10.05,05:33,92
+2020,Roxzanne Morais,4,6.04,05:37,61
+2020,Roxzanne Morais,5,10.02,05:37,121
+2020,Roxzanne Morais,6,10.32,06:17,107
+2020,Rui Morais,1,10.02,05:26,103
+2020,Rui Morais,3,10.01,04:53,75
+2020,Rui Morais,5,10.19,05:07,132
+2020,Rui Morais,6,10.20,05:42,108
+2020,Rui Morais,9,10.01,05:15,131
+2020,Sam da Costa,2,4.75,06:49,50
+2020,Sam da Costa,9,5.10,06:51,57
+2020,Sasha van der Struys,1,10.01,05:21,80
+2020,Sasha van der Struys,3,10.58,05:41,145
+2020,Sasha van der Struys,4,10.01,05:31,58
+2020,Sasha van der Struys,5,10.53,05:22,124
+2020,Sasha van der Struys,6,14.02,05:40,264
+2020,Sasha van der Struys,7,10.92,05:09,125
+2020,Sasha van der Struys,8,10.13,05:23,179
+2020,Sasha van der Struys,9,10.15,05:11,129
+2020,Sasha van der Struys,10,22.03,05:34,258
+2020,Vince Dalais,1,5.04,06:45,90
+2020,Vince Dalais,2,5.18,05:29,1
+2020,Vince Dalais,6,12.26,06:37,152
+2020,Vince Dalais,7,5.01,05:37,2
+2020,Vince Dalais,9,5.03,05:27,3
+2020,Vincent Ghisleni,1,9.51,05:14,52
+2020,Vincent Ghisleni,3,10.73,05:21,135
+2020,Vincent Ghisleni,6,21.22,06:53,397
+2020,Vincent Ghisleni,8,11.75,05:16,125
+2020,Vincent Ghisleni,10,11.73,05:21,118
+2020,Warren van der Struys,1,10.01,05:21,92
+2020,Warren van der Struys,2,10.53,05:42,120
+2020,Warren van der Struys,3,10.58,05:41,153
+2020,Warren van der Struys,4,10.01,05:31,62
+2020,Warren van der Struys,5,10.53,05:22,136
+2020,Warren van der Struys,6,14.02,05:40,264
+2020,Warren van der Struys,7,10.92,05:09,125
+2020,Warren van der Struys,8,10.14,05:23,179
+2020,Warren van der Struys,9,10.15,05:11,129
+2020,Warren van der Struys,10,17.72,05:30,188
+2021,Alex van der Struys,10,1.00,11:52,4
+2021,Ali Whelan,8,2.00,11:56,21
+2021,Ali Whelan,9,1.18,14:00,13
+2021,Ali Whelan,10,1.28,16:00,13
+2021,Bianca Morais,1,7.04,05:52,61
+2021,Bianca Morais,3,9.00,06:17,92
+2021,Bianca Morais,5,10.16,06:13,115
+2021,Bianca Morais,7,10.12,06:04,113
+2021,Bradley Nqumba,4,5.08,06:03,0
+2021,Brendan Gittins,2,11.29,05:56,101
+2021,Brendan Gittins,7,11.70,05:44,108
+2021,Brendan Gittins,10,3.36,11:36,87
+2021,Cavin Coutsides,2,10.05,05:42,43
+2021,Cavin Coutsides,4,10.29,05:45,129
+2021,Cavin Coutsides,6,5.58,05:48,29
+2021,Chianti Morais,1,7.04,05:52,61
+2021,Chianti Morais,3,9.00,06:17,92
+2021,Christopher Falck,1,6.99,10:27,58
+2021,Christopher Falck,3,11.99,04:58,105
+2021,Christopher Falck,5,12.03,05:14,171
+2021,Christopher Falck,6,12.63,05:23,159
+2021,Christopher Falck,7,4.88,07:05,57
+2021,Christopher Falck,8,1.90,08:31,0
+2021,Christopher Falck,9,5.03,06:35,52
+2021,Craig van der Westhuizen,1,10.00,05:42,88
+2021,Craig van der Westhuizen,2,10.01,05:37,67
+2021,Craig van der Westhuizen,3,10.00,06:00,109
+2021,Craig van der Westhuizen,4,10.01,05:46,135
+2021,Craig van der Westhuizen,5,12.25,05:15,33
+2021,Craig van der Westhuizen,6,10.00,06:09,130
+2021,Craig van der Westhuizen,10,0.09,09:39,0
+2021,Dale Ebell,1,10.01,06:02,124
+2021,Dale Ebell,2,10.02,06:01,109
+2021,Dale Ebell,3,7.01,05:55,63
+2021,Dale Ebell,4,10.19,05:46,124
+2021,Dale Ebell,6,12.50,05:49,142
+2021,Dale Ebell,8,10.10,05:56,93
+2021,Dale Ebell,10,10.34,05:44,92
+2021,Darryn Whelan,1,4.55,04:52,33
+2021,Darryn Whelan,3,13.73,04:24,150
+2021,Darryn Whelan,5,4.75,04:10,65
+2021,Darryn Whelan,7,15.28,04:35,110
+2021,Darryn Whelan,8,5.20,04:17,49
+2021,Diego Hamuy Blanco,1,10.01,06:09,124
+2021,Diego Hamuy Blanco,2,10.02,06:19,148
+2021,Diego Hamuy Blanco,3,10.01,06:21,96
+2021,Diego Hamuy Blanco,4,10.01,05:05,123
+2021,Diego Hamuy Blanco,5,10.00,06:13,107
+2021,Diego Hamuy Blanco,6,10.01,06:23,162
+2021,Diego Hamuy Blanco,7,10.02,06:33,122
+2021,Diego Hamuy Blanco,8,10.01,06:38,90
+2021,Diego Hamuy Blanco,9,10.01,06:32,95
+2021,Diego Hamuy Blanco,10,10.01,06:45,94
+2021,Dirk Badenhorst,1,4.92,06:24,37
+2021,Dirk Badenhorst,2,4.10,06:30,2
+2021,Dirk Badenhorst,3,4.00,06:30,2
+2021,Dirk Badenhorst,6,3.00,06:32,0
+2021,Dylan Tennant,1,11.40,06:29,48
+2021,Dylan Tennant,3,11.50,05:21,34
+2021,Dylan Tennant,4,11.23,05:55,50
+2021,Gilbert de Villiers,2,11.29,05:56,101
+2021,Gilbert de Villiers,3,11.02,05:22,178
+2021,Gilbert de Villiers,4,11.45,05:32,102
+2021,Gilbert de Villiers,5,12.55,05:13,105
+2021,Gilbert de Villiers,6,11.02,05:16,267
+2021,Gilbert de Villiers,7,11.53,05:47,100
+2021,Grant Morgan,1,10.44,05:53,73
+2021,Grant Morgan,2,10.50,05:53,54
+2021,Grant Morgan,3,10.19,05:43,54
+2021,Grant Morgan,4,10.00,05:57,53
+2021,Grant Morgan,5,10.00,05:53,47
+2021,Grant Morgan,7,10.01,05:54,62
+2021,Grant Morgan,10,5.77,05:53,36
+2021,Greg Papadopulos,1,6.07,05:46,77
+2021,Greg Papadopulos,2,3.60,05:39,56
+2021,Greg Papadopulos,6,1.44,11:42,15
+2021,Greg Papadopulos,7,3.41,11:03,34
+2021,Greg Papadopulos,8,5.04,12:39,78
+2021,Greg Papadopulos,9,7.65,11:21,160
+2021,Harry Dempsey,3,9.86,06:50,129
+2021,Harry Dempsey,7,10.12,06:04,113
+2021,Jessica Hamuy Blanco,1,10.08,05:55,112
+2021,Jessica Hamuy Blanco,2,10.00,06:11,119
+2021,Jessica Hamuy Blanco,3,10.02,05:54,94
+2021,Jessica Hamuy Blanco,4,10.06,05:47,119
+2021,Jessica Hamuy Blanco,5,10.10,06:03,103
+2021,Jessica Hamuy Blanco,6,10.96,05:55,158
+2021,Jessica Hamuy Blanco,7,10.00,06:00,106
+2021,Jessica Hamuy Blanco,8,10.00,05:57,79
+2021,Jessica Hamuy Blanco,9,10.04,06:04,81
+2021,Jessica Hamuy Blanco,10,10.37,05:50,80
+2021,Julia Ebell,1,10.05,05:53,115
+2021,Julia Ebell,2,10.05,05:52,108
+2021,Julia Ebell,3,10.37,06:05,92
+2021,Julia Ebell,4,10.42,05:54,122
+2021,Julia Ebell,5,10.12,06:05,99
+2021,Julia Ebell,6,11.71,05:59,216
+2021,Julia Ebell,7,10.06,05:56,124
+2021,Julia Ebell,8,10.01,06:06,82
+2021,Julia Ebell,9,10.81,05:56,90
+2021,Julia Ebell,10,10.26,06:05,89
+2021,Kent Raines,2,10.02,05:42,124
+2021,Kent Raines,3,11.03,05:06,104
+2021,Kent Raines,4,10.90,05:17,142
+2021,Kent Raines,6,12.13,05:42,184
+2021,Kent Raines,7,10.08,05:18,170
+2021,Kent Raines,9,10.00,05:15,93
+2021,Kent Raines,10,11.32,05:19,96
+2021,Kevin Leathem,2,20.51,06:13,295
+2021,Kevin Leathem,4,20.04,06:32,283
+2021,Kevin Leathem,6,20.01,06:15,362
+2021,Kevin Leathem,7,15.40,06:10,270
+2021,Kevin Leathem,8,15.02,06:15,259
+2021,Kevin Leathem,9,14.66,06:23,251
+2021,Kevin Leathem,10,23.56,06:39,470
+2021,Kieren Jacobsen,1,10.15,06:06,138
+2021,Kieren Jacobsen,2,10.04,06:44,106
+2021,Kieren Jacobsen,4,10.07,06:04,121
+2021,Kieren Jacobsen,7,10.03,06:00,146
+2021,Kieren Jacobsen,10,10.05,06:46,200
+2021,Kim Dempsey,1,10.25,06:32,168
+2021,Kim Dempsey,3,9.86,06:50,129
+2021,Kim Dempsey,4,10.06,05:47,119
+2021,Kim Dempsey,5,10.10,06:03,103
+2021,Kim Dempsey,7,10.12,06:04,113
+2021,Kim Dempsey,8,10.00,06:00,90
+2021,Louis Stofberg,6,7.05,06:43,146
+2021,Louis Stofberg,8,6.45,07:06,142
+2021,Lyndon Le Roux,1,10.12,05:48,124
+2021,Lyndon Le Roux,2,10.12,06:36,104
+2021,Lyndon Le Roux,3,10.22,05:35,126
+2021,Lyndon Le Roux,7,10.36,05:51,125
+2021,Lyndon Le Roux,8,10.42,05:50,108
+2021,Lyndon Le Roux,9,10.09,05:12,41
+2021,Lyndon Le Roux,10,10.02,05:47,109
+2021,Marco Ghisleni,1,10.08,06:13,133
+2021,Marco Ghisleni,2,10.06,06:19,142
+2021,Marco Ghisleni,4,10.18,06:02,130
+2021,Marco Ghisleni,5,10.07,06:14,110
+2021,Marco Ghisleni,7,10.04,06:16,121
+2021,Marco Ghisleni,10,10.77,08:31,99
+2021,Maria Ghisleni,1,6.63,06:19,58
+2021,Maria Ghisleni,3,8.17,06:43,95
+2021,Maria Ghisleni,4,8.57,07:28,83
+2021,Maria Ghisleni,7,9.23,06:54,95
+2021,Maria Ghisleni,8,10.14,06:34,103
+2021,Maria Ghisleni,9,9.12,06:44,101
+2021,Mark Grace,1,2.58,06:33,12
+2021,Mark Grace,2,2.60,06:27,6
+2021,Mark Grace,3,2.58,06:29,9
+2021,Mark Grace,4,3.07,06:37,21
+2021,Mark Grace,5,3.10,06:29,21
+2021,Mark Grace,6,3.01,05:35,25
+2021,Mark Grace,7,8.03,06:37,58
+2021,Mark Grace,8,8.01,06:28,61
+2021,Mark Grace,9,7.33,06:16,52
+2021,Mark Grace,10,10.00,06:50,98
+2021,Meg Nelson,1,4.92,06:24,37
+2021,Meg Nelson,2,4.10,06:30,2
+2021,Meg Nelson,3,4.00,06:30,2
+2021,Meg Nelson,6,3.00,06:32,0
+2021,Megan Whelan,1,10.16,05:52,122
+2021,Megan Whelan,2,4.01,05:19,0
+2021,Megan Whelan,3,12.09,05:07,117
+2021,Megan Whelan,4,3.01,05:23,0
+2021,Megan Whelan,5,11.01,05:33,0
+2021,Megan Whelan,6,12.77,05:18,171
+2021,Megan Whelan,7,14.08,04:46,53
+2021,Megan Whelan,8,11.49,05:25,92
+2021,Megan Whelan,9,12.25,05:12,97
+2021,Megan Whelan,10,13.02,04:35,104
+2021,Michael Dempsey,1,10.25,06:32,168
+2021,Michael Dempsey,3,9.86,06:50,129
+2021,Michael Dempsey,4,10.06,05:47,119
+2021,Michael Dempsey,5,10.10,06:03,103
+2021,Michael Dempsey,7,10.12,06:04,113
+2021,Michael Dempsey,8,10.00,06:00,90
+2021,Momo Hamuy Blanco,2,2.14,12:07,29
+2021,Momo Hamuy Blanco,10,0.72,15:00,10
+2021,Nacho Hamuy Blanco,10,0.72,15:00,10
+2021,Nick Matulovich,1,10.12,06:17,0
+2021,Nick Matulovich,2,10.08,05:39,0
+2021,Nick Matulovich,3,10.19,05:51,0
+2021,Nick Matulovich,4,10.20,06:06,0
+2021,Nick Matulovich,5,10.21,05:42,0
+2021,Nick Matulovich,6,10.36,05:39,0
+2021,Nick Matulovich,7,11.13,05:45,0
+2021,Nick Matulovich,8,12.26,05:47,0
+2021,Nick Matulovich,9,22.13,05:56,0
+2021,Nick Matulovich,10,30.53,05:50,321
+2021,Rainer Nowicki,1,10.00,06:01,147
+2021,Rainer Nowicki,2,10.14,06:17,123
+2021,Rainer Nowicki,3,5.52,05:43,56
+2021,Rainer Nowicki,4,10.17,06:00,136
+2021,Rainer Nowicki,5,11.32,09:25,206
+2021,Rainer Nowicki,6,3.09,08:11,4
+2021,Rainer Nowicki,7,13.08,06:00,179
+2021,Rainer Nowicki,8,10.10,05:37,110
+2021,Rainer Nowicki,10,11.13,05:53,105
+2021,Rui Morais,4,10.10,05:36,124
+2021,Rui Morais,5,12.08,04:57,42
+2021,Sam da Costa,4,3.70,06:36,31
+2021,Sasha van der Struys,1,10.14,05:59,123
+2021,Sasha van der Struys,2,10.29,05:51,131
+2021,Sasha van der Struys,3,10.46,05:46,100
+2021,Sasha van der Struys,6,11.10,05:43,176
+2021,Sasha van der Struys,7,10.15,05:55,122
+2021,Sasha van der Struys,8,10.65,05:49,92
+2021,Sasha van der Struys,9,11.40,05:20,101
+2021,Sasha van der Struys,10,10.89,05:49,103
+2021,Sean Deeley,1,10.00,05:43,99
+2021,Sean Deeley,2,13.02,06:11,143
+2021,Sean Deeley,3,10.01,06:03,106
+2021,Sean Deeley,4,10.03,05:47,125
+2021,Sean Deeley,5,13.01,05:28,56
+2021,Sean Deeley,6,11.55,06:11,151
+2021,Taco Hamuy Blanco,10,0.72,15:00,10
+2021,Tiaan Beyers,2,6.19,05:37,61
+2021,Tiaan Beyers,3,5.61,05:38,67
+2021,Toggle Whelan,8,2.00,11:56,21
+2021,Toggle Whelan,9,1.18,14:00,13
+2021,Toggle Whelan,10,1.28,16:00,13
+2021,Vince Dalais,7,5.00,06:42,35
+2021,Vincent Ghisleni,2,8.83,06:12,123
+2021,Vincent Ghisleni,4,8.95,06:27,83
+2021,Warren van der Struys,1,10.14,05:59,123
+2021,Warren van der Struys,2,10.29,05:51,131
+2021,Warren van der Struys,3,10.46,05:46,100
+2021,Warren van der Struys,4,10.55,05:30,162
+2021,Warren van der Struys,5,12.18,05:21,81
+2021,Warren van der Struys,6,11.10,05:43,176
+2021,Warren van der Struys,7,10.15,05:55,122
+2021,Warren van der Struys,8,10.65,05:49,92
+2021,Warren van der Struys,9,11.40,05:20,101
+2021,Warren van der Struys,10,10.89,05:49,103
+2022,Avril Moolman,1,9.70,07:03,146
+2022,Avril Moolman,2,5.24,07:08,78
+2022,Avril Moolman,3,6.92,06:43,97
+2022,Avril Moolman,4,7.07,06:28,101
+2022,Avril Moolman,5,6.14,07:09,80
+2022,Avril Moolman,6,5.80,07:08,92
+2022,Avril Moolman,7,5.03,06:26,83
+2022,Avril Moolman,8,2.40,05:38,64
+2022,Avril Moolman,9,8.14,06:38,128
+2022,Avril Moolman,10,7.02,06:35,90
+2022,Bianca Morais,1,10.00,06:24,125
+2022,Bianca Morais,2,10.11,05:56,124
+2022,Bianca Morais,3,10.35,06:07,104
+2022,Bianca Morais,6,10.21,06:22,142
+2022,Bianca Morais,7,10.35,05:46,137
+2022,Bianca Morais,8,8.08,06:04,113
+2022,Bradley Nqumba,9,7.08,11:13,82
+2022,Bradley Nqumba,10,7.72,06:32,97
+2022,Brendan Gittins,1,3.57,07:25,21
+2022,Carlos Morais,1,2.00,,
+2022,Carlos Morais,2,3.00,,
+2022,Carlos Morais,4,4.33,14:24,46
+2022,Carlos Morais,5,5.00,,
+2022,Carlos Morais,7,5.00,,
+2022,Carlos Morais,9,6.00,,
+2022,Carlos Morais,10,4.14,14:00,42
+2022,Cavin Coutsides,3,10.25,05:53,97
+2022,Cavin Coutsides,4,4.22,14:22,45
+2022,Craig Swanepoel,1,10.56,05:41,110
+2022,Craig Swanepoel,2,11.02,05:52,138
+2022,Craig Swanepoel,3,11.17,05:43,147
+2022,Craig Swanepoel,4,10.10,05:44,191
+2022,Craig Swanepoel,10,10.25,06:00,179
+2022,Craig van der Westhuizen,1,10.00,05:56,123
+2022,Craig van der Westhuizen,2,9.96,06:03,103
+2022,Craig van der Westhuizen,3,10.15,05:54,94
+2022,Craig van der Westhuizen,4,10.08,05:45,44
+2022,Craig van der Westhuizen,6,10.00,06:00,83
+2022,Craig van der Westhuizen,7,10.36,05:48,115
+2022,Craig van der Westhuizen,8,10.00,06:00,78
+2022,Craig van der Westhuizen,10,10.47,05:44,100
+2022,Dale Ebell,3,8.45,06:54,70
+2022,Dale Ebell,4,7.97,06:46,73
+2022,Dale Ebell,6,7.01,05:35,29
+2022,Dale Ebell,10,4.15,13:53,33
+2022,Dario Matteucci,1,10.40,05:39,58
+2022,Dario Matteucci,2,10.39,05:23,99
+2022,Dario Matteucci,3,10.26,04:50,134
+2022,Dario Matteucci,4,10.04,06:12,135
+2022,Dario Matteucci,5,10.00,04:53,112
+2022,Dario Matteucci,6,10.54,05:10,135
+2022,Dario Matteucci,7,10.08,04:34,86
+2022,Dario Matteucci,8,10.02,04:30,83
+2022,Dario Matteucci,9,10.02,04:42,93
+2022,Dario Matteucci,10,10.05,04:18,92
+2022,Diego Hamuy Blanco,1,10.21,06:23,90
+2022,Diego Hamuy Blanco,2,10.06,06:15,97
+2022,Diego Hamuy Blanco,3,15.56,06:19,173
+2022,Diego Hamuy Blanco,4,10.42,07:19,111
+2022,Diego Hamuy Blanco,5,4.65,06:05,61
+2022,Diego Hamuy Blanco,6,10.32,07:26,29
+2022,Diego Hamuy Blanco,7,10.02,07:26,169
+2022,Diego Hamuy Blanco,8,10.40,07:36,103
+2022,Diego Hamuy Blanco,9,10.04,06:17,149
+2022,Diego Hamuy Blanco,10,10.23,07:07,144
+2022,Dylan Tennant,2,13.70,05:56,44
+2022,Gilbert de Villiers,1,4.02,10:36,0
+2022,Gilbert de Villiers,6,9.05,05:07,69
+2022,Gilbert de Villiers,10,7.58,04:51,47
+2022,Grant Morgan,1,10.15,05:41,20
+2022,Grant Morgan,2,10.40,05:20,44
+2022,Grant Morgan,7,10.24,05:43,61
+2022,Grant Morgan,8,12.62,05:36,68
+2022,Grant Morgan,10,6.14,06:00,34
+2022,Greg Papadopulos,2,3.22,10:26,35
+2022,Greg Papadopulos,3,5.33,06:21,100
+2022,Greg Papadopulos,4,8.33,10:28,101
+2022,Greg Papadopulos,6,3.31,12:00,32
+2022,Greg Papadopulos,7,10.31,05:46,112
+2022,Greg Papadopulos,8,4.56,06:44,59
+2022,Greg Papadopulos,10,10.14,06:15,81
+2022,Harry Dempsey,1,10.00,06:24,125
+2022,Jessica Hamuy Blanco,1,12.60,05:37,144
+2022,Jessica Hamuy Blanco,2,10.73,05:36,130
+2022,Jessica Hamuy Blanco,3,10.71,05:48,96
+2022,Jessica Hamuy Blanco,4,10.00,06:39,101
+2022,Jessica Hamuy Blanco,5,6.20,05:56,135
+2022,Jessica Hamuy Blanco,6,10.08,07:18,25
+2022,Jessica Hamuy Blanco,7,10.03,07:12,179
+2022,Jessica Hamuy Blanco,8,10.34,07:21,111
+2022,Jessica Hamuy Blanco,9,10.30,05:41,165
+2022,Jessica Hamuy Blanco,10,10.05,07:06,152
+2022,Jevon Brown,1,5.71,05:50,50
+2022,Jevon Brown,5,10.33,05:40,108
+2022,Jevon Brown,6,6.38,08:11,63
+2022,Jevon Brown,7,8.10,06:19,98
+2022,Jevon Brown,8,6.54,08:06,61
+2022,Julia Ebell,1,8.02,07:22,77
+2022,Julia Ebell,2,8.09,07:21,82
+2022,Julia Ebell,3,8.49,07:06,59
+2022,Julia Ebell,4,8.02,07:05,71
+2022,Julia Ebell,6,8.60,07:05,91
+2022,Julia Ebell,7,8.57,05:51,0
+2022,Julia Ebell,8,9.60,07:10,94
+2022,Julia Ebell,9,9.05,05:27,0
+2022,Julia Ebell,10,10.19,06:17,71
+2022,Kent Raines,1,1.18,16:35,13
+2022,Kent Raines,2,1.70,20:25,20
+2022,Kent Raines,3,2.30,15:28,20
+2022,Kent Raines,4,1.01,14:29,7
+2022,Kent Raines,5,1.32,15:10,11
+2022,Kent Raines,6,2.13,15:14,4
+2022,Kent Raines,7,1.10,15:26,7
+2022,Kent Raines,8,0.38,18:17,13
+2022,Kent Raines,9,0.19,20:11,3
+2022,Kent Raines,10,0.12,37:19,0
+2022,Kieren Jacobsen,10,10.25,05:48,89
+2022,Kim Dempsey,1,10.00,06:24,125
+2022,Kim Dempsey,4,11.67,06:18,108
+2022,Lee Badenhorst,1,11.33,04:55,68
+2022,Lee Badenhorst,2,11.54,05:05,57
+2022,Lee Badenhorst,3,10.03,05:23,74
+2022,Lee Badenhorst,4,10.11,04:51,68
+2022,Lee Badenhorst,6,11.03,04:51,82
+2022,Lee Badenhorst,7,10.60,04:56,0
+2022,Lee Badenhorst,8,10.15,04:18,81
+2022,Lee Badenhorst,10,10.20,04:52,83
+2022,Liam Brown,2,11.17,05:33,128
+2022,Liam Brown,3,10.59,05:41,100
+2022,Liam Brown,4,10.06,05:54,135
+2022,Liam Brown,5,10.06,05:24,89
+2022,Liam Brown,6,10.13,06:01,132
+2022,Liam Brown,7,10.31,05:44,110
+2022,Liam Brown,8,10.12,05:30,116
+2022,Lyndon Le Roux,1,10.17,06:09,133
+2022,Lyndon Le Roux,6,7.03,06:17,0
+2022,Lyndon Le Roux,8,7.02,06:12,0
+2022,Marcus Capuzzimati,4,2.76,13:47,33
+2022,Marcus Capuzzimati,7,7.10,05:54,81
+2022,Marcus Capuzzimati,9,5.88,05:23,43
+2022,Marcus Capuzzimati,10,5.12,05:56,44
+2022,Marius van der Walt,1,6.65,07:58,86
+2022,Marius van der Walt,2,6.72,07:05,92
+2022,Marius van der Walt,3,8.01,07:09,102
+2022,Marius van der Walt,5,6.51,07:18,102
+2022,Marius van der Walt,6,7.01,06:44,100
+2022,Marius van der Walt,9,7.01,06:47,100
+2022,Marius van der Walt,10,10.01,07:19,133
+2022,Martin Roos,1,5.01,05:16,56
+2022,Martin Roos,3,4.81,05:05,21
+2022,Martin Roos,8,4.75,05:01,59
+2022,Martin Roos,10,5.01,05:35,54
+2022,Megan Whelan,1,11.56,05:13,122
+2022,Megan Whelan,2,11.19,05:35,126
+2022,Megan Whelan,3,11.03,05:07,94
+2022,Megan Whelan,4,15.72,05:24,131
+2022,Megan Whelan,5,10.33,05:22,95
+2022,Megan Whelan,6,11.04,05:29,0
+2022,Megan Whelan,8,10.43,05:45,141
+2022,Megan Whelan,9,10.04,06:21,0
+2022,Megan Whelan,10,15.34,05:28,104
+2022,Michael Blake,1,2.70,13:02,44
+2022,Michael Blake,2,3.47,08:31,63
+2022,Michael Blake,3,2.81,12:35,48
+2022,Michael Blake,4,4.32,07:52,65
+2022,Michael Blake,5,2.95,12:31,53
+2022,Michael Blake,6,4.31,07:40,62
+2022,Michael Blake,8,3.21,13:05,50
+2022,Michael Blake,9,4.99,07:37,67
+2022,Michael Blake,10,4.16,13:48,58
+2022,Michael Dempsey,1,10.00,06:24,125
+2022,Michael Dempsey,3,9.00,04:53,101
+2022,Michael Dempsey,4,11.67,06:18,108
+2022,Michael Dempsey,5,9.25,05:27,89
+2022,Momo Hamuy Blanco,2,10.73,05:36,130
+2022,Momo Hamuy Blanco,4,10.00,06:39,101
+2022,Momo Hamuy Blanco,6,10.08,07:18,25
+2022,Momo Hamuy Blanco,7,10.03,07:12,179
+2022,Momo Hamuy Blanco,8,10.34,07:21,111
+2022,Momo Hamuy Blanco,10,10.05,07:06,152
+2022,Nacho Hamuy Blanco,2,10.73,05:36,130
+2022,Nacho Hamuy Blanco,4,10.00,06:39,101
+2022,Nacho Hamuy Blanco,6,10.08,07:18,25
+2022,Nacho Hamuy Blanco,7,10.03,07:12,179
+2022,Nacho Hamuy Blanco,8,10.34,07:21,111
+2022,Nacho Hamuy Blanco,10,10.05,07:06,152
+2022,Nick Matulovich,1,10.00,06:37,0
+2022,Nick Matulovich,4,10.24,06:35,0
+2022,Nick Matulovich,5,8.06,09:27,0
+2022,Nick Matulovich,6,0.46,06:26,0
+2022,Nick Matulovich,8,4.67,06:10,0
+2022,Nick Matulovich,9,9.15,05:35,65
+2022,Nick Matulovich,10,17.04,05:35,160
+2022,Nik Mladenovic,6,5.01,05:36,3
+2022,Rainer Nowicki,1,10.00,05:55,125
+2022,Rainer Nowicki,2,10.03,05:45,116
+2022,Rainer Nowicki,3,19.02,06:29,253
+2022,Rainer Nowicki,4,3.00,12:59,46
+2022,Rainer Nowicki,5,2.25,08:37,0
+2022,Rainer Nowicki,6,10.01,06:23,99
+2022,Rainer Nowicki,7,10.13,05:45,73
+2022,Rainer Nowicki,8,10.06,05:55,147
+2022,Renn Hartmann,1,10.85,05:34,213
+2022,Renn Hartmann,2,11.38,05:50,140
+2022,Renn Hartmann,3,12.16,05:40,193
+2022,Renn Hartmann,4,10.16,05:44,170
+2022,Renn Hartmann,5,10.30,05:24,127
+2022,Renn Hartmann,6,11.13,05:42,211
+2022,Renn Hartmann,7,11.80,05:43,214
+2022,Renn Hartmann,8,10.10,05:29,52
+2022,Renn Hartmann,9,10.31,05:46,192
+2022,Renn Hartmann,10,11.16,05:42,191
+2022,Roxzanne Morais,1,7.02,05:42,81
+2022,Roxzanne Morais,2,5.18,06:08,32
+2022,Roxzanne Morais,3,8.02,05:49,94
+2022,Rui Morais,4,8.00,05:10,0
+2022,Rui Morais,5,5.00,06:08,0
+2022,Rui Morais,10,9.34,05:23,78
+2022,Sam Ghisleni,1,5.00,07:09,61
+2022,Sam Ghisleni,5,2.39,06:36,28
+2022,Sam Ghisleni,9,4.35,09:41,58
+2022,Sasha van der Struys,3,13.00,05:25,92
+2022,Sasha van der Struys,4,11.67,06:18,108
+2022,Sasha van der Struys,5,10.00,05:22,89
+2022,Sean Deeley,1,10.13,06:05,117
+2022,Sean Deeley,2,10.06,06:03,104
+2022,Sean Deeley,3,10.48,06:12,101
+2022,Sean Deeley,4,10.07,05:45,67
+2022,Sean Deeley,5,11.29,05:45,113
+2022,Sean Deeley,6,10.06,06:00,102
+2022,Sean Deeley,10,10.39,06:05,110
+2022,Taco Hamuy Blanco,2,10.73,05:36,130
+2022,Taco Hamuy Blanco,4,10.00,06:39,101
+2022,Taco Hamuy Blanco,6,10.08,07:18,25
+2022,Taco Hamuy Blanco,7,10.03,07:12,179
+2022,Taco Hamuy Blanco,8,10.34,07:21,111
+2022,Taco Hamuy Blanco,10,10.05,07:06,152
+2022,Tarryn Jacobsen,1,6.00,05:30,0
+2022,Thabo Motaung,8,5.21,06:02,75
+2022,Thabo Motaung,10,10.70,06:20,150
+2022,Vincent Ghisleni,3,8.39,05:28,80
+2022,Vincent Ghisleni,6,10.79,05:42,155
+2022,Vincent Ghisleni,8,11.17,05:33,122
+2022,Vincent Ghisleni,10,10.38,05:28,133
+2022,Virgilio Peneda,4,4.33,14:24,46
+2022,Virgilio Peneda,10,4.14,14:00,42
+2022,Warren van der Struys,1,14.29,05:17,147
+2022,Warren van der Struys,2,11.62,05:26,127
+2022,Warren van der Struys,3,13.00,05:25,92
+2022,Warren van der Struys,4,11.67,06:18,108
+2022,Warren van der Struys,5,10.00,05:22,89
+2022,Warren van der Struys,6,4.41,16:42,30
+2022,Warren van der Struys,7,18.09,06:14,57
+2022,Warren van der Struys,8,10.93,05:20,59
+2022,Warren van der Struys,9,12.11,05:02,23
+2022,Warren van der Struys,10,2.65,15:49,60
+2023,Andre Laubscher,1,10.75,06:18,95
+2023,Andre Laubscher,2,12.50,06:08,152
+2023,Andre Laubscher,3,10.01,05:19,95
+2023,Andre Laubscher,4,10.50,05:42,94
+2023,Andre Laubscher,5,10.00,05:23,102
+2023,Andre Laubscher,6,10.62,05:28,93
+2023,Andre Laubscher,7,11.25,05:34,192
+2023,Andre Laubscher,8,11.06,05:24,112
+2023,Andre Laubscher,9,10.50,05:29,122
+2023,Andre Laubscher,10,15.01,05:30,213
+2023,Armindo Morais,10,6.01,12:18,61
+2023,Avril Moolman,1,1.21,05:56,0
+2023,Avril Moolman,2,2.28,06:03,0
+2023,Avril Moolman,3,3.08,05:51,4
+2023,Avril Moolman,4,4.13,06:09,9
+2023,Avril Moolman,5,5.15,06:24,2
+2023,Avril Moolman,6,6.26,06:31,10
+2023,Avril Moolman,7,7.05,06:32,8
+2023,Avril Moolman,8,8.03,06:40,9
+2023,Avril Moolman,9,9.15,06:43,42
+2023,Avril Moolman,10,10.80,06:40,0
+2023,Bianca Matulovich,1,10.09,05:19,0
+2023,Bianca Matulovich,2,10.10,05:46,68
+2023,Bianca Matulovich,4,10.13,06:04,0
+2023,Bianca Morais,2,10.09,05:48,97
+2023,Bianca Morais,3,10.20,05:41,99
+2023,Bianca Morais,6,11.07,05:48,104
+2023,Bianca Morais,9,10.36,05:30,129
+2023,Bianca Morais,10,10.09,05:57,132
+2023,Brendan Gittins,5,4.40,07:07,80
+2023,Brendan Gittins,6,4.89,06:52,78
+2023,Brendan Gittins,9,5.42,06:50,54
+2023,Brendan Gittins,10,5.67,06:39,57
+2023,Brett Cameron,2,4.85,05:44,81
+2023,Brett Cameron,3,11.71,06:17,207
+2023,Brett Cameron,6,8.17,06:18,106
+2023,Brett Cameron,9,10.02,06:35,215
+2023,Carla Johnson,1,11.01,05:25,342
+2023,Carla Johnson,2,13.01,05:20,116
+2023,Carla Johnson,3,12.01,05:35,271
+2023,Carla Johnson,4,11.00,04:59,56
+2023,Carla Johnson,5,10.40,04:59,156
+2023,Carla Johnson,6,12.00,05:00,47
+2023,Carla Johnson,7,15.20,05:06,296
+2023,Carla Johnson,8,10.50,05:35,369
+2023,Carla Johnson,9,12.01,04:52,311
+2023,Carla Johnson,10,18.02,04:49,188
+2023,Carlos Morais,1,4.36,12:28,48
+2023,Carlos Morais,2,9.26,10:00,73
+2023,Carlos Morais,3,5.56,14:20,64
+2023,Carlos Morais,4,15.31,10:00,40
+2023,Carlos Morais,5,4.59,13:03,44
+2023,Carlos Morais,6,10.20,10:00,0
+2023,Carlos Morais,7,15.15,10:00,60
+2023,Carlos Morais,8,4.15,12:04,49
+2023,Carlos Morais,9,33.05,10:00,128
+2023,Carlos Morais,10,6.01,12:18,61
+2023,Chané Koorzen,1,2.77,13:08,65
+2023,Chané Koorzen,2,10.02,06:13,0
+2023,Chané Koorzen,3,10.05,06:06,0
+2023,Chané Koorzen,5,10.02,05:47,0
+2023,Chané Koorzen,6,10.01,05:47,0
+2023,Chané Koorzen,10,10.02,05:33,0
+2023,Craig Swanepoel,1,12.10,05:36,145
+2023,Craig Swanepoel,3,23.45,06:15,450
+2023,Craig Swanepoel,4,12.41,05:42,116
+2023,Craig Swanepoel,5,13.18,06:20,191
+2023,Craig Swanepoel,6,13.05,05:49,148
+2023,Craig Swanepoel,7,11.23,05:31,154
+2023,Craig Swanepoel,8,15.31,06:00,241
+2023,Craig Swanepoel,9,16.01,05:45,157
+2023,Craig van der Westhuizen,1,11.14,05:50,95
+2023,Craig van der Westhuizen,2,10.00,05:38,122
+2023,Craig van der Westhuizen,3,21.00,06:29,363
+2023,Craig van der Westhuizen,4,10.00,06:41,97
+2023,Craig van der Westhuizen,5,10.00,05:45,90
+2023,Craig van der Westhuizen,6,10.55,05:50,99
+2023,Craig van der Westhuizen,7,10.50,05:52,80
+2023,Craig van der Westhuizen,8,17.00,05:58,118
+2023,Craig van der Westhuizen,9,20.00,06:10,134
+2023,Craig van der Westhuizen,10,15.01,06:15,129
+2023,Dale Ebell,1,10.17,05:56,104
+2023,Dale Ebell,2,8.05,05:57,74
+2023,Dale Ebell,3,10.36,06:14,127
+2023,Dale Ebell,4,4.33,10:34,52
+2023,Dale Ebell,5,10.00,06:20,73
+2023,Dale Ebell,6,15.46,07:45,120
+2023,Dale Ebell,7,4.01,10:00,49
+2023,Dale Ebell,8,10.00,05:52,115
+2023,Dale Ebell,9,10.62,05:25,117
+2023,Dale Ebell,10,13.61,06:25,146
+2023,Danielle Lopes,1,11.00,06:03,145
+2023,Danielle Lopes,2,10.03,05:26,78
+2023,Danielle Lopes,3,10.30,05:59,101
+2023,Danielle Lopes,5,18.01,06:20,240
+2023,Danielle Lopes,8,10.02,05:43,135
+2023,Danielle Lopes,9,16.12,05:48,216
+2023,Danielle Lopes,10,10.08,05:30,89
+2023,Dario Matteucci,1,10.10,04:57,143
+2023,Dario Matteucci,2,10.08,04:38,112
+2023,Dario Matteucci,3,10.10,04:49,131
+2023,Dario Matteucci,4,10.55,04:51,78
+2023,Dario Matteucci,5,10.06,04:22,143
+2023,Dario Matteucci,6,10.63,04:33,93
+2023,Dario Matteucci,7,10.02,04:04,78
+2023,Dario Matteucci,8,10.12,03:57,62
+2023,Dario Matteucci,9,10.02,04:16,60
+2023,Dario Matteucci,10,10.04,04:23,122
+2023,Darryn Whelan,1,10.17,10:00,0
+2023,Darryn Whelan,2,12.37,10:00,0
+2023,Darryn Whelan,3,6.85,10:00,0
+2023,Darryn Whelan,4,9.00,10:00,0
+2023,Darryn Whelan,5,10.18,10:00,0
+2023,Darryn Whelan,6,6.95,10:00,0
+2023,Darryn Whelan,7,10.36,10:00,0
+2023,Darryn Whelan,8,10.24,10:00,0
+2023,Darryn Whelan,9,12.98,10:00,0
+2023,Darryn Whelan,10,9.50,10:00,0
+2023,Dave Mogotlane,2,10.12,05:38,90
+2023,Dave Mogotlane,3,12.00,05:50,131
+2023,Dave Mogotlane,4,5.20,06:22,89
+2023,Dave Mogotlane,5,18.35,09:00,268
+2023,Dave Mogotlane,6,5.11,06:49,91
+2023,Dave Mogotlane,7,7.30,06:18,130
+2023,Dave Mogotlane,8,8.35,13:08,161
+2023,Dave Mogotlane,9,10.00,06:06,113
+2023,Dave Mogotlane,10,10.12,05:29,94
+2023,Diego Hamuy Blanco,1,10.28,06:14,95
+2023,Diego Hamuy Blanco,2,10.12,05:40,93
+2023,Diego Hamuy Blanco,3,10.14,05:45,93
+2023,Diego Hamuy Blanco,4,10.46,05:51,101
+2023,Diego Hamuy Blanco,5,10.05,05:50,96
+2023,Diego Hamuy Blanco,6,10.13,06:05,92
+2023,Diego Hamuy Blanco,7,11.10,05:59,206
+2023,Diego Hamuy Blanco,8,10.44,05:57,113
+2023,Diego Hamuy Blanco,9,10.25,05:37,122
+2023,Diego Hamuy Blanco,10,8.26,06:59,67
+2023,Duane Voigt,1,10.25,06:43,195
+2023,Duane Voigt,3,13.19,06:43,249
+2023,Duane Voigt,4,5.77,06:32,110
+2023,Duane Voigt,8,4.70,10:00,0
+2023,Duane Voigt,9,15.43,08:20,512
+2023,Dylan Tennant,1,7.14,05:37,15
+2023,Dylan Tennant,2,7.19,06:10,23
+2023,Ernest Rex,2,21.60,06:46,118
+2023,Ernest Rex,4,8.50,05:52,0
+2023,Ernest Rex,5,4.05,06:27,19
+2023,Ernest Rex,9,7.10,06:09,115
+2023,Eva Matteucci,3,10.10,,131
+2023,Eva Matteucci,5,10.06,,143
+2023,Eva Matteucci,7,10.02,,78
+2023,Eva Matteucci,10,10.04,,122
+2023,Francesca Parrini,2,4.87,05:44,81
+2023,Francesca Parrini,3,11.71,06:17,207
+2023,Francesca Parrini,5,15.77,06:50,195
+2023,Francesca Parrini,6,8.17,06:18,106
+2023,Francesca Parrini,7,7.47,05:28,62
+2023,Francesca Parrini,8,3.20,05:47,61
+2023,Francesca Parrini,9,10.02,06:35,215
+2023,Francesca Parrini,10,15.14,06:19,235
+2023,Gareth Neilson,1,9.08,05:37,80
+2023,Gareth Neilson,2,10.01,06:07,152
+2023,Gareth Neilson,4,6.57,06:14,117
+2023,Gareth Neilson,5,10.27,06:07,108
+2023,Gareth Neilson,7,10.00,06:23,134
+2023,Gareth Neilson,8,4.22,10:00,0
+2023,Gareth Neilson,10,3.17,10:00,0
+2023,Gavin Hill,2,5.01,06:20,63
+2023,Gavin Hill,3,10.12,06:55,115
+2023,Gilbert de Villiers,1,6.51,05:31,104
+2023,Gilbert de Villiers,6,6.70,05:22,104
+2023,Gilbert de Villiers,9,6.01,05:40,139
+2023,Gilbert de Villiers,10,3.35,05:24,42
+2023,Grant Morgan,4,3.17,06:21,37
+2023,Grant Morgan,5,4.88,11:59,45
+2023,Grant Morgan,6,6.01,06:15,31
+2023,Grant Morgan,7,2.02,15:11,0
+2023,Greg Piotis,1,5.10,06:20,60
+2023,Greg Piotis,3,10.02,06:03,117
+2023,Greg Piotis,5,10.09,07:00,131
+2023,Greg Piotis,7,10.05,06:57,164
+2023,Greg Piotis,8,6.31,06:56,88
+2023,Greg Piotis,10,10.02,06:39,126
+2023,Hernani Peneda,3,5.56,14:20,64
+2023,Jason Reeves,1,10.00,05:44,130
+2023,Jason Reeves,2,14.74,05:32,157
+2023,Jason Reeves,3,11.70,05:47,128
+2023,Jason Reeves,4,10.29,05:30,132
+2023,Jason Reeves,5,10.65,05:46,119
+2023,Jason Reeves,6,11.16,05:03,121
+2023,Jason Reeves,10,10.65,06:12,179
+2023,Jayson Rebelo,1,3.90,06:09,13
+2023,Jayson Rebelo,3,20.95,05:44,28
+2023,Jayson Rebelo,7,2.17,05:31,14
+2023,Jess Burgess,2,10.11,06:02,89
+2023,Jess Burgess,3,10.96,06:17,127
+2023,Jess Burgess,5,15.27,09:00,220
+2023,Jess Burgess,7,4.78,09:17,60
+2023,Jess Burgess,9,10.06,06:02,115
+2023,Jess Burgess,10,9.87,07:36,90
+2023,Jessica Hamuy Blanco,1,11.09,05:34,106
+2023,Jessica Hamuy Blanco,2,15.06,05:28,166
+2023,Jessica Hamuy Blanco,3,10.06,05:29,99
+2023,Jessica Hamuy Blanco,4,10.40,05:37,97
+2023,Jessica Hamuy Blanco,5,10.01,05:26,93
+2023,Jessica Hamuy Blanco,6,10.62,05:36,98
+2023,Jessica Hamuy Blanco,7,11.09,05:41,207
+2023,Jessica Hamuy Blanco,8,10.01,05:24,109
+2023,Jessica Hamuy Blanco,9,20.12,05:30,204
+2023,Jessica Hamuy Blanco,10,10.02,05:29,107
+2023,Jevon Brown,1,5.19,06:15,46
+2023,Jevon Brown,2,10.81,13:55,0
+2023,Jevon Brown,3,10.45,05:47,98
+2023,Jevon Brown,4,6.04,05:14,61
+2023,Jevon Brown,5,10.01,05:51,100
+2023,Jevon Brown,6,0.61,01:37,0
+2023,Jevon Brown,7,10.25,06:18,144
+2023,Jevon Brown,8,6.35,06:56,65
+2023,Jevon Brown,9,9.93,10:00,0
+2023,Jevon Brown,10,10.66,06:50,121
+2023,Joaquim Goat,3,5.56,14:20,64
+2023,Jonathan Montgomery,1,6.00,05:51,22
+2023,Jonathan Montgomery,2,19.27,05:50,61
+2023,Jonathan Montgomery,4,9.23,05:07,14
+2023,Jonathan Montgomery,5,6.40,05:27,25
+2023,Jonathan Montgomery,6,6.09,05:28,21
+2023,Jonathan Montgomery,8,5.62,05:57,18
+2023,Jonathan Montgomery,9,5.05,04:18,5
+2023,Julia Ebell,1,10.50,06:35,98
+2023,Julia Ebell,2,10.15,06:07,80
+2023,Julia Ebell,3,10.43,06:26,111
+2023,Julia Ebell,4,10.49,05:58,87
+2023,Julia Ebell,5,10.05,06:25,69
+2023,Julia Ebell,6,10.11,06:38,107
+2023,Julia Ebell,8,10.00,05:52,115
+2023,Julia Ebell,9,12.84,06:01,125
+2023,Julia Ebell,10,13.61,06:25,146
+2023,Karien van Schoor,1,16.20,,
+2023,Karien van Schoor,2,23.20,,
+2023,Karien van Schoor,3,17.30,,
+2023,Karien van Schoor,8,4.69,08:30,0
+2023,Kent Raines,2,10.26,05:25,85
+2023,Kent Raines,4,10.56,05:34,94
+2023,Kent Raines,5,10.18,05:19,133
+2023,Kent Raines,6,12.00,05:10,206
+2023,Kent Raines,7,11.14,05:34,193
+2023,Kent Raines,9,11.01,05:19,131
+2023,Kent Raines,10,10.12,05:29,94
+2023,Kevin Mill,1,10.04,05:57,123
+2023,Kevin Mill,2,10.17,05:51,91
+2023,Kevin Mill,3,10.02,05:27,204
+2023,Kevin Mill,4,10.44,05:44,354
+2023,Kevin Mill,5,20.18,06:45,321
+2023,Kevin Mill,6,10.00,05:11,212
+2023,Kevin Mill,7,10.11,05:27,18
+2023,Kevin Mill,8,10.03,05:34,18
+2023,Kevin Mill,9,10.09,05:32,203
+2023,Kevin Mill,10,10.04,05:17,18
+2023,Kieren Jacobsen,1,10.74,17:08,107
+2023,Kieren Jacobsen,2,10.10,05:41,93
+2023,Kieren Jacobsen,5,10.00,05:44,97
+2023,Kieren Jacobsen,6,10.02,05:45,95
+2023,Kobus Engelbrecht,1,10.00,06:15,295
+2023,Kobus Engelbrecht,3,10.68,04:53,75
+2023,Kobus Engelbrecht,4,10.00,05:36,0
+2023,Kobus Engelbrecht,5,8.51,06:30,170
+2023,Kobus Engelbrecht,6,11.18,05:08,126
+2023,Kobus Engelbrecht,8,7.31,05:19,212
+2023,Luna Ebell,1,10.50,06:35,98
+2023,Luna Ebell,2,10.15,06:07,80
+2023,Luna Ebell,3,10.43,06:26,111
+2023,Luna Ebell,4,10.49,05:58,87
+2023,Luna Ebell,6,10.11,06:38,107
+2023,Luna Ebell,8,10.00,05:52,115
+2023,Luna Ebell,10,3.59,12:49,46
+2023,Lyndon Le Roux,1,10.28,05:38,145
+2023,Lyndon Le Roux,4,10.53,05:50,121
+2023,Lyndon Le Roux,6,10.19,05:40,134
+2023,Manica Sanders,5,11.03,05:36,125
+2023,Manica Sanders,6,8.60,05:48,80
+2023,Manica Sanders,10,8.07,12:16,28
+2023,Marco Ghisleni,6,10.62,06:10,169
+2023,Marco Ghisleni,10,5.07,06:27,85
+2023,Maria Ghisleni,3,10.00,06:21,97
+2023,Maria Ghisleni,5,9.99,06:42,98
+2023,Maria Ghisleni,6,7.84,09:50,68
+2023,Maria Ghisleni,7,10.00,06:42,165
+2023,Maria Ghisleni,10,10.17,06:54,132
+2023,Marius van der Walt,1,6.03,07:17,97
+2023,Marius van der Walt,2,7.23,07:39,104
+2023,Marius van der Walt,3,5.32,07:21,73
+2023,Marius van der Walt,4,5.30,07:12,70
+2023,Marius van der Walt,5,5.40,07:20,73
+2023,Marius van der Walt,7,7.50,08:03,114
+2023,Marius van der Walt,9,7.00,07:29,98
+2023,Mark Swanepoel,1,10.72,05:51,130
+2023,Mark Swanepoel,2,10.03,05:30,89
+2023,Mark Swanepoel,3,10.10,05:49,99
+2023,Mark Swanepoel,5,8.30,11:30,155
+2023,Mark Swanepoel,10,9.85,05:32,89
+2023,Marty Scheepers,1,10.14,05:55,130
+2023,Marty Scheepers,2,10.36,06:36,128
+2023,Marty Scheepers,3,10.11,06:31,120
+2023,Marty Scheepers,4,10.85,06:32,245
+2023,Marty Scheepers,5,9.54,06:34,165
+2023,Marty Scheepers,7,13.00,06:34,142
+2023,Marty Scheepers,8,13.00,06:48,172
+2023,Marty Scheepers,9,14.22,06:54,172
+2023,Marty Scheepers,10,14.57,07:10,226
+2023,Matt van Rooyen,2,9.66,06:15,90
+2023,Matt van Rooyen,3,10.42,06:08,100
+2023,Matt van Rooyen,5,5.88,06:14,59
+2023,Matt van Rooyen,7,4.94,09:02,62
+2023,Megan Whelan,1,11.57,05:32,145
+2023,Megan Whelan,2,15.30,05:26,234
+2023,Megan Whelan,3,10.08,05:45,103
+2023,Megan Whelan,4,12.36,06:10,155
+2023,Megan Whelan,5,11.19,05:38,172
+2023,Megan Whelan,6,12.80,06:00,134
+2023,Megan Whelan,7,11.58,06:00,109
+2023,Megan Whelan,8,10.16,05:21,149
+2023,Megan Whelan,9,24.01,05:30,332
+2023,Megan Whelan,10,11.32,05:35,116
+2023,Michael Blake,1,3.04,14:05,58
+2023,Michael Blake,2,2.62,12:29,41
+2023,Michael Blake,3,7.36,13:44,111
+2023,Michael Blake,9,6.03,11:38,91
+2023,Michael Blake,10,5.94,12:34,89
+2023,Mike Sewell,1,10.01,04:45,138
+2023,Mike Sewell,2,15.34,07:40,271
+2023,Mike Sewell,3,10.25,06:22,188
+2023,Mike Sewell,4,10.03,05:13,65
+2023,Mike Sewell,5,10.06,06:44,148
+2023,Mike Sewell,7,10.01,05:17,124
+2023,Mike Sewell,8,10.01,05:07,161
+2023,Mike Sewell,9,10.01,05:40,104
+2023,Mike Sewell,10,10.20,05:38,78
+2023,Momo Hamuy Blanco,1,11.09,05:34,106
+2023,Momo Hamuy Blanco,4,10.40,05:37,97
+2023,Momo Hamuy Blanco,6,10.62,05:36,98
+2023,Nacho Hamuy Blanco,1,11.09,05:34,106
+2023,Nacho Hamuy Blanco,4,10.40,05:37,97
+2023,Nacho Hamuy Blanco,6,10.62,05:36,98
+2023,Nick Luksich,3,10.00,04:59,141
+2023,Nick Luksich,5,8.75,07:21,172
+2023,Nick Luksich,7,10.01,04:57,124
+2023,Nick Luksich,8,10.01,05:08,109
+2023,Nick Luksich,9,10.00,04:59,134
+2023,Nick Matulovich,1,8.51,05:18,42
+2023,Nick Matulovich,3,18.01,05:03,204
+2023,Nick Matulovich,4,8.04,06:13,0
+2023,Nick Matulovich,6,10.39,05:02,51
+2023,Nick Matulovich,8,6.74,05:42,62
+2023,Nick Matulovich,9,5.54,11:58,47
+2023,Nick Matulovich,10,48.34,05:10,173
+2023,Pia Machelli,3,9.02,06:08,138
+2023,Pia Machelli,5,8.99,08:32,159
+2023,Pia Machelli,10,10.16,05:40,101
+2023,Rainer Nowicki,6,11.70,07:00,94
+2023,Rainer Nowicki,8,5.17,08:05,96
+2023,Rainer Nowicki,10,5.54,07:29,103
+2023,Reece Jacobsen,4,3.00,06:44,31
+2023,Reece Jacobsen,5,6.00,06:41,55
+2023,Reece Jacobsen,6,5.70,06:13,60
+2023,Reece Jacobsen,8,3.55,06:06,38
+2023,Reece Jacobsen,10,4.69,05:45,50
+2023,Renn Hartmann,1,10.93,05:41,203
+2023,Renn Hartmann,2,10.59,05:43,183
+2023,Renn Hartmann,3,10.59,05:41,189
+2023,Renn Hartmann,4,10.71,05:59,202
+2023,Renn Hartmann,5,10.71,06:03,174
+2023,Renn Hartmann,6,11.19,06:00,210
+2023,Renn Hartmann,7,16.05,05:47,265
+2023,Renn Hartmann,8,12.41,05:52,239
+2023,Renn Hartmann,9,14.02,05:57,255
+2023,Renn Hartmann,10,10.67,06:15,116
+2023,Roxzanne Morais,1,4.37,12:28,47
+2023,Roxzanne Morais,3,8.03,05:13,68
+2023,Roxzanne Morais,4,8.09,05:40,82
+2023,Roxzanne Morais,6,7.55,07:17,78
+2023,Roxzanne Morais,7,5.70,05:42,51
+2023,Roxzanne Morais,9,9.54,07:02,110
+2023,Roxzanne Morais,10,10.13,05:39,124
+2023,Rui Morais,1,10.01,04:19,85
+2023,Rui Morais,2,15.22,05:06,167
+2023,Rui Morais,3,30.11,05:10,397
+2023,Rui Morais,4,30.01,04:29,246
+2023,Rui Morais,5,25.60,04:47,247
+2023,Rui Morais,6,20.00,06:40,196
+2023,Rui Morais,7,12.01,05:11,90
+2023,Rui Morais,8,26.22,04:38,225
+2023,Rui Morais,9,31.01,04:50,158
+2023,Rui Morais,10,21.10,05:39,212
+2023,Sam Ghisleni,6,4.17,08:32,46
+2023,Sam Ghisleni,7,1.51,14:32,33
+2023,Sam Ghisleni,10,4.01,08:23,65
+2023,Sandra Hill,2,5.06,06:15,65
+2023,Sandra Hill,3,10.14,06:51,115
+2023,Sasha van der Struys,2,10.07,05:33,91
+2023,Sasha van der Struys,3,10.05,05:43,96
+2023,Sasha van der Struys,5,10.01,05:40,93
+2023,Sasha van der Struys,9,10.01,05:35,118
+2023,Sasha van der Struys,10,10.31,06:03,112
+2023,Sean Deeley,1,11.04,05:56,110
+2023,Sean Deeley,2,10.74,05:35,88
+2023,Sean Deeley,3,22.00,06:29,348
+2023,Sean Deeley,4,17.01,08:00,171
+2023,Sean Deeley,5,23.18,05:53,225
+2023,Sean Deeley,6,21.03,06:23,215
+2023,Sean Deeley,7,10.50,06:26,90
+2023,Sean Deeley,8,21.25,06:27,225
+2023,Sean Deeley,9,31.91,06:06,186
+2023,Sean Deeley,10,33.05,06:25,380
+2023,Taco Hamuy Blanco,1,11.09,05:34,106
+2023,Taco Hamuy Blanco,4,10.40,05:37,97
+2023,Taco Hamuy Blanco,6,10.62,05:36,98
+2023,Tarren Meyer,2,10.07,05:39,84
+2023,Tarren Meyer,3,10.67,05:58,150
+2023,Tarren Meyer,5,20.51,09:30,304
+2023,Tarren Meyer,7,10.27,06:38,132
+2023,Tarren Meyer,8,10.09,06:01,116
+2023,Tarren Meyer,9,10.01,05:42,116
+2023,Tarren Meyer,10,12.84,05:57,171
+2023,Thabo Motaung,2,10.29,07:09,97
+2023,Thabo Motaung,3,6.09,06:46,87
+2023,Thabo Motaung,4,6.10,06:40,83
+2023,Thabo Motaung,7,7.10,06:53,105
+2023,Thabo Motaung,8,9.97,06:29,116
+2023,Thabo Motaung,9,10.01,05:35,118
+2023,Thabo Motaung,10,10.40,06:42,145
+2023,Theo Ebell,1,10.50,06:35,98
+2023,Theo Ebell,2,10.15,06:07,80
+2023,Theo Ebell,3,10.43,06:26,111
+2023,Theo Ebell,4,4.33,10:34,52
+2023,Theo Ebell,5,10.00,06:20,73
+2023,Theo Ebell,6,10.11,06:38,107
+2023,Theo Ebell,7,4.01,10:00,49
+2023,Theo Ebell,8,10.00,05:52,115
+2023,Theo Ebell,9,12.84,06:01,125
+2023,Theo Ebell,10,13.61,06:25,146
+2023,Tyler Matteucci,3,10.10,,131
+2023,Tyler Matteucci,5,10.06,,143
+2023,Tyler Matteucci,7,10.02,,78
+2023,Tyler Matteucci,10,10.04,,122
+2023,Vince Dalais,8,5.03,12:23,8
+2023,Vincent Ghisleni,3,10.00,06:17,94
+2023,Vincent Ghisleni,5,12.56,05:00,149
+2023,Vincent Ghisleni,7,10.81,06:05,209
+2023,Vincent Ghisleni,10,11.11,06:20,142
+2023,Virgilio Peneda,3,5.56,14:20,64
+2023,Virgilio Peneda,5,4.59,13:03,44
+2023,Virgilio Peneda,8,4.15,12:04,49
+2023,Virgilio Peneda,10,6.01,12:18,61
+2023,Warren van der Struys,1,10.30,06:08,99
+2023,Warren van der Struys,2,10.07,05:33,91
+2023,Warren van der Struys,3,10.05,05:43,96
+2023,Warren van der Struys,4,10.41,05:39,97
+2023,Warren van der Struys,5,10.01,05:40,93
+2023,Warren van der Struys,6,10.52,06:00,91
+2023,Warren van der Struys,7,10.96,05:49,205
+2023,Warren van der Struys,8,10.66,05:41,131
+2023,Warren van der Struys,9,10.01,05:35,118
+2023,Warren van der Struys,10,10.31,06:03,112
+2024,Adriano Trocado,1,10.04,13:22,122
+2024,Adriano Trocado,2,10.01,06:12,107
+2024,Adriano Trocado,3,10.03,06:37,133
+2024,Adriano Trocado,4,10.16,07:10,136
+2024,Adriano Trocado,5,10.53,07:35,161
+2024,Adriano Trocado,6,8.58,07:39,77
+2024,Adriano Trocado,7,11.10,07:18,0
+2024,Adriano Trocado,8,10.20,09:42,0
+2024,Adriano Trocado,9,10.11,10:20,71
+2024,Adriano Trocado,10,10.20,06:40,0
+2024,Alex van der Struys,1,4.57,12:45,50
+2024,Alex van der Struys,4,1.45,13:33,23
+2024,Alex van der Struys,8,1.29,13:45,22
+2024,Alex van der Struys,10,1.40,12:31,24
+2024,Alexia Cimato-Jelley,2,10.58,05:31,104
+2024,Alexia Cimato-Jelley,9,11.37,06:20,142
+2024,Aliyah Allie,1,10.03,08:17,174
+2024,Aliyah Allie,2,10.05,10:00,126
+2024,Aliyah Allie,3,8.98,08:24,195
+2024,Aliyah Allie,5,16.12,09:44,107
+2024,Aliyah Allie,7,15.76,09:30,89
+2024,Aliyah Allie,8,19.48,12:00,427
+2024,Andre Laubscher,1,16.73,07:20,207
+2024,Andre Laubscher,2,12.16,06:50,136
+2024,Andre Laubscher,3,13.81,06:20,127
+2024,Andre Laubscher,4,13.16,07:30,116
+2024,Andre Laubscher,5,15.21,09:00,168
+2024,Andre Laubscher,6,11.01,06:20,101
+2024,Andre Laubscher,7,15.01,06:20,146
+2024,Andre Laubscher,8,14.04,06:10,182
+2024,Andre Laubscher,10,15.16,09:00,156
+2024,Anna Raines,1,11.06,06:01,126
+2024,Anna Raines,7,6.00,12:00,60
+2024,Armand Geldenhuys,1,10.01,06:48,69
+2024,Armand Geldenhuys,2,10.00,06:26,73
+2024,Armand Geldenhuys,3,10.00,06:28,77
+2024,Armand Geldenhuys,4,10.00,07:22,96
+2024,Armand Geldenhuys,5,10.01,06:56,72
+2024,Armand Geldenhuys,6,10.01,07:19,81
+2024,Armand Geldenhuys,7,10.01,06:37,55
+2024,Armand Geldenhuys,8,21.23,06:57,159
+2024,Armand Geldenhuys,9,3.01,06:53,47
+2024,Armand Geldenhuys,10,16.29,08:00,125
+2024,Armindo Morais,2,9.00,12:00,50
+2024,Avril Moolman,1,12.03,07:38,45
+2024,Avril Moolman,2,5.84,07:51,96
+2024,Avril Moolman,3,6.49,09:08,102
+2024,Avril Moolman,4,5.22,06:45,0
+2024,Avril Moolman,5,7.08,07:49,110
+2024,Avril Moolman,6,4.20,13:22,60
+2024,Avril Moolman,7,8.24,06:20,40
+2024,Avril Moolman,8,11.13,15:12,223
+2024,Avril Moolman,9,10.16,08:57,180
+2024,Avril Moolman,10,6.03,12:00,42
+2024,Bianca Matulovich,1,10.01,06:08,0
+2024,Bianca Matulovich,2,10.01,05:38,105
+2024,Bianca Matulovich,3,10.01,06:03,115
+2024,Bianca Matulovich,4,10.44,08:00,53
+2024,Bianca Matulovich,5,5.02,09:13,0
+2024,Bianca Matulovich,6,10.01,05:00,56
+2024,Bianca Matulovich,8,10.10,06:27,120
+2024,Bianca Matulovich,10,10.25,06:37,76
+2024,Bianca Morais,1,10.02,06:00,39
+2024,Bianca Morais,2,10.06,06:02,100
+2024,Bianca Morais,3,10.44,05:53,117
+2024,Bianca Morais,4,10.55,06:35,107
+2024,Bianca Morais,5,14.27,09:00,94
+2024,Bianca Morais,6,10.05,06:29,75
+2024,Bianca Morais,7,10.03,06:23,68
+2024,Bianca Morais,8,10.01,09:08,110
+2024,Bianca Morais,9,10.02,06:04,32
+2024,Bianca Morais,10,10.25,06:37,76
+2024,Bill Coop,1,10.05,05:58,109
+2024,Bill Coop,2,10.30,05:53,95
+2024,Bill Coop,3,10.03,05:45,130
+2024,Bill Coop,4,10.02,05:42,116
+2024,Bill Coop,5,10.05,06:04,149
+2024,Bill Coop,6,10.13,05:37,70
+2024,Bill Coop,7,11.03,05:48,88
+2024,Bill Coop,8,10.16,05:43,102
+2024,Bill Coop,9,10.41,05:59,141
+2024,Bill Coop,10,10.94,05:40,85
+2024,Brendan Gittins,10,3.11,08:00,46
+2024,Brett van der Struys,1,8.35,08:30,225
+2024,Brett van der Struys,2,9.26,07:30,122
+2024,Brett van der Struys,3,5.50,09:10,87
+2024,Brett van der Struys,4,5.70,09:15,81
+2024,Brett van der Struys,9,6.00,06:48,67
+2024,Brian Curtis,1,10.06,05:54,94
+2024,Brian Curtis,2,10.04,06:10,
+2024,Brian Curtis,3,10.03,06:04,123
+2024,Brian Curtis,4,10.26,05:57,102
+2024,Brian Curtis,5,10.13,06:27,242
+2024,Brian Curtis,6,10.24,05:40,70
+2024,Brian Curtis,7,12.00,07:33,49
+2024,Brian Curtis,8,10.10,07:39,96
+2024,Brian Curtis,9,10.03,05:57,100
+2024,Brian Curtis,10,10.00,06:07,80
+2024,Bryn Deeley,1,31.63,06:00,329
+2024,Bryn Deeley,2,35.47,06:20,401
+2024,Bryn Deeley,3,37.04,08:25,383
+2024,Bryn Deeley,4,25.52,07:45,284
+2024,Bryn Deeley,5,32.73,08:00,296
+2024,Bryn Deeley,6,18.63,10:00,128
+2024,Bryn Deeley,7,36.29,08:00,366
+2024,Bryn Deeley,8,38.51,08:38,533
+2024,Bryn Deeley,9,24.05,10:00,254
+2024,Bryn Deeley,10,26.97,09:00,201
+2024,Carla Johnson,1,5.01,05:58,90
+2024,Carla Johnson,2,15.01,04:47,46
+2024,Carla Johnson,3,10.05,05:42,143
+2024,Carla Johnson,4,10.02,05:30,141
+2024,Carla Johnson,5,10.01,05:24,127
+2024,Carla Johnson,6,10.50,04:48,159
+2024,Carla Johnson,7,14.05,05:00,94
+2024,Carla Johnson,8,10.01,07:06,265
+2024,Carla Johnson,9,10.01,06:00,167
+2024,Carla Johnson,10,10.04,06:21,262
+2024,Carlos Morais,1,13.16,13:00,177
+2024,Carlos Morais,2,16.03,11:21,116
+2024,Carlos Morais,3,12.58,12:57,154
+2024,Carlos Morais,4,16.25,12:00,191
+2024,Carlos Morais,5,12.66,12:06,147
+2024,Carlos Morais,6,10.05,14:06,77
+2024,Carlos Morais,7,10.43,14:21,127
+2024,Carlos Morais,8,11.54,12:43,119
+2024,Carlos Morais,9,10.30,13:00,91
+2024,Carlos Morais,10,13.39,11:00,134
+2024,Cavin Coutsides,1,6.86,06:29,157
+2024,Cavin Coutsides,2,3.25,16:08,45
+2024,Cavin Coutsides,4,2.03,13:50,26
+2024,Cavin Coutsides,5,6.44,07:34,83
+2024,Cavin Coutsides,6,8.99,15:00,80
+2024,Cavin Coutsides,7,11.01,06:03,119
+2024,Cavin Coutsides,8,10.08,12:44,93
+2024,Cavin Coutsides,9,7.44,13:56,82
+2024,Cavin Coutsides,10,5.49,09:10,66
+2024,Ceciele van der Struys,1,8.64,12:30,110
+2024,Ceciele van der Struys,3,5.29,14:04,136
+2024,Ceciele van der Struys,6,8.87,10:43,100
+2024,Ceciele van der Struys,7,7.80,11:58,110
+2024,Ceciele van der Struys,8,10.33,10:50,173
+2024,Ceciele van der Struys,9,5.26,11:45,70
+2024,Chané Koorzen,1,14.16,09:48,0
+2024,Chané Koorzen,2,16.44,07:00,121
+2024,Chané Koorzen,3,11.82,08:00,179
+2024,Chané Koorzen,4,12.17,07:03,0
+2024,Chané Koorzen,5,7.06,07:46,125
+2024,Chané Koorzen,6,4.14,13:31,126
+2024,Chané Koorzen,7,10.55,06:28,46
+2024,Chané Koorzen,8,22.38,11:00,209
+2024,Chané Koorzen,9,10.17,09:00,206
+2024,Chané Koorzen,10,12.23,10:00,39
+2024,Cherise du Preez,1,10.00,09:34,122
+2024,Cherise du Preez,2,10.00,09:54,132
+2024,Cherise du Preez,4,5.01,09:42,73
+2024,Cherise du Preez,5,5.00,09:46,80
+2024,Cherise du Preez,6,10.00,09:49,143
+2024,Cherise du Preez,7,5.00,09:47,65
+2024,Cherise du Preez,8,5.01,10:12,68
+2024,Christine Lew,2,8.00,10:58,0
+2024,Christine Lew,3,10.51,17:01,121
+2024,Christine Lew,4,10.02,13:00,80
+2024,Christine Lew,5,5.26,11:00,0
+2024,Christine Lew,7,5.16,12:00,142
+2024,Christine Lew,8,10.01,12:00,38
+2024,Christine Lew,10,3.55,,
+2024,Claire Sandwell,1,10.04,06:40,95
+2024,Claire Sandwell,5,9.00,06:45,139
+2024,Claire Sandwell,7,10.00,06:21,102
+2024,Claire Sandwell,8,6.50,11:50,24
+2024,Claire Sandwell,9,16.05,09:00,43
+2024,Claire Sandwell,10,21.43,09:30,132
+2024,Claudia Freeman,1,10.03,05:59,36
+2024,Claudia Freeman,2,10.30,06:34,108
+2024,Claudia Freeman,3,10.09,06:32,122
+2024,Claudia Freeman,4,10.51,06:46,123
+2024,Claudia Freeman,5,10.66,06:38,104
+2024,Claudia Freeman,6,10.20,07:22,71
+2024,Claudia Freeman,7,10.29,06:41,89
+2024,Claudia Freeman,8,13.55,08:00,134
+2024,Claudia Freeman,9,10.20,06:38,126
+2024,Claudia Freeman,10,10.40,06:49,92
+2024,Clinton Parker,1,10.20,04:40,47
+2024,Clinton Parker,2,10.08,05:08,54
+2024,Clinton Parker,3,9.76,05:05,46
+2024,Clinton Parker,4,13.90,04:49,173
+2024,Clinton Parker,5,14.66,04:13,48
+2024,Clinton Parker,6,12.19,04:47,39
+2024,Clinton Parker,7,12.38,05:10,54
+2024,Clinton Parker,8,17.18,04:08,89
+2024,Clinton Parker,9,10.46,04:43,56
+2024,Clinton Parker,10,10.10,04:42,81
+2024,Colby Johnson,7,6.00,12:00,60
+2024,Colby Johnson,8,4.00,12:00,40
+2024,Colby Johnson,9,1.00,12:00,10
+2024,Colby Johnson,10,1.50,12:00,10
+2024,Craig Campbell,1,10.00,05:57,16
+2024,Craig Campbell,2,5.01,06:31,52
+2024,Craig Campbell,4,8.00,06:29,92
+2024,Craig Campbell,5,7.00,06:36,25
+2024,Craig Campbell,6,13.01,06:25,64
+2024,Craig Campbell,7,6.02,06:17,27
+2024,Craig Campbell,8,10.01,10:03,66
+2024,Craig Campbell,9,5.00,09:14,65
+2024,Craig Jackson,1,10.01,05:57,115
+2024,Craig Jackson,2,10.01,05:58,138
+2024,Craig Jackson,3,2.86,11:00,57
+2024,Craig Jackson,4,10.01,05:49,102
+2024,Craig Jackson,6,10.01,05:56,116
+2024,Craig Jackson,7,10.00,05:58,93
+2024,Craig Jackson,9,15.15,07:00,186
+2024,Craig Swanepoel,1,18.57,06:40,295
+2024,Craig Swanepoel,3,6.69,08:27,137
+2024,Craig Swanepoel,4,15.22,07:00,300
+2024,Craig Swanepoel,6,10.30,05:52,197
+2024,Craig Swanepoel,7,11.20,06:41,149
+2024,Craig Swanepoel,8,5.50,05:33,49
+2024,Craig Swanepoel,10,10.51,08:00,179
+2024,Craig van der Westhuizen,1,15.18,05:51,151
+2024,Craig van der Westhuizen,2,10.01,06:11,103
+2024,Craig van der Westhuizen,3,10.13,06:11,109
+2024,Craig van der Westhuizen,4,10.00,06:32,108
+2024,Craig van der Westhuizen,5,5.14,10:46,52
+2024,Craig van der Westhuizen,6,10.24,07:45,67
+2024,Craig van der Westhuizen,7,5.00,08:20,96
+2024,Craig van der Westhuizen,10,10.24,10:30,92
+2024,Dale Ebell,1,13.50,07:40,168
+2024,Dale Ebell,3,8.50,05:59,103
+2024,Dale Ebell,4,17.15,15:00,263
+2024,Dale Ebell,6,5.53,05:48,0
+2024,Dale Ebell,8,5.01,11:21,65
+2024,Dale Ebell,10,5.00,10:12,0
+2024,Dale Jackson,1,4.00,12:00,40
+2024,Dale Jackson,3,5.42,11:41,51
+2024,Danielle Lopes,1,10.25,05:46,160
+2024,Danielle Lopes,4,10.01,05:28,0
+2024,Danielle Lopes,5,6.00,05:36,71
+2024,Danielle Lopes,6,8.66,05:48,147
+2024,Dario Matteucci,1,10.12,04:13,121
+2024,Dario Matteucci,2,10.11,04:24,149
+2024,Dario Matteucci,3,10.01,03:46,161
+2024,Dario Matteucci,4,10.02,04:26,132
+2024,Dario Matteucci,5,10.50,04:11,73
+2024,Dario Matteucci,6,12.24,04:17,161
+2024,Dario Matteucci,7,10.08,03:58,50
+2024,Dario Matteucci,8,13.11,04:24,167
+2024,Dario Matteucci,9,10.01,04:10,117
+2024,Dario Matteucci,10,10.08,03:52,70
+2024,Dave Mogotlane,1,5.05,06:23,60
+2024,Dave Mogotlane,3,8.29,08:13,149
+2024,Dave Mogotlane,4,3.04,05:41,26
+2024,Dave Mogotlane,6,5.05,05:42,32
+2024,Dave Mogotlane,7,10.01,06:14,141
+2024,Dave Mogotlane,8,7.50,07:44,124
+2024,Diego Fernandez,1,21.28,05:54,343
+2024,Diego Fernandez,2,10.00,05:33,89
+2024,Diego Fernandez,3,18.75,:6:15,278
+2024,Diego Fernandez,4,10.20,06:07,126
+2024,Diego Fernandez,5,14.09,06:45,102
+2024,Diego Fernandez,6,10.01,05:31,86
+2024,Diego Fernandez,7,10.35,05:43,90
+2024,Diego Fernandez,8,10.03,06:01,81
+2024,Diego Fernandez,9,10.32,06:05,128
+2024,Diego Fernandez,10,10.23,05:33,83
+2024,Diego Hamuy Blanco,1,20.12,09:30,230
+2024,Diego Hamuy Blanco,2,20.15,06:12,232
+2024,Diego Hamuy Blanco,3,20.01,06:05,202
+2024,Diego Hamuy Blanco,4,20.50,06:20,210
+2024,Diego Hamuy Blanco,5,20.45,06:30,277
+2024,Diego Hamuy Blanco,6,20.11,06:00,200
+2024,Diego Hamuy Blanco,7,20.34,06:10,204
+2024,Diego Hamuy Blanco,8,25.06,07:00,326
+2024,Diego Hamuy Blanco,9,21.38,06:05,257
+2024,Diego Hamuy Blanco,10,27.04,05:55,272
+2024,Dominic Kester,1,12.02,06:25,158
+2024,Dominic Kester,2,10.08,06:29,206
+2024,Dominic Kester,3,10.06,06:28,153
+2024,Dominic Kester,4,11.05,06:10,209
+2024,Dominic Kester,5,10.10,06:35,145
+2024,Dominic Kester,6,16.01,07:03,262
+2024,Dominic Kester,7,11.04,06:54,128
+2024,Dominic Kester,9,11.02,06:17,198
+2024,Elmi Laubscher,1,3.62,12:50,35
+2024,Elmi Laubscher,2,3.00,13:00,20
+2024,Elmi Laubscher,3,5.40,08:00,40
+2024,Elmi Laubscher,4,3.50,10:00,30
+2024,Elmi Laubscher,5,2.62,13:00,10
+2024,Elmi Laubscher,6,1.00,16:02,9
+2024,Elmi Laubscher,7,1.70,13:54,13
+2024,Elmi Laubscher,8,2.40,14:00,25
+2024,Elmi Laubscher,9,5.70,12:00,60
+2024,Elmi Laubscher,10,4.40,12:00,50
+2024,Ernest Rex,1,6.10,06:53,18
+2024,Ernest Rex,2,10.71,10:30,57
+2024,Ernest Rex,3,0.48,14:12,3
+2024,Ernest Rex,4,0.87,15:16,13
+2024,Ernest Rex,5,0.81,11:11,16
+2024,Ethan Raines,7,6.00,12:00,60
+2024,Ezio Nichele,1,21.71,05:56,367
+2024,Ezio Nichele,2,10.08,05:24,149
+2024,Ezio Nichele,3,10.06,05:51,116
+2024,Ezio Nichele,4,10.28,05:28,87
+2024,Ezio Nichele,5,12.04,05:30,120
+2024,Ezio Nichele,7,15.17,05:50,620
+2024,Ezio Nichele,8,22.12,05:33,215
+2024,Ezio Nichele,9,10.03,05:39,90
+2024,Ezio Nichele,10,11.50,05:31,91
+2024,Fallon Luksich,2,10.25,05:54,117
+2024,Fallon Luksich,3,10.04,05:54,123
+2024,Fallon Luksich,4,11.00,05:36,118
+2024,Fallon Luksich,5,10.41,05:45,122
+2024,Fallon Luksich,6,6.50,05:37,57
+2024,Fallon Luksich,9,10.26,05:44,115
+2024,Finn Johnson,2,7.70,08:03,47
+2024,Finn Johnson,3,6.20,,
+2024,Finn Johnson,4,5.10,07:49,20
+2024,Finn Johnson,5,5.20,07:00,82
+2024,Finn Johnson,6,2.90,08:00,30
+2024,Finn Johnson,7,10.35,07:00,80
+2024,Finn Johnson,8,7.20,07:31,80
+2024,Finn Johnson,9,5.50,12:00,60
+2024,Finn Johnson,10,1.50,12:00,10
+2024,Gareth Heyns,1,10.00,06:07,124
+2024,Gareth Heyns,2,10.01,05:34,94
+2024,Gareth Heyns,3,10.01,05:52,120
+2024,Gareth Heyns,4,10.02,05:21,90
+2024,Gareth Heyns,5,10.00,05:51,97
+2024,Gareth Heyns,6,10.01,05:46,94
+2024,Gareth Heyns,7,10.00,06:07,107
+2024,Gareth Heyns,8,18.01,05:49,252
+2024,Gareth Heyns,9,10.01,05:45,124
+2024,Gareth Heyns,10,10.01,05:26,106
+2024,Gareth Neilson,1,10.33,05:55,109
+2024,Gareth Neilson,2,12.45,06:40,122
+2024,Gareth Neilson,3,10.08,05:54,114
+2024,Gareth Neilson,4,10.05,05:34,85
+2024,Gareth Neilson,5,12.14,06:00,110
+2024,Gareth Neilson,6,10.00,05:45,67
+2024,Gareth Neilson,7,10.46,06:05,147
+2024,Gareth Neilson,8,8.74,06:14,61
+2024,Gareth Neilson,9,12.44,07:30,124
+2024,Gareth Neilson,10,10.00,06:05,74
+2024,Gemma Morais,2,4.76,13:12,58
+2024,Gemma Morais,4,1.80,12:00,40
+2024,Gemma Morais,8,5.00,13:00,50
+2024,Gemma Morais,10,2.01,14:57,23
+2024,Georgia Morgan,4,5.07,06:02,51
+2024,Gerald Yapp,1,10.00,08:31,118
+2024,Gerald Yapp,2,10.01,08:00,80
+2024,Gerald Yapp,3,10.00,08:09,107
+2024,Gerald Yapp,4,10.17,07:01,120
+2024,Gerald Yapp,5,10.04,07:15,126
+2024,Gerald Yapp,6,10.13,07:33,65
+2024,Gerald Yapp,7,10.04,07:26,98
+2024,Gerald Yapp,8,10.09,07:08,96
+2024,Gilbert de Villiers,2,5.27,06:30,0
+2024,Gilbert de Villiers,4,5.01,07:00,0
+2024,Gilbert de Villiers,7,5.06,06:55,27
+2024,Gilbert de Villiers,9,6.51,06:10,23
+2024,Gina Grace,1,4.55,12:18,52
+2024,Gina Grace,4,1.77,14:16,24
+2024,Gina Grace,8,3.42,14:10,20
+2024,Grace Perreira,1,10.00,08:00,0
+2024,Grace Perreira,3,10.04,06:01,103
+2024,Grace Perreira,6,10.07,06:02,69
+2024,Grace Perreira,7,10.36,06:02,93
+2024,Grace Perreira,8,10.01,06:06,75
+2024,Grace Perreira,9,10.22,06:28,101
+2024,Grace Perreira,10,11.02,06:26,78
+2024,Grant Morgan,1,10.02,06:07,73
+2024,Grant Morgan,2,10.00,06:16,65
+2024,Grant Morgan,3,10.14,06:09,110
+2024,Grant Morgan,4,10.07,05:58,73
+2024,Grant Morgan,5,8.68,06:55,98
+2024,Grant Morgan,6,10.01,07:14,75
+2024,Grant Morgan,7,10.08,09:26,100
+2024,Grant Morgan,8,10.31,05:19,68
+2024,Grant Morgan,9,11.21,07:30,99
+2024,Grant Morgan,10,13.81,06:25,100
+2024,Grant Panter,1,15.08,06:46,282
+2024,Grant Panter,2,5.39,10:21,114
+2024,Grant Panter,3,10.11,06:21,122
+2024,Grant Panter,5,10.11,06:35,122
+2024,Grant Panter,6,10.03,06:17,70
+2024,Grant Panter,7,8.12,10:09,103
+2024,Grant Panter,8,10.26,06:11,106
+2024,Grant Panter,9,10.01,06:39,108
+2024,Grant Panter,10,10.08,07:42,203
+2024,Grayson Ghisleni,1,4.56,13:28,53
+2024,Grayson Ghisleni,8,3.60,15:14,77
+2024,Grayson Ghisleni,9,3.00,12:12,22
+2024,Greg Papadopulos,1,13.99,09:00,133
+2024,Greg Papadopulos,2,16.24,08:00,123
+2024,Greg Papadopulos,3,14.62,06:31,155
+2024,Greg Papadopulos,4,15.33,07:30,170
+2024,Greg Papadopulos,5,15.76,06:18,140
+2024,Greg Papadopulos,6,16.02,06:10,126
+2024,Greg Papadopulos,7,18.10,07:48,176
+2024,Greg Papadopulos,8,24.23,07:20,171
+2024,Greg Papadopulos,9,14.34,07:00,154
+2024,Greg Papadopulos,10,13.02,06:05,109
+2024,Greg Piotis,3,10.05,06:53,141
+2024,Greg Piotis,5,10.10,07:21,160
+2024,Greg Piotis,10,5.14,06:33,51
+2024,Gregory Morley-Jepson,1,10.00,05:53,105
+2024,Gregory Morley-Jepson,2,10.01,05:53,100
+2024,Gregory Morley-Jepson,3,10.03,05:55,121
+2024,Gregory Morley-Jepson,10,10.01,05:43,70
+2024,Harper Morgan,4,5.07,06:02,51
+2024,Helen Coop,1,10.01,06:44,97
+2024,Helen Coop,2,6.16,08:58,62
+2024,Helen Coop,3,10.02,06:42,132
+2024,Helen Coop,4,6.70,09:35,69
+2024,Helen Coop,5,10.14,06:53,119
+2024,Helen Coop,6,10.05,06:39,67
+2024,Helen Coop,7,10.02,06:52,87
+2024,Helen Coop,8,15.01,06:52,143
+2024,Helen Coop,9,12.25,08:49,133
+2024,Helen Coop,10,10.22,06:40,80
+2024,Iman Allie,2,5.00,13:00,50
+2024,Iman Allie,8,4.12,18:10,122
+2024,Jarrod Cole-Edwardes,1,21.07,05:18,91
+2024,Jarrod Cole-Edwardes,2,21.80,05:34,88
+2024,Jarrod Cole-Edwardes,3,15.26,05:20,107
+2024,Jarrod Cole-Edwardes,4,21.20,05:45,170
+2024,Jarrod Cole-Edwardes,5,20.28,08:00,157
+2024,Jarrod Cole-Edwardes,6,23.28,05:10,138
+2024,Jarrod Cole-Edwardes,7,20.14,07:50,134
+2024,Jarrod Cole-Edwardes,8,30.16,05:30,183
+2024,Jarrod Cole-Edwardes,9,17.28,05:38,101
+2024,Jarrod Cole-Edwardes,10,13.21,05:06,104
+2024,Jason Reeves,3,10.42,05:01,82
+2024,Jason Reeves,4,12.39,04:58,170
+2024,Jason Reeves,5,9.90,05:41,133
+2024,Jason Reeves,8,10.38,05:34,101
+2024,Jason Reeves,10,10.28,06:10,119
+2024,Jayson Rebelo,1,10.13,07:14,12
+2024,Jayson Rebelo,2,7.56,06:06,40
+2024,Jayson Rebelo,4,8.70,05:51,38
+2024,Jayson Rebelo,7,10.18,06:00,31
+2024,Jessica Hamuy Blanco,1,24.13,05:54,278
+2024,Jessica Hamuy Blanco,2,22.05,06:00,271
+2024,Jessica Hamuy Blanco,3,20.00,06:00,216
+2024,Jessica Hamuy Blanco,4,21.02,06:00,198
+2024,Jessica Hamuy Blanco,5,20.00,06:20,241
+2024,Jessica Hamuy Blanco,6,20.75,05:55,210
+2024,Jessica Hamuy Blanco,7,20.09,05:48,208
+2024,Jessica Hamuy Blanco,8,20.05,06:25,236
+2024,Jessica Hamuy Blanco,9,32.08,05:49,309
+2024,Jessica Hamuy Blanco,10,32.82,05:52,318
+2024,Jevon Brown,5,4.71,11:36,50
+2024,Jevon Brown,6,1.20,14:34,9
+2024,Jevon Brown,7,10.23,13:31,173
+2024,Jevon Brown,9,2.50,07:25,0
+2024,Jevon Brown,10,5.08,10:37,48
+2024,Jono Baiocchi,4,5.37,06:31,54
+2024,Jono Baiocchi,5,5.41,06:43,33
+2024,Jono Baiocchi,10,5.14,07:00,53
+2024,Julia Ebell,1,13.69,07:10,172
+2024,Julia Ebell,2,8.00,05:48,50
+2024,Julia Ebell,3,12.07,06:50,177
+2024,Julia Ebell,4,10.11,05:44,121
+2024,Julia Ebell,5,7.67,00:00,92
+2024,Julia Ebell,6,7.38,06:03,87
+2024,Julia Ebell,7,16.15,05:57,173
+2024,Julia Ebell,8,10.06,06:09,128
+2024,Julia Ebell,9,9.58,05:54,122
+2024,Julia Ebell,10,11.21,06:04,124
+2024,Justin de Reuck,1,6.72,07:56,106
+2024,Justin de Reuck,2,7.71,07:03,99
+2024,Justin de Reuck,3,8.80,08:00,72
+2024,Justin de Reuck,4,5.27,06:50,56
+2024,Justin de Reuck,5,7.93,08:00,61
+2024,Justin de Reuck,6,8.23,08:00,68
+2024,Justin de Reuck,7,6.60,08:00,91
+2024,Justin de Reuck,8,6.01,07:08,44
+2024,Justin de Reuck,9,7.82,08:30,67
+2024,Justin de Reuck,10,5.49,07:25,59
+2024,Karien van Schoor,1,8.46,07:06,137
+2024,Karien van Schoor,2,5.03,07:03,25
+2024,Karien van Schoor,3,16.05,07:15,95
+2024,Karien van Schoor,4,9.16,06:38,5
+2024,Karien van Schoor,5,10.13,07:30,109
+2024,Karien van Schoor,6,5.02,07:30,60
+2024,Karien van Schoor,7,4.23,12:00,55
+2024,Karien van Schoor,8,11.00,08:00,100
+2024,Karien van Schoor,9,14.23,09:00,150
+2024,Karien van Schoor,10,21.27,10:00,200
+2024,Kent Raines,1,11.06,06:01,126
+2024,Kent Raines,4,11.59,05:28,103
+2024,Kent Raines,7,8.87,08:30,90
+2024,Kent Raines,8,10.07,05:53,127
+2024,Kevin Mill,1,20.29,07:03,319
+2024,Kevin Mill,2,10.01,05:51,310
+2024,Kevin Mill,3,10.52,07:00,277
+2024,Kevin Mill,4,10.09,06:15,171
+2024,Kevin Mill,5,10.52,06:49,213
+2024,Kevin Mill,7,10.02,06:41,376
+2024,Kevin Mill,8,10.00,05:40,238
+2024,Kevin Mill,9,10.16,05:35,147
+2024,Kevin Mill,10,10.50,06:16,269
+2024,Kieren Jacobsen,1,15.83,08:00,150
+2024,Kieren Jacobsen,2,10.01,05:46,98
+2024,Kieren Jacobsen,3,10.18,05:54,128
+2024,Kieren Jacobsen,4,14.84,06:55,142
+2024,Kieren Jacobsen,5,11.28,06:00,105
+2024,Kieren Jacobsen,6,10.06,05:43,80
+2024,Kieren Jacobsen,7,10.20,14:18,96
+2024,Kieren Jacobsen,8,10.20,09:44,0
+2024,Kieren Jacobsen,9,10.25,05:25,0
+2024,Kieren Jacobsen,10,10.07,05:14,68
+2024,Kim Dempsey,1,4.74,18:48,0
+2024,Kim Dempsey,4,5.38,12:20,99
+2024,Kim Dempsey,5,10.28,14:00,68
+2024,Kimberlee Brown,6,5.01,06:39,33
+2024,Kimberlee Brown,7,5.02,06:38,46
+2024,Kyle McWilliam,1,10.05,05:46,96
+2024,Kyle McWilliam,2,10.18,05:41,100
+2024,Kyle McWilliam,3,5.60,05:54,38
+2024,Kyle McWilliam,4,10.51,05:15,91
+2024,Kyle McWilliam,5,1.71,13:07,60
+2024,Kyle McWilliam,6,10.25,05:38,70
+2024,Kyle McWilliam,8,5.86,06:29,41
+2024,Laura Morais,2,4.76,13:12,58
+2024,Laura Morais,4,2.00,12:00,40
+2024,Laura Morais,8,5.00,13:00,50
+2024,Laura Morais,10,2.01,14:57,23
+2024,Leanne Voerman,2,4.29,11:00,96
+2024,Leanne Voerman,3,10.02,06:35,229
+2024,Leanne Voerman,7,10.63,06:00,91
+2024,Leanne Voerman,8,10.02,06:35,
+2024,Leanne Voerman,10,10.07,05:45,90
+2024,Leigh Papadopulos,3,3.02,12:59,22
+2024,Leigh Papadopulos,5,4.00,14:08,33
+2024,Leigh Papadopulos,7,5.03,13:40,50
+2024,Leigh Papadopulos,8,4.55,13:20,37
+2024,Leigh Papadopulos,9,3.00,13:50,23
+2024,Lene Lee Barrett,1,10.06,05:54,94
+2024,Lene Lee Barrett,2,10.07,06:01,108
+2024,Lene Lee Barrett,3,10.02,05:57,119
+2024,Lene Lee Barrett,4,10.04,06:08,117
+2024,Lene Lee Barrett,5,10.09,06:19,117
+2024,Lene Lee Barrett,6,10.06,05:55,66
+2024,Lene Lee Barrett,7,10.06,06:24,94
+2024,Lene Lee Barrett,8,10.02,07:11,99
+2024,Lene Lee Barrett,9,10.12,06:36,105
+2024,Lene Lee Barrett,10,10.05,05:43,70
+2024,Lesley Deeley,1,10.13,07:28,102
+2024,Lesley Deeley,2,10.66,07:30,55
+2024,Lesley Deeley,3,11.73,09:00,81
+2024,Lesley Deeley,4,15.52,07:24,96
+2024,Lesley Deeley,5,5.08,08:20,0
+2024,Lesley Deeley,6,10.15,07:27,0
+2024,Lesley Deeley,7,10.14,07:25,0
+2024,Lesley Deeley,8,10.76,11:00,67
+2024,Lesley Deeley,9,12.43,11:46,123
+2024,Lesley Deeley,10,4.45,07:47,0
+2024,Lezanne Johnson,1,10.20,06:30,70
+2024,Lezanne Johnson,2,8.60,08:03,47
+2024,Lezanne Johnson,3,8.90,08:57,23
+2024,Lezanne Johnson,4,3.10,07:49,20
+2024,Lezanne Johnson,5,6.10,07:00,70
+2024,Lezanne Johnson,6,5.75,06:40,44
+2024,Lezanne Johnson,7,6.00,10:00,60
+2024,Lezanne Johnson,8,4.00,12:00,40
+2024,Lezanne Johnson,9,4.50,12:00,50
+2024,Lezanne Johnson,10,1.50,12:00,10
+2024,Liam Brown,1,7.66,06:36,69
+2024,Livy Morais,1,4.37,13:08,56
+2024,Livy Morais,2,4.76,13:12,58
+2024,Livy Morais,3,3.02,13:02,35
+2024,Livy Morais,6,4.03,15:33,46
+2024,Livy Morais,9,11.00,06:26,60
+2024,Livy Morais,10,1.61,14:50,13
+2024,Luiza Moreira,5,10.01,05:55,76
+2024,Luiza Moreira,6,11.02,05:50,74
+2024,Luiza Moreira,9,10.00,05:57,135
+2024,Luiza Moreira,10,10.03,05:41,63
+2024,Luna Ebell,1,10.25,05:46,160
+2024,Luna Ebell,2,8.00,05:48,50
+2024,Luna Ebell,3,12.07,06:50,177
+2024,Luna Ebell,6,7.38,06:03,87
+2024,Luna Ebell,7,16.15,05:57,173
+2024,Luna Ebell,8,10.06,06:09,128
+2024,Luna Ebell,9,9.58,05:54,122
+2024,Luna Ebell,10,11.21,06:04,124
+2024,Lyndon Le Roux,3,10.05,06:07,136
+2024,Lyndon Le Roux,6,10.13,05:52,131
+2024,Lyndon Le Roux,10,10.05,05:49,130
+2024,Marco Ghisleni,1,5.02,12:53,57
+2024,Marco Ghisleni,3,6.04,05:56,112
+2024,Marco Ghisleni,5,6.20,07:14,129
+2024,Marco Ghisleni,8,3.73,19:58,79
+2024,Marco Ghisleni,9,2.12,11:19,192
+2024,Marco Ghisleni,10,5.02,05:54,76
+2024,Marcus Capuzzimati,1,4.58,06:49,45
+2024,Marcus Capuzzimati,2,5.01,06:01,48
+2024,Marcus Capuzzimati,3,4.26,07:03,52
+2024,Marcus Capuzzimati,4,5.84,05:11,81
+2024,Marcus Capuzzimati,5,4.80,06:17,75
+2024,Marcus Capuzzimati,8,5.02,06:01,48
+2024,Marcus Capuzzimati,9,5.44,05:45,40
+2024,Maria Baron,1,9.99,06:49,123
+2024,Maria Baron,2,2.34,15:34,43
+2024,Maria Baron,4,1.50,13:10,25
+2024,Maria Baron,10,5.20,06:30,54
+2024,Maria Ghisleni,1,10.01,06:45,99
+2024,Maria Ghisleni,2,5.56,11:20,37
+2024,Maria Ghisleni,3,10.01,07:03,123
+2024,Maria Ghisleni,4,6.68,09:38,71
+2024,Maria Ghisleni,5,10.01,06:44,120
+2024,Maria Ghisleni,7,9.99,07:27,103
+2024,Maria Ghisleni,8,5.03,12:11,59
+2024,Maria Ghisleni,9,5.65,12:14,19
+2024,Maria Ghisleni,10,5.82,10:41,52
+2024,Maria Pascalides,1,10.30,05:58,128
+2024,Maria Pascalides,2,10.40,06:09,85
+2024,Maria Pascalides,3,10.04,06:01,103
+2024,Maria Pascalides,4,10.02,06:08,108
+2024,Maria Pascalides,5,10.03,06:16,98
+2024,Maria Pascalides,6,10.07,06:02,69
+2024,Maria Pascalides,7,10.36,06:02,93
+2024,Maria Pascalides,8,10.01,06:06,75
+2024,Maria Pascalides,9,10.22,06:28,101
+2024,Maria Pascalides,10,11.02,06:26,78
+2024,Marius van der Walt,1,5.02,07:01,63
+2024,Marius van der Walt,2,4.93,13:28,73
+2024,Marius van der Walt,3,1.92,13:19,39
+2024,Marius van der Walt,4,3.55,13:32,59
+2024,Marius van der Walt,5,1.46,13:44,27
+2024,Marius van der Walt,6,3.29,13:44,58
+2024,Marius van der Walt,8,4.81,08:50,58
+2024,Marius van der Walt,9,3.34,13:40,57
+2024,Marius van der Walt,10,1.89,14:17,32
+2024,Mark Grace,1,10.03,05:49,78
+2024,Mark Grace,2,7.15,05:45,59
+2024,Mark Grace,3,10.00,05:53,132
+2024,Mark Grace,4,10.17,05:45,72
+2024,Mark Grace,5,10.77,05:55,90
+2024,Mark Grace,6,3.71,06:11,26
+2024,Mark Grace,7,6.05,05:29,47
+2024,Mark Grace,8,6.10,10:00,32
+2024,Mark Grace,9,7.73,05:49,53
+2024,Mark Grace,10,10.01,06:30,98
+2024,Marty Scheepers,4,6.31,02:22,66
+2024,Marty Scheepers,5,9.02,06:12,160
+2024,Marty Scheepers,8,18.04,06:56,221
+2024,Marty Scheepers,10,7.20,06:04,65
+2024,Maya Jacobsen,4,5.59,08:52,44
+2024,Megan Kim de Vroeg,1,10.01,08:15,162
+2024,Megan Kim de Vroeg,2,4.01,07:49,0
+2024,Megan Kim de Vroeg,3,5.01,08:01,66
+2024,Megan Kim de Vroeg,7,8.07,08:45,62
+2024,Megan Kim de Vroeg,8,11.02,10:00,152
+2024,Megan Whelan,1,10.05,05:50,112
+2024,Megan Whelan,2,14.56,07:00,132
+2024,Megan Whelan,3,7.31,05:33,61
+2024,Megan Whelan,4,10.82,08:00,44
+2024,Megan Whelan,5,7.45,10:00,33
+2024,Megan Whelan,6,12.59,07:00,106
+2024,Megan Whelan,7,15.74,07:00,175
+2024,Megan Whelan,8,9.13,07:30,94
+2024,Megan Whelan,9,5.16,05:49,48
+2024,Megan Whelan,10,10.49,05:23,91
+2024,Michael Dempsey,1,5.59,13:07,113
+2024,Michael Dempsey,4,5.38,12:20,99
+2024,Michael Dempsey,5,10.28,14:00,68
+2024,Mika Swanepoel,4,5.00,07:00,120
+2024,Mike Freire,8,5.01,12:30,70
+2024,Mike Psaltis,1,23.45,04:52,155
+2024,Mike Psaltis,2,10.15,05:00,174
+2024,Mike Psaltis,3,11.43,06:04,72
+2024,Mike Psaltis,4,11.70,05:09,109
+2024,Mike Psaltis,5,16.05,05:06,112
+2024,Mike Psaltis,6,10.87,05:47,64
+2024,Mike Psaltis,7,15.50,05:40,178
+2024,Mike Psaltis,8,10.95,03:42,104
+2024,Mike Psaltis,9,11.31,05:20,121
+2024,Mike Psaltis,10,11.18,06:13,80
+2024,Mike Sewell,1,10.01,05:17,126
+2024,Mike Sewell,3,10.01,05:19,109
+2024,Mike Sewell,4,10.01,05:25,143
+2024,Mike Sewell,5,10.00,05:22,159
+2024,Mike Sewell,6,10.00,05:10,54
+2024,Mike Sewell,7,15.22,05:49,126
+2024,Mike Sewell,8,15.01,06:00,176
+2024,Milton Segal,1,21.35,05:33,329
+2024,Milton Segal,2,12.12,05:09,98
+2024,Milton Segal,4,8.02,05:07,85
+2024,Milton Segal,5,10.05,05:27,106
+2024,Milton Segal,7,10.02,05:32,114
+2024,Milton Segal,8,24.06,05:59,157
+2024,Milton Segal,9,7.51,05:20,71
+2024,Milton Segal,10,11.07,05:04,98
+2024,Momo Hamuy Blanco,1,10.00,05:45,101
+2024,Momo Hamuy Blanco,4,11.01,05:44,103
+2024,Momo Hamuy Blanco,7,10.03,05:41,96
+2024,Momo Hamuy Blanco,9,10.49,05:48,116
+2024,Morgan Diesel,1,10.10,07:46,104
+2024,Morgan Diesel,2,11.12,07:50,65
+2024,Morgan Diesel,3,10.53,07:27,0
+2024,Morgan Diesel,4,10.06,11:15,106
+2024,Morgan Diesel,5,12.27,09:30,61
+2024,Morgan Diesel,6,13.03,08:00,11
+2024,Morgan Diesel,7,14.36,13:40,105
+2024,Morgan Diesel,8,10.57,11:52,74
+2024,Morgan Diesel,9,10.04,09:38,0
+2024,Nacho Hamuy Blanco,1,11.10,06:03,137
+2024,Nacho Hamuy Blanco,3,10.00,05:57,123
+2024,Nacho Hamuy Blanco,6,11.55,05:44,91
+2024,Nacho Hamuy Blanco,8,10.04,05:53,123
+2024,Natalina Morais,2,4.76,13:12,58
+2024,Natalina Morais,4,2.00,12:00,40
+2024,Natalina Morais,8,5.00,13:00,50
+2024,Natalina Morais,10,2.01,14:57,23
+2024,Neil Caldwell,1,7.20,,60
+2024,Neil Caldwell,2,10.09,,100
+2024,Neil Caldwell,3,13.07,06:20,32
+2024,Neil Caldwell,4,9.90,,100
+2024,Neil Caldwell,5,12.91,07:41,27
+2024,Neil Caldwell,6,7.73,09:15,99
+2024,Neil Caldwell,7,12.03,07:33,205
+2024,Neil Caldwell,8,16.00,13:00,50
+2024,Neil Caldwell,9,14.20,07:51,10
+2024,Neil Caldwell,10,10.20,06:40,148
+2024,Nick Luksich,1,12.00,05:39,165
+2024,Nick Luksich,2,10.00,05:24,103
+2024,Nick Luksich,3,11.00,05:17,121
+2024,Nick Luksich,4,11.00,05:36,118
+2024,Nick Luksich,5,11.23,05:29,119
+2024,Nick Luksich,6,11.70,05:44,118
+2024,Nick Luksich,7,12.70,05:38,107
+2024,Nick Luksich,8,16.01,05:49,204
+2024,Nick Luksich,9,12.01,05:31,126
+2024,Nick Luksich,10,12.31,05:43,121
+2024,Nick Matulovich,1,52.33,05:12,153
+2024,Nick Matulovich,2,10.86,08:30,59
+2024,Nick Matulovich,3,1.27,14:03,0
+2024,Nick Matulovich,4,11.03,10:03,82
+2024,Nick Matulovich,5,9.79,09:31,41
+2024,Nick Matulovich,8,10.13,06:14,148
+2024,Nick Matulovich,9,10.29,06:11,137
+2024,Nick Matulovich,10,10.05,05:50,102
+2024,Nicole Prior,1,8.26,05:09,164
+2024,Nicole Prior,2,6.30,06:00,0
+2024,Nicole Prior,3,10.42,05:46,178
+2024,Nicole Prior,4,4.71,06:00,0
+2024,Nicole Prior,5,8.19,06:02,153
+2024,Nicole Prior,6,4.02,05:07,86
+2024,Nicole Prior,7,7.27,07:00,0
+2024,Nicole Prior,8,8.19,07:00,80
+2024,Nicole Prior,9,3.66,07:00,40
+2024,Nicole Prior,10,11.63,07:00,110
+2024,Nikita Nowicki,1,10.08,06:28,99
+2024,Nikita Nowicki,2,5.13,10:58,87
+2024,Nikita Nowicki,3,5.06,13:18,74
+2024,Nikita Nowicki,6,5.42,07:20,103
+2024,Nikita Nowicki,7,10.16,06:35,98
+2024,Nikita Nowicki,9,5.53,07:24,104
+2024,Nikita Nowicki,10,13.79,08:00,127
+2024,Nina Jacobsen,4,5.59,08:52,44
+2024,Pavlov Laubscher,1,2.50,11:50,24
+2024,Pavlov Laubscher,2,1.16,13:00,20
+2024,Pavlov Laubscher,3,2.10,13:23,14
+2024,Pavlov Laubscher,4,2.66,13:36,28
+2024,Pavlov Laubscher,5,1.62,13:00,10
+2024,Pavlov Laubscher,6,1.00,16:02,9
+2024,Pavlov Laubscher,7,2.00,13:54,13
+2024,Pavlov Laubscher,8,0.86,06:55,10
+2024,Pavlov Laubscher,10,2.00,12:00,20
+2024,Rainer Nowicki,1,10.19,06:37,107
+2024,Rainer Nowicki,2,4.81,13:58,59
+2024,Rainer Nowicki,3,5.06,13:15,74
+2024,Rainer Nowicki,7,10.10,06:35,96
+2024,Rainer Nowicki,9,2.23,38:29,19
+2024,Rainer Nowicki,10,15.01,07:00,182
+2024,Raphi Morais,1,4.37,13:08,56
+2024,Raphi Morais,2,4.76,13:12,58
+2024,Raphi Morais,3,3.02,13:02,35
+2024,Raphi Morais,6,4.03,15:33,46
+2024,Raphi Morais,9,5.02,11:54,48
+2024,Raphi Morais,10,1.61,14:50,13
+2024,Reece Jacobsen,1,10.41,07:18,100
+2024,Reece Jacobsen,2,10.00,07:50,85
+2024,Reece Jacobsen,3,10.00,07:34,84
+2024,Reece Jacobsen,4,10.20,06:38,73
+2024,Reece Jacobsen,5,10.19,09:00,81
+2024,Reece Jacobsen,6,10.46,06:58,72
+2024,Reece Jacobsen,7,5.05,07:23,40
+2024,Reece Jacobsen,8,13.22,08:18,123
+2024,Reece Jacobsen,9,13.19,07:30,120
+2024,Reece Jacobsen,10,8.69,09:35,101
+2024,Renn Hartmann,1,14.86,06:30,271
+2024,Renn Hartmann,2,10.43,05:37,112
+2024,Renn Hartmann,3,12.01,06:15,290
+2024,Renn Hartmann,4,13.06,05:48,199
+2024,Renn Hartmann,5,10.55,05:36,189
+2024,Renn Hartmann,6,10.55,05:40,140
+2024,Renn Hartmann,7,13.68,06:20,210
+2024,Renn Hartmann,8,15.30,07:00,293
+2024,Renn Hartmann,9,10.52,05:58,213
+2024,Renn Hartmann,10,10.11,05:38,112
+2024,Rory Milne,2,10.06,07:40,118
+2024,Rory Milne,3,10.11,07:17,115
+2024,Rory Milne,4,5.03,06:25,58
+2024,Rory Milne,6,10.10,06:20,119
+2024,Rory Milne,7,4.89,06:30,93
+2024,Rory Milne,8,12.17,07:28,160
+2024,Rory Milne,10,5.03,06:27,60
+2024,Roxanne Harley,1,10.01,05:45,86
+2024,Roxanne Harley,2,10.01,05:59,80
+2024,Roxanne Harley,3,10.02,05:53,89
+2024,Roxanne Harley,4,10.01,05:48,84
+2024,Roxanne Harley,5,10.52,05:49,98
+2024,Roxanne Harley,6,11.53,05:50,97
+2024,Roxanne Harley,7,20.34,08:00,103
+2024,Roxanne Harley,8,21.14,07:10,442
+2024,Roxanne Harley,9,20.67,09:00,164
+2024,Roxanne Harley,10,20.42,05:50,204
+2024,Roxzanne Morais,1,4.37,13:08,56
+2024,Roxzanne Morais,2,4.76,13:12,58
+2024,Roxzanne Morais,3,3.02,13:02,35
+2024,Roxzanne Morais,6,9.13,09:30,90
+2024,Roxzanne Morais,9,11.05,09:00,110
+2024,Roxzanne Morais,10,1.61,14:50,13
+2024,Rui Morais,1,40.09,06:19,403
+2024,Rui Morais,2,25.03,05:36,261
+2024,Rui Morais,3,34.19,07:15,367
+2024,Rui Morais,4,30.76,07:30,282
+2024,Rui Morais,5,25.01,05:11,234
+2024,Rui Morais,6,28.02,07:00,243
+2024,Rui Morais,7,30.21,06:00,253
+2024,Rui Morais,8,30.01,06:52,404
+2024,Rui Morais,9,31.22,04:36,256
+2024,Rui Morais,10,25.58,06:50,206
+2024,Ryan Ravenscroft,1,10.14,08:00,250
+2024,Ryan Ravenscroft,2,10.08,06:54,120
+2024,Ryan Ravenscroft,4,10.06,06:01,128
+2024,Ryan Ravenscroft,6,11.78,07:00,207
+2024,Ryan Ravenscroft,7,14.01,08:30,209
+2024,Ryan Ravenscroft,8,15.06,06:00,293
+2024,Ryan Ravenscroft,9,14.32,07:00,279
+2024,Ryan Ravenscroft,10,14.72,06:51,167
+2024,Sam Ghisleni,1,4.56,13:28,53
+2024,Sam Ghisleni,4,2.52,07:27,37
+2024,Sam Ghisleni,8,3.60,15:14,77
+2024,Sam Ghisleni,9,3.00,12:12,22
+2024,Sandra Voerman,3,10.00,06:02,119
+2024,Sandra Voerman,4,10.01,05:58,86
+2024,Sandra Voerman,5,11.01,06:31,124
+2024,Sandra Voerman,7,10.18,06:15,100
+2024,Sandra Voerman,8,10.15,06:37,130
+2024,Sandra Voerman,10,10.06,05:47,75
+2024,Sasha van der Struys,1,10.01,06:02,117
+2024,Sasha van der Struys,4,1.45,13:33,23
+2024,Sasha van der Struys,7,10.30,05:50,96
+2024,Sasha van der Struys,8,1.29,13:45,22
+2024,Sasha van der Struys,9,10.01,06:14,109
+2024,Sasha van der Struys,10,1.40,12:31,24
+2024,Sean Deeley,1,15.34,06:42,157
+2024,Sean Deeley,2,13.11,06:40,162
+2024,Sean Deeley,3,16.28,08:00,210
+2024,Sean Deeley,5,21.52,08:08,226
+2024,Sean Deeley,6,5.04,07:22,31
+2024,Sean Deeley,7,11.00,07:12,109
+2024,Sean Deeley,8,30.69,08:50,448
+2024,Sean Deeley,10,17.32,07:33,144
+2024,Shenzi Coutsides,1,8.64,12:30,110
+2024,Shenzi Coutsides,2,1.30,14:08,23
+2024,Shiloh Harmsey,1,10.00,06:12,100
+2024,Shiloh Harmsey,2,10.23,06:23,100
+2024,Shiloh Harmsey,3,10.00,06:11,120
+2024,Shiloh Harmsey,4,10.12,06:08,118
+2024,Shiloh Harmsey,5,10.12,06:16,73
+2024,Shiloh Harmsey,6,10.09,06:07,68
+2024,Shiloh Harmsey,7,10.00,06:08,89
+2024,Shiloh Harmsey,8,10.15,06:09,99
+2024,Shiloh Harmsey,10,10.35,05:58,74
+2024,Shirley-Ann Oakley-Brown,1,10.02,07:09,148
+2024,Shirley-Ann Oakley-Brown,2,14.41,08:00,244
+2024,Shirley-Ann Oakley-Brown,3,10.40,07:16,133
+2024,Shirley-Ann Oakley-Brown,4,10.06,07:30,137
+2024,Shirley-Ann Oakley-Brown,5,10.21,07:02,252
+2024,Shirley-Ann Oakley-Brown,6,13.57,08:00,281
+2024,Shirley-Ann Oakley-Brown,7,11.01,07:17,228
+2024,Shirley-Ann Oakley-Brown,8,11.00,07:11,227
+2024,Shirley-Ann Oakley-Brown,10,5.53,08:13,108
+2024,Sophia Morais,1,4.37,13:08,56
+2024,Sophia Morais,2,4.76,13:12,58
+2024,Sophia Morais,3,3.02,13:02,35
+2024,Sophia Morais,6,4.03,15:33,46
+2024,Sophia Morais,10,1.61,14:50,13
+2024,Stephen Baron,4,1.39,13:18,28
+2024,Stephen Baron,10,5.25,06:28,64
+2024,Susan Laubscher,1,2.50,11:50,24
+2024,Susan Laubscher,2,1.16,13:00,20
+2024,Susan Laubscher,3,5.40,08:00,40
+2024,Susan Laubscher,4,4.50,10:00,40
+2024,Susan Laubscher,5,1.62,13:00,10
+2024,Susan Laubscher,6,1.00,16:02,9
+2024,Susan Laubscher,7,1.70,13:54,13
+2024,Susan Laubscher,8,2.40,14:00,25
+2024,Susan Laubscher,9,5.70,12:00,60
+2024,Susan Laubscher,10,3.40,12:00,50
+2024,Taco Hamuy Blanco,2,10.00,05:45,94
+2024,Taco Hamuy Blanco,5,11.71,06:05,141
+2024,Taco Hamuy Blanco,8,10.01,06:24,113
+2024,Taco Hamuy Blanco,10,10.50,05:42,80
+2024,Tamsyn McWilliam,1,5.00,12:00,50
+2024,Tamsyn McWilliam,2,5.19,10:26,47
+2024,Tamsyn McWilliam,3,5.01,08:57,53
+2024,Tamsyn McWilliam,4,5.12,08:12,52
+2024,Tamsyn McWilliam,5,5.01,08:37,54
+2024,Tamsyn McWilliam,6,5.01,09:15,49
+2024,Tamsyn McWilliam,7,5.25,11:45,53
+2024,Tamsyn McWilliam,8,5.01,08:25,52
+2024,Tamsyn McWilliam,9,5.22,08:50,50
+2024,Tamsyn McWilliam,10,5.01,09:48,46
+2024,Tarren Meyer,2,10.13,06:13,161
+2024,Tarren Meyer,3,18.59,06:15,299
+2024,Tarren Meyer,5,10.40,06:00,105
+2024,Tarren Meyer,6,13.11,12:00,202
+2024,Tarren Meyer,7,10.02,07:12,169
+2024,Tarren Meyer,10,10.26,06:00,127
+2024,Tarryn Jacobsen,1,5.21,05:39,38
+2024,Tarryn Jacobsen,2,5.37,11:12,68
+2024,Tarryn Jacobsen,3,5.55,07:15,0
+2024,Tarryn Jacobsen,4,5.59,08:52,44
+2024,Tarryn Jacobsen,5,5.27,06:21,46
+2024,Tarryn Jacobsen,6,5.26,08:10,0
+2024,Tarryn Jacobsen,7,5.10,06:14,0
+2024,Tarryn Jacobsen,8,5.17,08:33,0
+2024,Tarryn Jacobsen,9,5.30,06:14,0
+2024,Tarryn Jacobsen,10,5.50,07:11,0
+2024,Thabo Motaung,1,12.30,06:29,158
+2024,Thabo Motaung,2,10.22,06:50,133
+2024,Thabo Motaung,3,10.50,06:32,173
+2024,Thabo Motaung,4,11.07,06:22,128
+2024,Thabo Motaung,5,11.15,06:59,167
+2024,Thabo Motaung,6,10.25,07:07,152
+2024,Thabo Motaung,7,10.04,06:24,103
+2024,Thabo Motaung,8,10.04,06:32,158
+2024,Thabo Motaung,9,10.05,06:54,158
+2024,Thabo Motaung,10,10.01,07:11,114
+2024,Theo Ebell,1,13.69,07:10,172
+2024,Theo Ebell,8,5.01,11:21,65
+2024,Tommy Laubscher,1,2.50,11:50,24
+2024,Tommy Laubscher,2,1.16,13:00,20
+2024,Tommy Laubscher,3,2.10,13:23,14
+2024,Tommy Laubscher,4,2.66,13:36,28
+2024,Tommy Laubscher,5,1.62,13:00,10
+2024,Tommy Laubscher,6,1.00,16:02,9
+2024,Tommy Laubscher,7,2.00,13:54,13
+2024,Tommy Laubscher,8,0.86,06:55,10
+2024,Tommy Laubscher,10,2.00,12:00,20
+2024,Tristan Eley,1,10.02,04:47,33
+2024,Tristan Eley,2,10.00,04:49,28
+2024,Tristan Eley,3,10.01,05:18,22
+2024,Tristan Eley,4,10.02,05:07,43
+2024,Tristan Eley,5,10.01,04:38,0
+2024,Tristan Eley,6,10.04,04:38,0
+2024,Tristan Eley,7,10.02,04:49,0
+2024,Tristan Eley,8,10.62,04:46,59
+2024,Tristan Eley,9,10.53,04:48,39
+2024,Tristan Eley,10,11.46,04:45,18
+2024,Tyron de Beer,7,7.49,06:59,59
+2024,Tyron de Beer,8,14.30,07:23,121
+2024,Veronica Warmington,3,8.56,05:59,45
+2024,Veronica Warmington,5,12.44,05:41,113
+2024,Veronica Warmington,7,20.77,06:00,286
+2024,Veronica Warmington,10,10.45,05:31,74
+2024,Vince Dalais,1,5.18,06:50,17
+2024,Vince Dalais,2,5.24,07:15,16
+2024,Vince Dalais,3,5.07,06:56,10
+2024,Vince Dalais,7,5.47,07:29,54
+2024,Vince Dalais,8,7.31,14:00,21
+2024,Vince Dalais,10,2.02,13:28,11
+2024,Vincent Ghisleni,1,5.17,12:38,59
+2024,Vincent Ghisleni,2,5.65,11:20,37
+2024,Vincent Ghisleni,3,5.40,11:36,36
+2024,Vincent Ghisleni,4,5.80,11:04,64
+2024,Vincent Ghisleni,7,5.17,13:51,35
+2024,Vincent Ghisleni,8,5.16,11:21,57
+2024,Vincent Ghisleni,9,5.60,12:30,18
+2024,Vincent Ghisleni,10,5.18,11:13,51
+2024,Virgilio Peneda,1,5.00,12:00,50
+2024,Virgilio Peneda,2,8.00,12:00,50
+2024,Virgilio Peneda,3,9.00,12:00,50
+2024,Virgilio Peneda,4,11.10,11:19,83
+2024,Virgilio Peneda,5,8.50,,
+2024,Virgilio Peneda,6,5.00,,
+2024,Warren van der Struys,1,10.01,06:02,117
+2024,Warren van der Struys,2,12.40,07:07,123
+2024,Warren van der Struys,3,11.93,07:12,155
+2024,Warren van der Struys,4,13.80,06:58,163
+2024,Warren van der Struys,5,12.89,06:58,161
+2024,Warren van der Struys,6,11.70,06:30,103
+2024,Warren van der Struys,7,10.30,05:50,96
+2024,Warren van der Struys,8,11.31,06:00,152
+2024,Warren van der Struys,9,10.01,06:14,109
+2024,Warren van der Struys,10,12.06,05:40,105
+2024,Wayne Korras,1,10.00,08:00,0
+2024,Wayne Korras,6,10.00,06:30,68
+2024,Yamkela Ntotho,1,9.88,05:48,84
+2024,Yamkela Ntotho,9,8.30,04:42,69
+2025,Alberto Riccardi,1,10.50,06:12,
+2025,Alberto Riccardi,2,10.31,06:19,
+2025,Alberto Riccardi,3,10.13,05:48,
+2025,Alberto Riccardi,4,10.40,06:12,
+2025,Alberto Riccardi,5,10.05,06:00,
+2025,Alberto Riccardi,6,11.27,09:01,
+2025,Alberto Riccardi,7,10.61,10:23,
+2025,Alberto Riccardi,8,10.33,05:34,
+2025,Alberto Riccardi,9,10.47,06:11,
+2025,Alberto Riccardi,10,11.22,06:42,
+2025,Alex van der Struys,3,2.22,12:21,
+2025,Alex van der Struys,6,1.90,12:00,
+2025,Alex van der Struys,8,2.29,12:00,
+2025,Andre Laubscher,1,11.16,07:50,
+2025,Andre Laubscher,3,13.65,08:45,
+2025,Andre Laubscher,4,0.69,10:00,
+2025,Andre Laubscher,6,17.15,05:50,
+2025,Andre Laubscher,8,3.34,07:00,
+2025,Andre Laubscher,9,11.24,07:00,
+2025,Andre Laubscher,10,5.42,10:00,
+2025,Andrew Laver,1,10.30,05:57,
+2025,Andrew Laver,2,10.03,05:46,
+2025,Andrew Laver,3,12.01,05:43,
+2025,Andrew Laver,4,10.15,05:58,
+2025,Andrew Laver,6,8.09,05:48,
+2025,Andrew Laver,7,11.06,05:32,
+2025,Andrew Laver,8,10.06,05:39,
+2025,Armand Geldenhuys,1,10.35,06:14,
+2025,Armand Geldenhuys,2,10.07,06:11,
+2025,Armand Geldenhuys,3,10.12,06:17,
+2025,Armand Geldenhuys,4,10.12,06:32,
+2025,Armand Geldenhuys,5,10.13,06:17,
+2025,Armand Geldenhuys,6,21.01,10:00,
+2025,Armand Geldenhuys,7,21.35,06:50,
+2025,Armand Geldenhuys,8,10.10,06:24,
+2025,Armand Geldenhuys,9,10.51,06:04,
+2025,Armand Geldenhuys,10,10.34,06:11,
+2025,Avril Moolman,1,5.03,05:52,
+2025,Avril Moolman,2,6.05,06:24,
+2025,Avril Moolman,3,8.72,07:20,
+2025,Avril Moolman,4,7.57,07:30,
+2025,Avril Moolman,5,5.45,06:14,
+2025,Avril Moolman,6,3.33,11:00,
+2025,Avril Moolman,7,5.09,06:00,
+2025,Avril Moolman,8,8.35,06:32,
+2025,Avril Moolman,9,3.55,11:00,
+2025,Avril Moolman,10,9.55,06:30,
+2025,Barbara Voudouris,1,6.26,09:30,
+2025,Barbara Voudouris,2,10.02,07:35,
+2025,Barbara Voudouris,3,4.01,12:12,
+2025,Barbara Voudouris,4,12.65,10:00,
+2025,Barbara Voudouris,5,11.66,30:00,
+2025,Barbara Voudouris,6,15.28,09:46,
+2025,Barbara Voudouris,7,2.03,23:11,
+2025,Barbara Voudouris,8,8.09,10:43,
+2025,Barbara Voudouris,9,8.41,09:17,
+2025,Barbara Voudouris,10,10.91,08:49,
+2025,Bianca Matulovich,1,14.00,06:01,
+2025,Bianca Matulovich,2,10.13,05:45,
+2025,Bianca Matulovich,3,10.26,06:00,
+2025,Bianca Matulovich,5,15.03,06:15,
+2025,Bianca Matulovich,6,11.01,06:07,
+2025,Bianca Matulovich,8,10.53,06:08,
+2025,Bianca Matulovich,9,20.31,07:12,
+2025,Bianca Matulovich,10,10.09,06:02,
+2025,Bianca Morais,1,11.37,06:43,
+2025,Bianca Morais,2,10.01,05:40,
+2025,Bianca Morais,3,10.05,06:16,
+2025,Bianca Morais,4,10.50,06:12,
+2025,Bianca Morais,5,10.44,06:00,
+2025,Bianca Morais,6,10.83,06:08,
+2025,Bianca Morais,7,10.50,11:00,
+2025,Bianca Morais,8,10.40,08:00,
+2025,Bianca Morais,9,10.85,07:30,
+2025,Bianca Morais,10,5.20,11:00,
+2025,Bill Coop,1,10.11,05:53,
+2025,Bill Coop,2,10.05,06:00,
+2025,Bill Coop,3,10.07,05:52,
+2025,Bill Coop,4,10.38,06:10,
+2025,Bill Coop,5,10.27,06:03,
+2025,Bill Coop,6,10.26,05:49,
+2025,Bill Coop,7,10.15,05:49,
+2025,Bill Coop,8,10.32,05:43,
+2025,Bill Coop,9,10.03,05:54,
+2025,Bill Coop,10,10.38,05:59,
+2025,Bradley Bowes,1,22.05,05:55,
+2025,Bradley Bowes,2,7.03,06:37,
+2025,Bradley Bowes,3,23.26,05:35,
+2025,Bradley Bowes,4,14.47,06:30,
+2025,Bradley Bowes,5,10.05,05:54,
+2025,Bradley Bowes,6,28.40,06:03,
+2025,Bradley Bowes,7,21.17,06:06,
+2025,Bradley Bowes,8,10.15,05:25,
+2025,Bradley Bowes,9,10.18,05:33,
+2025,Bradley Bowes,10,10.16,05:46,
+2025,Brett van der Struys,5,2.12,10:00,
+2025,Brett van der Struys,8,2.10,12:00,
+2025,Brett van der Struys,10,13.16,12:00,
+2025,Brian Curtis,1,10.01,07:15,
+2025,Brian Curtis,2,10.22,06:18,
+2025,Brian Curtis,3,10.16,06:23,
+2025,Brian Curtis,4,10.18,05:54,
+2025,Brian Curtis,5,10.17,06:18,
+2025,Brian Curtis,6,10.23,06:20,
+2025,Brian Curtis,7,10.04,06:05,
+2025,Brian Curtis,8,10.16,05:35,
+2025,Brian Curtis,9,10.48,06:03,
+2025,Brian Curtis,10,10.14,06:41,
+2025,Bryce Moller,1,10.04,06:17,
+2025,Bryce Moller,2,10.18,06:51,
+2025,Bryce Moller,4,10.00,06:00,
+2025,Bryce Moller,5,10.01,06:25,
+2025,Bryce Moller,8,10.45,06:38,
+2025,Carlos Morais,1,10.32,11:20,
+2025,Carlos Morais,2,10.29,10:54,
+2025,Carlos Morais,3,10.18,10:54,
+2025,Carlos Morais,4,15.21,13:00,
+2025,Carlos Morais,5,11.12,10:54,
+2025,Carlos Morais,6,10.02,12:00,
+2025,Carlos Morais,7,10.15,12:00,
+2025,Carlos Morais,8,17.25,12:00,
+2025,Carlos Morais,9,21.33,11:00,
+2025,Carlos Morais,10,11.29,12:24,
+2025,Ceciele van der Struys,1,6.14,13:35,
+2025,Ceciele van der Struys,2,7.48,10:00,
+2025,Ceciele van der Struys,3,5.56,10:00,
+2025,Ceciele van der Struys,4,10.44,11:42,
+2025,Ceciele van der Struys,5,4.26,10:00,
+2025,Ceciele van der Struys,6,8.75,10:00,
+2025,Ceciele van der Struys,7,11.33,10:00,
+2025,Ceciele van der Struys,8,11.14,10:00,
+2025,Ceciele van der Struys,9,3.60,11:30,
+2025,Ceciele van der Struys,10,13.11,10:37,
+2025,Christine Lew,1,2.00,17:00,
+2025,Christine Lew,2,6.50,07:30,
+2025,Christine Lew,5,6.00,10:00,
+2025,Christine Lew,6,5.31,10:00,
+2025,Christine Lew,8,4.32,12:00,
+2025,Claudia Freeman,1,10.01,06:29,
+2025,Claudia Freeman,6,6.06,09:30,
+2025,Claudia Freeman,9,10.02,07:08,
+2025,Craig Bannon,1,11.01,05:34,
+2025,Craig Bannon,2,10.14,06:10,
+2025,Craig Bannon,3,10.16,05:59,
+2025,Craig Bannon,4,10.44,05:55,
+2025,Craig Bannon,5,10.17,06:04,
+2025,Craig Bannon,6,13.60,05:57,
+2025,Craig Bannon,7,16.04,05:58,
+2025,Craig Bannon,8,10.15,06:15,
+2025,Craig Bannon,9,14.05,06:12,
+2025,Craig Bannon,10,11.15,05:44,
+2025,Craig Swanepoel,1,6.11,06:03,
+2025,Craig Swanepoel,2,6.01,05:36,
+2025,Craig Swanepoel,4,5.26,05:46,
+2025,Craig Swanepoel,7,4.13,05:48,
+2025,Craig Swanepoel,9,6.01,05:38,
+2025,Craig van der Westhuizen,1,10.50,06:22,
+2025,Craig van der Westhuizen,3,12.49,06:23,
+2025,Craig van der Westhuizen,4,10.00,06:36,
+2025,Craig van der Westhuizen,5,10.00,06:38,
+2025,Craig van der Westhuizen,6,5.01,05:48,
+2025,Dave Mogotlane,1,10.11,05:30,
+2025,Dave Mogotlane,2,8.53,06:41,
+2025,Dave Mogotlane,3,8.19,05:37,
+2025,Dave Mogotlane,5,11.19,05:22,
+2025,Dave Mogotlane,6,1.01,12:00,
+2025,Dave Mogotlane,7,21.35,06:49,
+2025,Dave Mogotlane,8,0.80,14:27,
+2025,Dave Mogotlane,9,8.01,06:13,
+2025,Dave Mogotlane,10,8.27,06:41,
+2025,Dean Oelschig,1,10.51,06:26,
+2025,Dean Oelschig,2,10.01,09:19,
+2025,Dean Oelschig,3,10.19,08:07,
+2025,Dean Oelschig,4,10.58,06:24,
+2025,Dean Oelschig,5,10.03,06:05,
+2025,Dean Oelschig,6,10.30,06:56,
+2025,Dean Oelschig,7,10.04,06:31,
+2025,Dean Oelschig,8,10.04,08:59,
+2025,Dean Oelschig,9,10.07,05:56,
+2025,Dean Oelschig,10,10.10,08:22,
+2025,Diego Fernandez,1,29.35,05:56,
+2025,Diego Fernandez,2,19.42,09:00,
+2025,Diego Fernandez,3,27.02,05:40,
+2025,Diego Fernandez,4,16.61,08:20,
+2025,Diego Fernandez,5,24.34,06:04,
+2025,Diego Fernandez,6,31.98,06:02,
+2025,Diego Fernandez,7,25.02,06:04,
+2025,Diego Fernandez,8,11.55,06:32,
+2025,Diego Fernandez,9,25.32,06:07,
+2025,Diego Fernandez,10,11.14,05:46,
+2025,Diego Hamuy Blanco,1,10.01,05:44,
+2025,Diego Hamuy Blanco,2,10.01,05:58,
+2025,Diego Hamuy Blanco,3,10.02,05:39,
+2025,Diego Hamuy Blanco,4,5.03,05:54,
+2025,Diego Hamuy Blanco,5,3.01,06:23,
+2025,Diego Hamuy Blanco,6,2.07,06:22,
+2025,Diego Hamuy Blanco,7,42.78,05:30,
+2025,Diego Hamuy Blanco,8,6.66,07:11,
+2025,Diego Hamuy Blanco,9,6.77,05:48,
+2025,Diego Hamuy Blanco,10,6.99,06:19,
+2025,Dominic Kester,1,10.04,07:08,
+2025,Dominic Kester,2,11.00,06:50,
+2025,Ezio Nichele,1,10.14,05:57,
+2025,Ezio Nichele,2,11.90,05:49,
+2025,Ezio Nichele,3,11.35,05:28,
+2025,Ezio Nichele,4,10.74,06:04,
+2025,Ezio Nichele,5,10.82,05:43,
+2025,Ezio Nichele,6,15.82,05:41,
+2025,Ezio Nichele,7,14.68,05:27,
+2025,Ezio Nichele,8,10.33,05:34,
+2025,Ezio Nichele,9,10.69,05:59,
+2025,Ezio Nichele,10,11.01,06:02,
+2025,Fallon Luksich,1,10.19,05:44,
+2025,Fallon Luksich,3,6.05,06:03,
+2025,Fallon Luksich,4,10.28,06:18,
+2025,Fallon Luksich,5,11.18,05:26,
+2025,Fallon Luksich,6,10.73,06:39,
+2025,Finn Johnson,1,2.77,05:26,
+2025,Finn Johnson,2,10.28,05:46,
+2025,Finn Johnson,3,2.19,10:36,
+2025,Finn Johnson,4,10.66,05:18,
+2025,Finn Johnson,5,2.23,07:19,
+2025,Finn Johnson,6,3.00,08:43,
+2025,Finn Johnson,7,10.32,06:30,
+2025,Finn Johnson,9,1.21,08:12,
+2025,Finn Johnson,10,10.87,07:12,
+2025,Gareth Heyns,1,10.00,05:33,
+2025,Gareth Heyns,2,10.09,05:50,
+2025,Gareth Heyns,10,7.01,05:45,
+2025,Gareth Neilson,1,10.17,07:30,
+2025,Gareth Neilson,2,8.21,07:50,
+2025,Gareth Neilson,3,5.01,06:14,
+2025,Gareth Neilson,4,8.01,06:13,
+2025,Gareth Neilson,8,6.02,05:56,
+2025,Gilbert de Villiers,2,10.18,05:06,
+2025,Gilbert de Villiers,3,9.01,07:10,
+2025,Gilbert de Villiers,4,10.11,05:17,
+2025,Gilbert de Villiers,6,10.06,05:21,
+2025,Grace Leech,1,17.30,06:30,
+2025,Grace Leech,2,19.01,06:25,
+2025,Grace Leech,3,10.04,06:33,
+2025,Grace Leech,4,10.02,06:34,
+2025,Grace Leech,5,10.07,07:30,
+2025,Grace Leech,6,12.04,06:32,
+2025,Grace Leech,7,10.01,06:30,
+2025,Grace Leech,8,10.01,06:33,
+2025,Grace Leech,9,10.00,06:32,
+2025,Grace Leech,10,10.01,06:23,
+2025,Greg King,1,10.17,11:56,
+2025,Greg King,2,10.45,09:41,
+2025,Greg King,3,10.01,09:22,
+2025,Greg King,4,12.03,10:02,
+2025,Greg King,5,10.00,12:59,
+2025,Greg King,6,10.51,08:28,
+2025,Greg King,7,10.20,07:11,
+2025,Greg King,8,14.62,09:00,
+2025,Greg King,9,5.78,09:12,
+2025,Greg King,10,11.37,08:51,
+2025,Greg Papadopulos,1,3.21,19:09,
+2025,Greg Papadopulos,7,3.65,11:58,
+2025,Greg Papadopulos,8,0.87,10:00,
+2025,Greg Papadopulos,9,5.43,12:00,
+2025,Greg Papadopulos,10,5.62,12:04,
+2025,Gretchén Anker,1,11.04,06:27,
+2025,Gretchén Anker,2,8.20,06:28,
+2025,Gretchén Anker,3,11.04,06:37,
+2025,Gretchén Anker,4,11.25,06:59,
+2025,Gretchén Anker,5,10.02,07:06,
+2025,Gretchén Anker,6,13.43,06:40,
+2025,Gretchén Anker,7,15.07,06:10,
+2025,Gretchén Anker,10,21.31,06:33,
+2025,Helen Coop,1,10.01,07:04,
+2025,Helen Coop,2,10.01,07:23,
+2025,Helen Coop,3,10.01,06:59,
+2025,Helen Coop,4,10.02,07:10,
+2025,Helen Coop,5,10.02,06:54,
+2025,Helen Coop,6,10.02,06:59,
+2025,Helen Coop,7,10.02,07:02,
+2025,Helen Coop,8,10.02,06:51,
+2025,Helen Coop,9,10.01,06:44,
+2025,Helen Coop,10,10.01,06:41,
+2025,Janet Van Schoor,1,10.15,06:07,
+2025,Janet Van Schoor,2,22.72,06:35,
+2025,Janet Van Schoor,4,20.47,06:00,
+2025,Janet Van Schoor,5,10.65,06:23,
+2025,Janet Van Schoor,6,22.05,06:00,
+2025,Janet Van Schoor,7,18.15,06:10,
+2025,Janet Van Schoor,8,21.23,05:40,
+2025,Janet Van Schoor,9,20.07,06:08,
+2025,Janet Van Schoor,10,20.29,05:58,
+2025,Jarrod Cole-Edwardes,1,10.01,05:33,
+2025,Jarrod Cole-Edwardes,2,10.11,05:49,
+2025,Jarrod Cole-Edwardes,4,10.01,05:44,
+2025,Jarrod Cole-Edwardes,5,6.31,05:49,
+2025,Jarrod Cole-Edwardes,6,10.01,05:37,
+2025,Jarrod Cole-Edwardes,7,23.61,05:38,
+2025,Jarrod Cole-Edwardes,9,7.26,04:21,
+2025,Jarrod Cole-Edwardes,10,10.08,04:54,
+2025,Jesse Quick,1,4.82,07:04,
+2025,Jesse Quick,3,4.14,07:00,
+2025,Jessica Hamuy Blanco,1,10.68,05:06,
+2025,Jessica Hamuy Blanco,2,10.42,05:11,
+2025,Jessica Hamuy Blanco,3,10.01,05:27,
+2025,Jessica Hamuy Blanco,4,5.00,05:50,
+2025,Jessica Hamuy Blanco,5,3.00,05:57,
+2025,Jessica Hamuy Blanco,6,2.13,05:59,
+2025,Jessica Hamuy Blanco,7,42.66,05:20,
+2025,Jessica Hamuy Blanco,8,7.60,06:33,
+2025,Jessica Hamuy Blanco,9,6.88,05:38,
+2025,Jessica Hamuy Blanco,10,7.27,05:41,
+2025,Jono Baiocchi,1,10.06,05:57,
+2025,Jono Baiocchi,2,4.75,06:14,
+2025,Jono Baiocchi,3,10.00,05:58,
+2025,Jono Baiocchi,4,11.52,07:36,
+2025,Jono Baiocchi,5,10.56,06:17,
+2025,Jono Baiocchi,9,9.96,07:14,
+2025,Jono Baiocchi,10,10.04,06:25,
+2025,Julia Ebell,1,5.49,08:43,
+2025,Julia Ebell,2,6.07,05:46,
+2025,Julia Ebell,3,8.00,06:53,
+2025,Julia Ebell,4,5.49,05:34,
+2025,Julia Ebell,5,10.00,06:07,
+2025,Julia Ebell,6,10.04,06:02,
+2025,Justin de Reuck,1,5.95,05:58,
+2025,Justin de Reuck,3,10.11,06:11,
+2025,Justin de Reuck,4,10.19,09:04,
+2025,Justin de Reuck,5,10.49,06:31,
+2025,Justin de Reuck,6,6.55,09:06,
+2025,Justin de Reuck,7,10.11,06:13,
+2025,Justin de Reuck,8,10.29,06:28,
+2025,Justin de Reuck,9,11.14,09:42,
+2025,Justin de Reuck,10,10.52,06:24,
+2025,Karen Worsley,1,10.01,06:36,
+2025,Karen Worsley,2,10.02,06:45,
+2025,Karen Worsley,3,10.09,06:31,
+2025,Karen Worsley,4,10.01,06:36,
+2025,Karen Worsley,5,10.06,07:30,
+2025,Karen Worsley,6,12.02,06:32,
+2025,Karen Worsley,7,10.38,06:24,
+2025,Karen Worsley,8,10.03,06:32,
+2025,Karen Worsley,9,10.10,06:33,
+2025,Karen Worsley,10,10.09,06:36,
+2025,Karien van Schoor,2,1.04,10:00,
+2025,Karien van Schoor,3,4.18,08:30,
+2025,Karien van Schoor,6,6.66,07:00,
+2025,Karien van Schoor,7,2.79,12:00,
+2025,Karien van Schoor,8,9.10,08:00,
+2025,Karien van Schoor,9,1.51,10:00,
+2025,Kent Raines,1,10.77,05:17,
+2025,Kent Raines,2,10.77,05:10,
+2025,Kent Raines,3,10.25,05:09,
+2025,Kent Raines,4,16.67,05:55,
+2025,Kent Raines,5,10.34,05:54,
+2025,Kent Raines,6,12.14,05:19,
+2025,Kent Raines,7,14.80,05:54,
+2025,Kent Raines,8,10.21,05:20,
+2025,Kent Raines,9,11.06,05:33,
+2025,Kent Raines,10,12.82,04:51,
+2025,Kiandra Joannou,1,8.11,05:49,
+2025,Kiandra Joannou,5,0.65,12:00,
+2025,Kieren Jacobsen,1,10.51,05:38,
+2025,Kieren Jacobsen,2,10.02,06:05,
+2025,Kieren Jacobsen,3,10.02,06:56,
+2025,Kieren Jacobsen,4,10.37,06:43,
+2025,Kieren Jacobsen,5,10.13,06:03,
+2025,Kieren Jacobsen,6,12.64,10:21,
+2025,Kieren Jacobsen,7,10.05,06:00,
+2025,Kieren Jacobsen,8,10.19,09:44,
+2025,Kieren Jacobsen,9,10.00,07:10,
+2025,Kieren Jacobsen,10,19.50,08:00,
+2025,Kimberlee Brown,1,5.15,10:23,
+2025,Kimberlee Brown,2,4.86,10:00,
+2025,Kimberlee Brown,4,5.00,10:42,
+2025,Kimberlee Brown,8,2.85,12:00,
+2025,Kobus Engelbrecht,1,10.84,05:43,
+2025,Kobus Engelbrecht,2,10.00,04:25,
+2025,Kobus Engelbrecht,3,10.76,05:30,
+2025,Kobus Engelbrecht,4,12.45,05:29,
+2025,Kobus Engelbrecht,5,10.62,05:26,
+2025,Kobus Engelbrecht,6,10.19,06:24,
+2025,Kobus Engelbrecht,7,22.94,06:00,
+2025,Kobus Engelbrecht,8,10.02,05:47,
+2025,Kobus Engelbrecht,9,10.01,05:32,
+2025,Kobus Engelbrecht,10,10.14,05:43,
+2025,Kyle McWilliam,1,10.03,05:43,
+2025,Kyle McWilliam,2,9.94,07:00,
+2025,Kyle McWilliam,3,10.57,05:39,
+2025,Kyle McWilliam,4,10.24,06:08,
+2025,Kyle McWilliam,5,10.44,06:09,
+2025,Kyle McWilliam,6,10.23,06:09,
+2025,Kyle McWilliam,7,10.05,06:11,
+2025,Kyle McWilliam,8,10.27,06:28,
+2025,Kyle McWilliam,9,11.48,07:14,
+2025,Kyle McWilliam,10,10.48,06:23,
+2025,Leanne Voerman,2,4.55,10:01,
+2025,Leanne Voerman,5,5.26,08:17,
+2025,Leanne Voerman,6,5.03,08:53,
+2025,Leanne Voerman,9,7.06,06:49,
+2025,Lene Lee Barrett,1,10.01,06:06,
+2025,Lene Lee Barrett,2,10.27,05:59,
+2025,Lene Lee Barrett,4,10.18,05:55,
+2025,Lene Lee Barrett,6,10.06,05:55,
+2025,Lene Lee Barrett,7,21.23,06:51,
+2025,Lene Lee Barrett,8,3.17,12:00,
+2025,Lene Lee Barrett,9,7.76,07:49,
+2025,Lene Lee Barrett,10,2.31,12:00,
+2025,Lesley Deeley,2,5.14,05:52,
+2025,Lesley Deeley,3,5.06,06:26,
+2025,Lesley Deeley,4,7.82,08:00,
+2025,Lesley Deeley,6,4.69,06:00,
+2025,Lesley Deeley,7,6.19,05:41,
+2025,Lesley Deeley,8,6.35,05:42,
+2025,Marco Ghisleni,1,4.23,,
+2025,Marco Ghisleni,2,5.02,06:58,
+2025,Marco Ghisleni,10,10.03,06:46,
+2025,Maria Ghisleni,1,10.00,06:45,
+2025,Maria Ghisleni,2,10.40,06:55,
+2025,Maria Ghisleni,3,10.06,07:53,
+2025,Maria Ghisleni,4,8.22,08:33,
+2025,Maria Ghisleni,6,10.36,06:45,
+2025,Maria Ghisleni,7,10.11,06:47,
+2025,Maria Ghisleni,9,10.23,07:05,
+2025,Maria Ghisleni,10,10.10,08:45,
+2025,Maria Pascalides,6,3.40,07:25,
+2025,Maria Pascalides,7,12.30,06:30,
+2025,Maria Pascalides,9,8.69,07:00,
+2025,Maria Pascalides,10,10.27,06:02,
+2025,Mark Grace,1,10.00,05:48,
+2025,Mark Grace,2,5.29,05:59,
+2025,Mark Grace,3,10.02,05:47,
+2025,Mark Grace,4,10.22,06:06,
+2025,Mark Grace,6,5.01,06:17,
+2025,Mark Grace,7,10.02,06:12,
+2025,Mark Grace,8,5.54,06:30,
+2025,Mark Grace,9,6.35,06:03,
+2025,Mark Grace,10,10.04,06:36,
+2025,Mark Swanepoel,2,8.00,08:01,
+2025,Mark Swanepoel,6,42.03,10:33,
+2025,Megan Kim de Vroeg,1,0.54,10:00,
+2025,Megan Kim de Vroeg,6,5.01,08:41,
+2025,Megan Kim de Vroeg,7,0.45,10:00,
+2025,Megan Kim de Vroeg,8,3.01,09:46,
+2025,Megan Whelan,1,11.26,05:26,
+2025,Megan Whelan,2,10.18,05:14,
+2025,Megan Whelan,3,11.54,05:24,
+2025,Megan Whelan,4,10.21,05:33,
+2025,Megan Whelan,5,11.63,05:21,
+2025,Megan Whelan,6,11.21,05:16,
+2025,Megan Whelan,7,10.69,05:38,
+2025,Megan Whelan,8,10.24,05:44,
+2025,Megan Whelan,9,11.54,05:42,
+2025,Megan Whelan,10,15.43,04:55,
+2025,Mike Freire,1,10.10,06:55,
+2025,Mike Freire,2,10.10,07:30,
+2025,Mike Freire,3,10.56,07:20,
+2025,Mike Freire,4,10.03,06:36,
+2025,Mike Freire,5,13.21,08:00,
+2025,Mike Freire,6,10.05,08:40,
+2025,Mike Freire,7,10.03,07:52,
+2025,Mike Freire,8,10.16,09:00,
+2025,Mike Freire,9,10.08,08:58,
+2025,Mike Freire,10,10.01,09:02,
+2025,Mike Voudouris,1,10.58,05:10,
+2025,Mike Voudouris,2,10.02,05:13,
+2025,Mike Voudouris,3,10.02,05:14,
+2025,Mike Voudouris,4,12.53,05:13,
+2025,Mike Voudouris,5,10.52,04:56,
+2025,Mike Voudouris,6,20.42,05:30,
+2025,Mike Voudouris,7,14.71,05:05,
+2025,Mike Voudouris,8,10.27,07:01,
+2025,Mike Voudouris,9,12.43,05:48,
+2025,Mike Voudouris,10,16.46,05:14,
+2025,Milton Segal,1,10.15,05:46,
+2025,Milton Segal,2,10.56,05:41,
+2025,Milton Segal,3,10.04,05:58,
+2025,Milton Segal,4,10.02,05:15,
+2025,Milton Segal,5,10.01,06:01,
+2025,Milton Segal,6,10.03,05:09,
+2025,Milton Segal,7,7.75,06:42,
+2025,Milton Segal,9,12.06,05:49,
+2025,Milton Segal,10,12.56,05:39,
+2025,Nastassja Riccardi,1,10.11,06:40,
+2025,Nastassja Riccardi,2,6.62,09:56,
+2025,Nastassja Riccardi,3,10.00,12:11,
+2025,Nastassja Riccardi,4,10.12,09:33,
+2025,Nastassja Riccardi,5,10.00,12:21,
+2025,Nastassja Riccardi,6,11.02,12:41,
+2025,Nastassja Riccardi,7,10.36,10:48,
+2025,Nastassja Riccardi,8,10.47,09:25,
+2025,Nastassja Riccardi,9,10.22,10:15,
+2025,Nastassja Riccardi,10,11.30,06:41,
+2025,Neil Caldwell,1,8.46,09:30,
+2025,Neil Caldwell,2,9.20,10:00,
+2025,Neil Caldwell,3,5.53,08:00,
+2025,Neil Caldwell,4,12.15,08:20,
+2025,Neil Caldwell,5,5.50,06:45,
+2025,Neil Caldwell,6,8.64,10:00,
+2025,Neil Caldwell,7,15.69,07:00,
+2025,Neil Caldwell,8,8.26,10:00,
+2025,Neil Caldwell,9,10.29,10:00,
+2025,Neil Caldwell,10,4.36,10:00,
+2025,Nick Luksich,2,7.01,05:00,
+2025,Nick Luksich,3,9.87,05:28,
+2025,Nick Luksich,5,10.01,05:41,
+2025,Nick Matulovich,1,8.15,05:04,
+2025,Nick Matulovich,2,9.20,04:36,
+2025,Nick Matulovich,5,4.13,10:35,
+2025,Nick Matulovich,6,3.93,07:52,
+2025,Nick Matulovich,7,49.83,04:30,
+2025,Nick Matulovich,8,0.43,10:25,
+2025,Nick Matulovich,9,2.04,10:07,
+2025,Nick Matulovich,10,2.50,10:56,
+2025,Nikita Fogolin,2,8.13,06:14,
+2025,Nikita Fogolin,4,8.01,04:35,
+2025,Nikita Fogolin,6,18.33,05:30,
+2025,Nikita Fogolin,7,12.11,,
+2025,Nikita Fogolin,9,7.50,05:20,
+2025,Nikita Fogolin,10,5.80,06:00,
+2025,Nikita Nowicki,1,5.00,12:49,
+2025,Nikita Nowicki,2,5.04,07:23,
+2025,Nikita Nowicki,3,7.00,08:25,
+2025,Nikita Nowicki,4,8.29,08:30,
+2025,Nikita Nowicki,6,8.11,08:07,
+2025,Paulo Pereira,1,10.30,05:59,
+2025,Paulo Pereira,2,11.15,05:26,
+2025,Paulo Pereira,3,10.14,05:42,
+2025,Paulo Pereira,5,9.85,05:58,
+2025,Paulo Pereira,6,9.99,06:09,
+2025,Paulo Pereira,8,10.27,05:33,
+2025,Paulo Pereira,9,10.20,06:03,
+2025,Paulo Pereira,10,10.11,05:43,
+2025,Qedani Dorothy Mahlangu,1,2.10,08:22,
+2025,Quentin Leech,1,6.40,06:31,
+2025,Quentin Leech,2,11.92,06:58,
+2025,Quentin Leech,3,9.51,06:39,
+2025,Quentin Leech,4,12.32,07:10,
+2025,Quentin Leech,5,8.32,06:55,
+2025,Quentin Leech,6,13.04,07:07,
+2025,Quentin Leech,7,8.99,07:00,
+2025,Quentin Leech,8,10.10,07:15,
+2025,Quentin Leech,9,10.01,06:29,
+2025,Quentin Leech,10,10.15,06:27,
+2025,Rainer Nowicki,1,10.05,06:22,
+2025,Rainer Nowicki,2,10.01,07:31,
+2025,Rainer Nowicki,3,10.12,08:00,
+2025,Rainer Nowicki,4,10.06,06:41,
+2025,Rainer Nowicki,5,10.03,06:18,
+2025,Rainer Nowicki,6,10.27,07:37,
+2025,Rainer Nowicki,8,10.14,06:50,
+2025,Renn Hartmann,1,3.01,11:58,
+2025,Renn Hartmann,2,3.73,11:33,
+2025,Renn Hartmann,6,2.39,14:04,
+2025,Renn Hartmann,7,2.40,13:03,
+2025,Renn Hartmann,8,3.01,11:19,
+2025,Roxanne Harley,1,10.32,06:52,
+2025,Roxanne Harley,3,12.20,05:57,
+2025,Roxanne Harley,4,10.80,07:30,
+2025,Roxanne Harley,9,5.42,05:32,
+2025,Roxzanne Morais,4,6.57,05:42,
+2025,Ryan Dantu,2,3.37,13:27,
+2025,Ryan Dantu,4,2.75,09:33,
+2025,Sabrina Riccardi,1,10.30,06:22,
+2025,Sabrina Riccardi,2,10.13,06:23,
+2025,Sabrina Riccardi,3,10.17,11:26,
+2025,Sabrina Riccardi,4,10.46,09:33,
+2025,Sabrina Riccardi,5,10.47,05:45,
+2025,Sabrina Riccardi,6,11.76,08:25,
+2025,Sabrina Riccardi,7,10.66,10:48,
+2025,Sabrina Riccardi,8,13.71,07:09,
+2025,Sabrina Riccardi,9,10.71,10:15,
+2025,Sabrina Riccardi,10,11.78,06:24,
+2025,Sam Ghisleni,1,3.60,08:58,
+2025,Sandra Voerman,2,7.66,06:29,
+2025,Sandra Voerman,5,9.23,05:28,
+2025,Sandra Voerman,6,6.18,08:39,
+2025,Sandra Voerman,9,9.02,06:21,
+2025,Sean Deeley,1,10.51,06:22,
+2025,Sean Deeley,2,10.01,06:08,
+2025,Sean Deeley,3,14.31,06:37,
+2025,Sean Deeley,4,11.60,06:20,
+2025,Sean Deeley,5,10.02,06:41,
+2025,Sean Deeley,6,12.52,06:09,
+2025,Sean Deeley,7,11.06,05:54,
+2025,Sean Deeley,8,17.69,06:04,
+2025,Sean Deeley,9,10.13,07:22,
+2025,Tamsyn McWilliam,1,6.08,10:00,
+2025,Tamsyn McWilliam,3,5.97,09:53,
+2025,Tamsyn McWilliam,4,9.07,09:53,
+2025,Tamsyn McWilliam,5,6.06,10:10,
+2025,Tamsyn McWilliam,6,3.85,15:18,
+2025,Tamsyn McWilliam,7,6.18,12:04,
+2025,Tamsyn McWilliam,8,6.08,10:17,
+2025,Tamsyn McWilliam,9,6.23,10:32,
+2025,Tamsyn McWilliam,10,6.04,10:00,
+2025,Tarren Meyer,1,10.09,05:51,
+2025,Tarren Meyer,2,10.04,05:49,
+2025,Tarren Meyer,3,10.05,06:14,
+2025,Tarren Meyer,4,10.04,06:31,
+2025,Tarren Meyer,5,10.01,06:16,
+2025,Tarren Meyer,6,10.83,06:20,
+2025,Tarren Meyer,7,21.04,06:43,
+2025,Tarren Meyer,8,10.33,05:40,
+2025,Tarren Meyer,9,10.41,06:04,
+2025,Tarren Meyer,10,10.03,06:18,
+2025,Tarryn Jacobsen,1,6.09,05:57,
+2025,Tarryn Jacobsen,2,7.01,05:57,
+2025,Tarryn Jacobsen,3,10.14,05:56,
+2025,Tarryn Jacobsen,4,6.21,06:07,
+2025,Tarryn Jacobsen,5,10.04,06:16,
+2025,Tarryn Jacobsen,6,3.04,09:57,
+2025,Tarryn Jacobsen,9,5.02,05:51,
+2025,Tarryn Jacobsen,10,5.09,05:55,
+2025,Thabo Motaung,4,9.00,07:03,
+2025,Thabo Motaung,5,10.19,06:33,
+2025,Thabo Motaung,6,7.13,12:25,
+2025,Thabo Motaung,7,10.11,06:23,
+2025,Thomas Briggs,1,10.05,06:03,
+2025,Thomas Briggs,2,11.51,05:51,
+2025,Thomas Briggs,3,10.16,05:51,
+2025,Thomas Briggs,4,10.51,06:10,
+2025,Thomas Briggs,5,10.22,06:02,
+2025,Thomas Briggs,6,12.70,06:15,
+2025,Thomas Briggs,7,21.42,06:52,
+2025,Thomas Briggs,8,10.09,06:09,
+2025,Thomas Briggs,9,10.16,06:09,
+2025,Thomas Briggs,10,13.79,05:57,
+2025,Tristan Eley,1,10.55,05:35,
+2025,Tristan Eley,3,10.02,04:58,
+2025,Tristan Eley,6,10.01,04:57,
+2025,Warren van der Struys,1,11.92,06:00,
+2025,Warren van der Struys,2,11.99,06:20,
+2025,Warren van der Struys,3,13.17,07:35,
+2025,Warren van der Struys,4,2.21,15:07,
+2025,Warren van der Struys,5,4.26,08:03,
+2025,Warren van der Struys,6,9.85,09:00,
+2025,Warren van der Struys,7,44.15,05:30,
+2025,Warren van der Struys,8,20.56,15:00,
+2025,Warren van der Struys,9,17.01,05:36,
+2025,Warren van der Struys,10,17.04,08:00,
+2025,Wesley Trevor Lewis,1,10.15,06:15,
+2025,Wesley Trevor Lewis,2,9.91,06:03,
+2025,Wesley Trevor Lewis,3,10.12,05:53,
+2025,Wesley Trevor Lewis,4,10.09,06:20,
+2025,Wesley Trevor Lewis,5,10.13,05:53,
+2025,Wesley Trevor Lewis,6,10.17,06:06,
+2025,Wesley Trevor Lewis,7,10.23,06:13,
+2025,Wesley Trevor Lewis,8,10.42,06:11,
+2025,Wesley Trevor Lewis,9,10.27,06:25,
+2025,Wesley Trevor Lewis,10,10.59,06:18,
