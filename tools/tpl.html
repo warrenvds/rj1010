@@ -75,6 +75,7 @@ h3 { font-size: 17px; font-weight: 600; margin: 0; }
 .tbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
 .tbar input { font: inherit; padding: 6px 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); flex: 1 1 12rem; max-width: 22rem; min-width: 0; }
 .cnt { color: var(--muted); font-size: 13px; }
+@media (max-width: 560px) { #m-owe .opt { display: none; } }
 .scroll { overflow: auto; max-height: 36rem; -webkit-overflow-scrolling: touch; }
 table { border-collapse: separate; border-spacing: 0; width: 100%; font-size: 14px; }
 th { position: sticky; top: 0; background: var(--panel); z-index: 2; text-align: right; font-weight: 600; color: var(--muted); padding: 6px 8px; border-bottom: 2px solid var(--ink); white-space: nowrap; font-size: 13px; }
@@ -189,7 +190,7 @@ footer b { color: var(--gold); }
     <div class="podium" id="c-podium"></div>
     <div>
       <h2>Leaderboard</h2>
-      <p class="note">Daily km for everyone. Gold cells are the longest days. Badges: ★ ran every day so far, 💯 100 km, ↑ beat their 2024 total, new = first 10/10.</p>
+      <p class="note">Daily km for everyone. Gold cells are the longest days. Badges: ★ ran every day so far, 💯 100 km, ↑ beat last year’s total, new = first 10/10.</p>
       <div class="tbar"><input type="search" id="c-q" placeholder="Find a runner or crew" aria-label="Find a runner or crew"><span class="cnt" id="c-cnt"></span></div>
       <div class="scroll"><table id="c-table"></table></div>
     </div>
@@ -234,8 +235,8 @@ footer b { color: var(--gold); }
     </div>
     <div class="awards" id="a-classic"></div>
     <div>
-      <h2>Need the 2026 Strava data</h2>
-      <p class="note">These come back once runs are captured from the Strava club feed, which shows elevation, location and treadmill runs.</p>
+      <h2>Still to come</h2>
+      <p class="note">Awards still waiting on data (like the hosts’ attendance lists) or picked by the committee.</p>
       <div class="awards" id="a-soon"></div>
     </div>
     <div>
@@ -311,7 +312,13 @@ footer b { color: var(--gold); }
     <div class="stats" id="m-stats"></div>
     <div class="grid2">
       <div class="card"><h3>Funds raised each year</h3><div class="chart" id="m-hist"></div></div>
-      <div class="card"><h3>How to pay</h3><p>Retro Joes Athletics Club, FNB, account 63080189848, universal branch code. Use your name and surname as the reference. Payments open after Day 10.</p></div>
+      <div class="card"><h3>How to pay</h3><p>Retro Joes Athletics Club, FNB, account 63080189848, universal branch code. Use your name and surname as the reference. Payments open once results are final on Saturday 12 December; it can take a few days for a payment to show here.</p></div>
+    </div>
+    <div>
+      <h2>Who owes what</h2>
+      <p class="note" id="m-owe-note"></p>
+      <div class="tbar"><input type="search" id="m-q" placeholder="Find your name" aria-label="Find your name"><span class="cnt" id="m-cnt"></span></div>
+      <div class="scroll"><table id="m-owe"></table></div>
     </div>
     <div>
       <h2>The wager book</h2>
@@ -328,63 +335,88 @@ footer b { color: var(--gold); }
 
 <script>
 const DATA = __DATA__;
-const TARGET = 150000; // placeholder until the target is set
+const TARGET = DATA.target || 100000;
 const START = new Date((DATA.start || '2026-12-01') + 'T00:00:00');
 const DATES = d3.range(10).map(i => d3.timeFormat('%a %-d %b')(d3.timeDay.offset(START, i)));
 const fKm = v => d3.format(',.1f')(v), fR = v => 'R' + d3.format(',.0f')(v), fInt = d3.format(',');
 const $ = id => document.getElementById(id);
 const el = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === 'class') e.className = v; else if (k === 'style') e.style.cssText = v; else e.setAttribute(k, v); } kids.flat().forEach(k => k != null && e.append(k)); return e; };
-const surname = n => n.includes(' ') ? n.slice(n.indexOf(' ') + 1) : n;
-const info = Object.fromEntries(DATA.parts.map(p => [p.a, p]));
+const surname = n => { n = n.replace(/ \(\d+\)$/, ''); return n.includes(' ') ? n.slice(n.indexOf(' ') + 1) : n; };
+const HIST = __HIST__;
+const PRIOR = HIST.runs.filter(r => r[0] < DATA.year);
+const info = (() => {
+  const m = {};
+  for (const [y, a, d, k] of PRIOR) { const r = m[a] ||= { k24: 0, ys: new Set() }; if (y === DATA.year - 1) r.k24 += k; r.ys.add(y); }
+  for (const r of Object.values(m)) { r.new = false; if (!r.k24) r.k24 = null; }
+  return new Proxy(m, { get: (o, a) => o[a] || { k24: null, new: true } });
+})();
+const PREVYEAR = DATA.year - 1;
 // DATA.acts: [athlete, day, km, type, elevation_m|null, moving_s|null, elapsed_s|null]
 const isWalk = t => /walk|hike/i.test(t || '');
 let walksOn = true;
 try { walksOn = localStorage.getItem('rj1010-walks') !== 'off'; } catch (e) {}
 let ACTS = [], byRunner = {};
+const THROUGH = Math.max(1, Math.min(10, DATA.through ?? (d3.max(DATA.acts, r => r[1]) || 1)));
+const ALL = DATA.acts.filter(x => x[2] > 0 && x[1] >= 1 && x[1] <= THROUGH);
 function rebuild() {
-  ACTS = DATA.acts.filter(x => x[2] > 0 && (walksOn || !isWalk(x[3])));
+  ACTS = ALL.filter(x => walksOn || !isWalk(x[3]));
   byRunner = {};
   for (const n of new Set(DATA.acts.map(x => x[0]))) byRunner[n] = Array(10).fill(0);
   for (const [a, d, k] of ACTS) byRunner[a][d - 1] += k;
 }
 rebuild();
-const LATEST = Math.max(1, d3.max(DATA.acts, r => r[1]) || 1);
+const LATEST = THROUGH;
 const HAS_WALKS = DATA.acts.some(x => isWalk(x[3]));
 const fam = {};
 for (const n of Object.keys(byRunner)) (fam[surname(n).toLowerCase()] ||= []).push(n);
-const crewOf = n => { const f = fam[surname(n).toLowerCase()]; return f.length > 1 ? 'Team ' + surname(f[0]) : ''; };
+const CREWS = DATA.crews || {};
+const crewOf = n => { if (CREWS[n]) return CREWS[n]; const f = fam[surname(n).toLowerCase()]; return f && f.length > 1 ? 'Team ' + surname(f[0]) : ''; };
 
+function officialKm(N) { const m = {}; for (const [a, d, k] of ALL) if (d <= N) m[a] = (m[a] || 0) + k; return m; }
 function standings(N) {
+  const OFF = officialKm(N);
   const rows = Object.entries(byRunner).map(([a, d]) => {
     const days = d.slice(0, N), total = d3.sum(days), p = info[a] || {};
     const run = days.filter(x => x > 0).length;
     const b = [];
-    if (run === N) b.push('★'); if (total >= 100) b.push('💯'); if (p.k24 > 0 && total > p.k24) b.push('↑');
+    const off = OFF[a] || 0;
+    if (run === N) b.push('★'); if (off >= 100) b.push('💯'); if (p.k24 > 0 && total > p.k24) b.push('↑');
     const mv = ACTS.filter(x => x[0] === a && x[1] <= N && x[5] > 0);
     const pace = mv.length ? (s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`)(d3.sum(mv, x => x[5]) / d3.sum(mv, x => x[2])) : p.pace;
-    return { a, d: days, total, run, crew: crewOf(a), k24: p.k24, isNew: !!p.new, pace, badges: b.join(' ') };
+    return { a, d: days, total, off, run, crew: crewOf(a), k24: p.k24, isNew: !!p.new, pace, badges: b.join(' ') };
   }).filter(r => r.total > 0).sort((x, y) => y.total - x.total);
   rows.forEach((r, i) => r.rank = i && r.total === rows[i - 1].total ? rows[i - 1].rank : i + 1);
   return rows;
 }
 function totals(N, S) {
-  const km = d3.sum(S, r => r.total), wag = d3.sum(DATA.parts, p => p.w);
-  const r2 = N === 10 ? d3.sum(S, r => 2 * Math.max(0, 100 - r.total)) : 0;
-  const prev = DATA.cum.find(r => r[0] === 2024 && r[1] === N);
-  return { N, km, runners: S.length, onPace: S.filter(r => r.total >= 10 * N).length, every: S.filter(r => r.run === N).length,
-    fin: S.filter(r => r.total >= 100).length, r1: km, r2, wag, pledged: km + r2 + wag, chg: prev ? (km - prev[2]) / prev[2] : null };
+  const km = d3.sum(S, r => r.total), OFF = Object.values(officialKm(N)), offKm = d3.sum(OFF), wag = d3.sum(DATA.wagers, w => w.amount || 0);
+  const r2 = N === 10 ? d3.sum(OFF, k => 2 * Math.max(0, 100 - k)) : 0;
+  const prevKm = d3.sum(HIST.runs, r => r[0] === PREVYEAR && r[2] >= 1 && r[2] <= N ? r[3] : 0);
+  return { N, km, runners: S.length, onPace: S.filter(r => r.off >= 10 * N).length, every: S.filter(r => r.run === N).length,
+    fin: OFF.filter(k => k >= 100).length, r1: offKm, r2, wag, pledged: d3.sum(ledger(N), r => r.due), chg: prevKm ? (km - prevKm) / prevKm : null };
 }
 function crews(S) {
   return [...d3.group(S.filter(r => r.crew), r => r.crew)].map(([c, m]) => ({ c, n: m.length, total: d3.sum(m, r => r.total), avg: d3.sum(m, r => r.total) / m.length, top: m[0].a }))
     .sort((a, b) => b.avg - a.avg).map((r, i) => ({ ...r, rank: i + 1 }));
 }
 
+// money per person: official km (walks count), R2 only once Day 10 is in, wagers by payer, payments received
+const PAY = DATA.payments || {};
+function ledger(N) {
+  const OFF = officialKm(N), rows = new Map();
+  const get = a => rows.get(a) || (rows.set(a, { a, km: 0, r1: 0, r2: 0, wag: 0, due: 0, paid: 0 }), rows.get(a));
+  for (const [a, k] of Object.entries(OFF)) { const r = get(a); r.km = k; r.r1 = k; r.r2 = N === 10 ? 2 * Math.max(0, 100 - k) : 0; }
+  for (const w of DATA.wagers) if (w.payer && w.amount) get(w.payer).wag += w.amount;
+  for (const [a, v] of Object.entries(PAY)) get(a).paid += v;
+  for (const r of rows.values()) { r.r1 = Math.round(r.r1); r.r2 = Math.round(r.r2); r.due = r.r1 + r.r2 + r.wag; r.status = r.due <= 0 && r.paid > 0 ? 'Donation' : r.paid >= r.due - 0.5 ? 'Paid' : r.paid > 0 ? 'Part paid' : 'Outstanding'; }
+  return [...rows.values()].sort((x, y) => y.due - x.due || y.paid - x.paid);
+}
 function statStrip(box, t) {
   box.replaceChildren(
-    el('div', { class: 'stat' }, el('div', { class: 'n' }, fKm(t.km)), el('div', { class: 'l' }, 'km so far'),
-      t.chg == null ? null : el('div', { class: 's ' + (t.chg >= 0 ? 'up' : 'down') }, d3.format('+.0%')(t.chg) + ' vs 2024 at Day ' + t.N)),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, fKm(t.km)), el('div', { class: 'l' }, t.N === 10 ? 'km in total' : 'km so far'),
+      t.chg == null ? null : el('div', { class: 's ' + (t.chg >= 0 ? 'up' : 'down') }, d3.format('+.0%')(t.chg) + ' vs ' + PREVYEAR + ' at Day ' + t.N)),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fInt(t.runners)), el('div', { class: 'l' }, 'runners out')),
-    el('div', { class: 'stat' }, el('div', { class: 'n' }, fInt(t.onPace)), el('div', { class: 'l' }, 'on track for 100 km')),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, fInt(t.onPace)), el('div', { class: 'l' }, t.N === 10 ? 'reached 100 km' : 'on track for 100 km')),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fInt(t.every)), el('div', { class: 'l' }, 'ran every day')),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fR(t.pledged)), el('div', { class: 'l' }, 'pledged for the kids')));
 }
@@ -447,11 +479,17 @@ function cumChart(N) {
   const W = box.clientWidth || 500, H = 240, m = { t: 12, r: 92, b: 24, l: 44 };
   let c = 0;
   const now = d3.range(1, N + 1).map(d => { c += d3.sum(Object.values(byRunner), r => r[d - 1]); return [0, d, c]; });
-  const all = DATA.cum.concat(now), years = [...new Set(all.map(r => r[0]))];
+  const prior = [];
+  for (let yr = DATA.year - 5; yr < DATA.year; yr++) {
+    const per = d3.range(1, 11).map(d => d3.sum(HIST.runs, r => r[0] === yr && r[2] === d ? r[3] : 0));
+    if (d3.sum(per) === 0) continue;
+    let c2 = 0; per.forEach((k, i) => prior.push([yr, i + 1, c2 += k]));
+  }
+  const all = prior.concat(now), years = [...new Set(all.map(r => r[0]))];
   const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
   const x = d3.scaleLinear([1, 10], [m.l, W - m.r]), y = d3.scaleLinear([0, d3.max(all, r => r[2])], [H - m.b, m.t]).nice();
   axes(svg, x, y, W, H, m, d => 'D' + d, d3.format('~s'));
-  const col = yr => yr === 0 ? css('--gold') : yr === 2024 ? css('--ink') : css('--line');
+  const col = yr => yr === 0 ? css('--gold') : yr === PREVYEAR ? css('--ink') : css('--line');
   const labels = [];
   years.forEach(yr => {
     const s = all.filter(r => r[0] === yr).sort((a, b) => a[1] - b[1]);
@@ -460,7 +498,7 @@ function cumChart(N) {
   });
   const ends = labels.filter(l => l.yr).sort((a, b) => a.y - b.y);
   for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 13) ends[i].y = ends[i - 1].y + 13;
-  ends.forEach(l => svg.append('text').attr('x', l.x + 6).attr('y', l.y + 4).style('fill', l.yr === 2024 ? css('--ink') : null).text(l.t));
+  ends.forEach(l => svg.append('text').attr('x', l.x + 6).attr('y', l.y + 4).style('fill', l.yr === PREVYEAR ? css('--ink') : null).text(l.t));
   const n = labels.find(l => l.yr === 0);
   svg.append('circle').attr('cx', n.x).attr('cy', n.y).attr('r', 5).attr('fill', css('--gold')).attr('stroke', css('--ink'));
   svg.append('text').attr('x', n.x + 8).attr('y', n.y - 8).style('fill', css('--ink')).style('font-weight', 600).text(n.t);
@@ -486,10 +524,11 @@ function histChart(id = 'm-hist') {
   const box = $(id); box.replaceChildren();
   const W = box.clientWidth || 500, H = 220, m = { t: 12, r: 4, b: 24, l: 48 };
   const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
-  const x = d3.scaleBand(DATA.hist.map(h => h.year), [m.l, W - m.r]).padding(.28), y = d3.scaleLinear([0, d3.max(DATA.hist, h => h.funds)], [H - m.b, m.t]).nice();
+  const HH = HIST.history.map(h => ({ year: h.year, funds: h.funds, final: h.final, km: h.km, people: h.participants, top: h.top }));
+  const x = d3.scaleBand(HH.map(h => h.year), [m.l, W - m.r]).padding(.28), y = d3.scaleLinear([0, d3.max(HH, h => h.funds)], [H - m.b, m.t]).nice();
   axes(svg, x, y, W, H, m, d => d, v => 'R' + d3.format('~s')(v));
   const bw = Math.min(32, x.bandwidth());
-  svg.selectAll('rect').data(DATA.hist).join('rect').attr('x', h => x(h.year) + (x.bandwidth() - bw) / 2).attr('width', bw).attr('y', h => y(h.funds)).attr('height', h => y(0) - y(h.funds))
+  svg.selectAll('rect').data(HH).join('rect').attr('x', h => x(h.year) + (x.bandwidth() - bw) / 2).attr('width', bw).attr('y', h => y(h.funds)).attr('height', h => y(0) - y(h.funds))
     .attr('fill', h => h.final ? css('--gold') : 'transparent').attr('stroke', css('--ink'))
     .on('pointermove', (ev, h) => tip(box, [[String(h.year), null, 1], [fR(h.funds) + (h.final ? '' : ' (to be confirmed)')], [fInt(h.km) + ' km by ' + h.people + ' people']], ev)).on('pointerleave', () => untip(box));
 }
@@ -510,9 +549,9 @@ function drawAwards(N, S, T) {
   if (fast.length) box.append(awardList('The Olympians', fast.map(r => [r.a, r.pace + ' /km']), 'Fastest average pace, among those on track for 100 km.'));
   const ch = S.filter(r => r.k24 > 0).map(r => ({ ...r, c: (r.total - r.k24) / r.k24 })).sort((a, b) => b.c - a.c);
   if (ch.length) {
-    box.append(award('The Improver', ch[0].a, `${fKm(ch[0].k24)} → ${fKm(ch[0].total)} km`, 'Biggest rise on their 2024 total.'));
+    box.append(award('The Improver', ch[0].a, `${fKm(ch[0].k24)} → ${fKm(ch[0].total)} km`, 'Biggest rise on their ' + PREVYEAR + ' total.'));
     const f = ch[ch.length - 1];
-    box.append(award('The Fader', f.a, `${fKm(f.k24)} → ${fKm(f.total)} km`, 'Biggest drop from their 2024 total.'));
+    box.append(award('The Fader', f.a, `${fKm(f.k24)} → ${fKm(f.total)} km`, 'Biggest drop from their ' + PREVYEAR + ' total.'));
   }
   const runs = S.flatMap(r => r.d.map((k, i) => ({ a: r.a, k, i })).filter(x => x.k > 0));
   const lo = d3.least(runs, r => r.k), hi = d3.greatest(runs, r => r.k);
@@ -520,9 +559,8 @@ function drawAwards(N, S, T) {
   if (hi) box.append(award('The Goliath', hi.a, `${fKm(hi.k)} km on Day ${hi.i + 1}`, 'Longest single day.'));
   const miler = S.filter(r => r.total >= 161);
   box.append(award('The 100 Milers', miler.length ? miler.map(r => r.a).join(', ') : 'Nobody yet', miler.length + ' past 161 km', 'Everyone who has run 100 miles.'));
-  const due = S.map(r => ({ a: r.a, v: r.total + (N === 10 ? 2 * Math.max(0, 100 - r.total) : 0) + ((info[r.a] || {}).w || 0) })).concat(DATA.parts.filter(p => !byRunner[p.a]).map(p => ({ a: p.a, v: p.w })));
-  const phil = d3.greatest(due.filter(d => d.a !== 'Others'), d => d.v);
-  if (phil) box.append(award('The Philanthropist', phil.a, fR(phil.v) + ' pledged', 'Biggest contribution, km and wagers together.'));
+  const phil = d3.greatest(ledger(N).filter(d => d.a !== 'Others'), d => d.due);
+  if (phil) box.append(award('The Philanthropist', phil.a, fR(phil.due) + ' pledged', 'Biggest contribution, km and wagers together.'));
   box.append(award('The Purse', fR(T.pledged), 'pledged so far', 'Everything the club has pledged #ForTheKids.', 'gold'));
   const first = S.find(r => r.isNew);
   if (first) box.append(award('Top first-timer', first.a, fKm(first.total) + ' km', 'Most km by someone doing their first 10/10.'));
@@ -544,12 +582,16 @@ function drawAwards(N, S, T) {
     const hm = s => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.round(s % 3600 / 60)}m` : `${Math.round(s / 60)} min`;
     box.append(award('The Coffee Stop', cs[0], hm(cs[1].s) + ' stopped', 'Most time standing still mid-run: elapsed time minus moving time. Robots, chats and coffee all count.'));
   }
+  const ATT = DATA.attendance || {}, cnt = {};
+  for (const [d, names] of Object.entries(ATT)) if (+d <= N) for (const n of names) cnt[n] = (cnt[n] || 0) + 1;
+  const best = d3.max(Object.values(cnt)) || 0, groupies = best > 0;
+  if (groupies) { const g = Object.keys(cnt).filter(n => cnt[n] === best); box.append(award('The Groupies', g.join(', '), `${best} hosted run${best === 1 ? '' : 's'}`, 'Most hosted runs attended, from the hosts’ attendance lists.')); }
   $('a-soon').replaceChildren(...[
     hasElev ? null : award('The Goat', null, null, 'Most elevation gain.', 'soon'),
     hasElev ? null : award('The Flattie', null, null, 'Flattest running, lowest average gradient.', 'soon'),
     stops.length ? null : award('The Coffee Stop', null, null, 'Most time standing still mid-run, from elapsed minus moving time.', 'soon'),
     mill.length ? null : award('The Hamster', null, null, 'Most km on a treadmill.', 'soon'),
-    award('The Groupies', null, null, 'Most hosted runs attended, from the hosts’ attendance lists.', 'soon'),
+    groupies ? null : award('The Groupies', null, null, 'Most hosted runs attended, from the hosts’ attendance lists.', 'soon'),
     award('Committee’s choice', null, null, 'The Mampara, The Flamboyant and friends, announced on Day 10.', 'soon')].filter(Boolean));
 
   // midway
@@ -566,24 +608,27 @@ function drawAwards(N, S, T) {
     if (steady5) mid.append(award('Steady Eddie', steady5.a, d3.format('.2f')(d3.deviation(steady5.d)) + ' km spread', '10 km or more every day.'));
   }
   // badges
-  const bl = [['★ Every day', 'Ran on every day so far.', S.filter(r => r.run === N)], ['💯 Century', 'Reached 100 km.', S.filter(r => r.total >= 100)], ['200 club', 'Reached 200 km.', S.filter(r => r.total >= 200)], ['↑ Beat 2024', 'Already past their 2024 total.', S.filter(r => r.k24 > 0 && r.total > r.k24)], ['First-timers', 'Doing their first 10/10.', S.filter(r => r.isNew)]];
+  const bl = [['★ Every day', N === 10 ? 'Ran every day.' : 'Ran on every day so far.', S.filter(r => r.run === N)], ['💯 Century', 'Reached 100 km, walks included.', S.filter(r => r.off >= 100)], ['200 club', 'Reached 200 km.', S.filter(r => r.off >= 200)], ['↑ Beat ' + PREVYEAR, 'Past their ' + PREVYEAR + ' total.', S.filter(r => r.k24 > 0 && r.total > r.k24)], ['First-timers', 'Doing their first 10/10.', S.filter(r => r.isNew)]];
   $('a-badges').replaceChildren(...bl.map(([t, d, w]) => award(t, String(w.length), w.length ? w.slice(0, 3).map(r => r.a).join(', ') + (w.length > 3 ? ' and more' : '') : 'Nobody yet', d)));
   // all-time
   const at = allTime(S).slice(0, 15);
   $('a-alltime').replaceChildren(el('thead', {}, el('tr', {}, el('th', {}, '#'), el('th', { class: 'l' }, 'Runner'), el('th', {}, 'Km'))), el('tbody', {}, at.map((r, i) => el('tr', {}, el('td', {}, String(i + 1)), el('td', { class: 'name' }, r.a, paw(r.a)), el('td', { class: 'tot' }, fInt(Math.round(r.k)))))));
-  $('a-champs').replaceChildren(el('thead', {}, el('tr', {}, el('th', { class: 'l' }, 'Year'), el('th', { class: 'l' }, 'Champion'), el('th', {}, 'Runners'), el('th', {}, 'Club km'))), el('tbody', {}, DATA.hist.slice().reverse().map(h => el('tr', {}, el('td', { class: 'l' }, String(h.year)), el('td', { class: 'name' }, h.top), el('td', {}, String(h.people)), el('td', {}, fInt(h.km))))));
+  $('a-champs').replaceChildren(el('thead', {}, el('tr', {}, el('th', { class: 'l' }, 'Year'), el('th', { class: 'l' }, 'Champion'), el('th', {}, 'Runners'), el('th', {}, 'Club km'))), el('tbody', {}, HIST.history.map(h => ({ year: h.year, funds: h.funds, final: h.final, km: h.km, people: h.participants, top: h.top })).reverse().map(h => el('tr', {}, el('td', { class: 'l' }, String(h.year)), el('td', { class: 'name' }, h.top), el('td', {}, String(h.people)), el('td', {}, fInt(h.km))))));
 }
 
 // ---------- recap ----------
 function recap(N, S, T, C) {
-  const next = DATA.hosts.find(h => +h.day === N + 1);
-  const L = [`*RJ 10/10 Challenge 2026: Day ${N} wrap* (${DATES[N - 1]})`, '',
-    `${T.runners} runners, ${fKm(T.km)} km so far. ${T.onPace} are on track for 100 km and ${T.every} haven’t missed a day.`, '',
+  const next = DATA.hosts.find(h => +h.day === N + 2);
+  const L = [`*RJ 10/10 Challenge ${DATA.year}: Day ${N} results* (${DATES[N - 1]})`, '',
+    N === 10 ? `${T.runners} runners, ${fKm(T.km)} km in total. ${T.fin} reached 100 km and ${T.every} ran every day.` : `${T.runners} runners, ${fKm(T.km)} km so far. ${T.onPace} are on track for 100 km and ${T.every} haven’t missed a day.`, '',
     '*Leaders*', ...S.slice(0, 3).map((r, i) => `${i + 1}. ${r.a}, ${fKm(r.total)} km`), ''];
   if (C[0]) L.push(`*Top crew:* ${C[0].c}, ${fKm(C[0].avg)} km per runner`);
   L.push(`*Pledged so far:* ${fR(T.pledged)} of our ${fR(TARGET)} target #ForTheKids`, '');
-  L.push(next ? `*Tomorrow:* Day ${N + 1} with ${next.host}, ${next.time} start. Meeting point to follow.` : '*That’s a wrap!* Final results and payment details to follow.');
-  L.push('Name your run "RJ 10/10 Challenge - Day n".', '', 'Full leaderboard: ' + location.href.split('#')[0]);
+  if (N <= 8) L.push(`*Tomorrow:* Day ${N + 2} with ${next ? next.host : 'our host'}, ${next ? next.time : ''} start. Details on the Hosted runs tab.`);
+  else if (N === 9) L.push('*Last day today!* Get your final km in.');
+  else L.push(DATA.final ? '*Final results are in.* See what you owe on the Money tab; payment details below.' : '*That’s a wrap!* Late uploads count until 07:00 on Saturday 12 December. Then the results are final and payment details go out.');
+  if (N < 10) L.push('Name your run "RJ 10/10 Challenge - Day n".');
+  L.push('', 'Full leaderboard: ' + location.href.split('#')[0]);
   return L.join('\n');
 }
 
@@ -591,8 +636,8 @@ function recap(N, S, T, C) {
 let dayPicked = LATEST;
 function drawCurrent() {
   const N = LATEST, S = standings(N), T = totals(N, S);
-  $('c-title').textContent = `Standings after Day ${N}`;
-  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(T.onPace)), ' are on track for 100 km.');
+  $('c-title').textContent = DATA.final ? 'Final results' : `Standings after Day ${N}`;
+  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(N === 10 ? T.fin : T.onPace)), N === 10 ? ' reached 100 km.' : ' are on track for 100 km.');
   statStrip($('c-stats'), T);
   $('c-podium').replaceChildren(...S.slice(0, 3).map((r, i) => el('div', { class: 'pod p' + (i + 1) }, el('div', { class: 'pos' }, ['1st', '2nd', '3rd'][i]), el('div', { class: 'nm' }, r.a), el('div', { class: 'km' }, fKm(r.total) + ' km'))));
   leaderboard('c', S, N);
@@ -614,24 +659,43 @@ function drawHosts() {
     el('div', { class: 'bd' }, el('div', { class: 'who' }, h.host),
       el('dl', {}, el('dt', {}, 'Start'), el('dd', {}, h.time), el('dt', {}, 'Meet'), el('dd', {}, h.meeting_point === 'TBC' ? 'To be confirmed' : h.meeting_point),
         el('dt', {}, 'Route'), el('dd', {}, h.route === 'TBC' ? 'To be confirmed' : h.route), el('dt', {}, 'Treats'), el('dd', {}, h.treats === 'TBC' ? 'A surprise' : h.treats),
-        el('dt', {}, '2025'), el('dd', {}, h.turnout_2025 + ' ran on Day ' + h.day))))));
+        (DATA.attendance || {})[h.day] ? [el('dt', {}, 'Turnout'), el('dd', {}, DATA.attendance[h.day].length + ' ran')] : null,
+        el('dt', {}, String(PREVYEAR)), el('dd', {}, h.turnout_2025 + ' ran on Day ' + h.day))))));
 }
 function drawMoney() {
   const S = standings(LATEST), T = totals(LATEST, S);
   $('m-pledged').textContent = fR(T.pledged);
   requestAnimationFrame(() => $('m-fill').style.width = Math.min(100, T.pledged / TARGET * 100) + '%');
   $('m-pct').textContent = d3.format('.0%')(T.pledged / TARGET) + ' of the target';
-  $('m-target').textContent = 'Target ' + fR(TARGET) + ' (to be confirmed)';
+  const L = ledger(LATEST), recv = d3.sum(L, r => r.paid);
+  $('m-target').textContent = 'Target ' + fR(TARGET);
   $('m-stats').replaceChildren(
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, fR(recv)), el('div', { class: 'l' }, 'received so far')),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fR(T.r1)), el('div', { class: 'l' }, 'R1 per km run')),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fR(T.r2)), el('div', { class: 'l' }, 'R2 per km short of 100, added after Day 10')),
     el('div', { class: 'stat' }, el('div', { class: 'n' }, fR(T.wag)), el('div', { class: 'l' }, 'wagers booked')));
   histChart();
+  owesTable();
   $('m-wagers').replaceChildren(el('thead', {}, el('tr', {}, el('th', { class: 'l' }, '#'), el('th', { class: 'l' }, 'Wager'), el('th', { class: 'l' }, 'Paid by'), el('th', {}, 'Amount'))),
     el('tbody', {}, DATA.wagers.map(w => el('tr', {}, el('td', { class: 'l' }, w.no), el('td', { class: 'l wrapcell' }, w.wager), el('td', { class: 'l' }, w.payer), el('td', { class: 'tot' }, fR(w.amount))))));
 }
+const oweSort = { k: 'due', dir: -1 };
+function owesTable() {
+  const N = LATEST, L = ledger(N), q = $('m-q').value.trim().toLowerCase(), s = oweSort;
+  const done = N === 10;
+  $('m-owe-note').textContent = (done ? (DATA.final ? 'Final amounts.' : 'Day 10 is in. Amounts become final at 07:00 on Saturday 12 December, after late uploads.') : `Amounts so far, after Day ${N}. R2 per km short of 100 is added once Day 10 is in.`) + ' Walks count. Paid amounts are updated as payments come in.';
+  const list = L.filter(r => !q || r.a.toLowerCase().includes(q)).sort((x, y) => { const a = x[s.k], b = y[s.k]; return (typeof a === 'number' ? a - b : String(a).localeCompare(String(b))) * s.dir; });
+  $('m-cnt').textContent = `${list.length} of ${L.length} people`;
+  const cols = [['a', 'Name', 'l'], ['km', 'Km'], ['r1', 'R1/km', 'opt'], ['r2', 'R2 short', 'opt'], ['wag', 'Wagers', 'opt'], ['due', 'Total due'], ['paid', 'Paid'], ['status', '', 'l']];
+  const head = el('tr', {}, cols.map(([k, lab, cls]) => { const h = el('th', { class: cls || '', 'aria-sort': s.k === k ? (s.dir > 0 ? 'ascending' : 'descending') : 'none' }); const b = el('button', { type: 'button' }, lab || 'Status'); b.onclick = () => { s.dir = s.k === k ? -s.dir : (k === 'a' || k === 'status' ? 1 : -1); s.k = k; owesTable(); }; h.append(b); return h; }));
+  const st = { Paid: 'color: var(--ok); font-weight: 600', 'Part paid': 'color: var(--gold-text); font-weight: 600', Outstanding: 'color: var(--muted)', Donation: 'color: var(--ok)' };
+  $('m-owe').replaceChildren(el('thead', {}, head), el('tbody', {}, list.map(r => el('tr', {},
+    el('td', { class: 'name' }, r.a, paw(r.a)), el('td', {}, r.km ? fKm(r.km) : ''), el('td', { class: 'opt' }, r.r1 ? fR(r.r1) : ''), el('td', { class: 'opt' }, r.r2 ? fR(r.r2) : ''), el('td', { class: 'opt' }, r.wag ? fR(r.wag) : ''),
+    el('td', { class: 'tot' }, fR(r.due)), el('td', {}, r.paid ? fR(r.paid) : ''), el('td', { class: 'l', style: st[r.status] }, r.status === 'Paid' ? 'Paid ✓' : r.status)))));
+}
+$('m-q').addEventListener('input', owesTable);
+
 // ---------- previous challenges ----------
-const HIST = __HIST__;
 const PETS = new Set(HIST.pets);
 const paw = a => PETS.has(a) ? el('span', { class: 'paw', title: 'Four-legged runner' }, '🐾') : null;
 const HYEARS = HIST.history.map(h => h.year).sort((a, b) => b - a);
@@ -737,7 +801,7 @@ function show() {
   const name = pages[hn] ? hn : 'current';
   document.querySelectorAll('section.page').forEach(s => s.hidden = s.id !== 'p-' + name);
   document.querySelectorAll('nav.tabs a').forEach(a => { if (a.dataset.tab === name) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
-  document.querySelector('.filterbar').hidden = name === 'past';
+  document.querySelector('.filterbar').hidden = name === 'past' || name === 'money';
   pages[name]();
 }
 // setup
@@ -749,7 +813,7 @@ function setWalks(on) {
   const b = $('walks'); b.setAttribute('aria-checked', String(on));
   $('walks-lbl').textContent = on ? 'Walks counted' : 'Walks left out';
   const nw = DATA.acts.filter(x => isWalk(x[3]) && x[2] > 0);
-  $('walks-note').textContent = !HAS_WALKS ? 'No walks logged yet.' : on ? `Includes ${nw.length} walk${nw.length === 1 ? '' : 's'}, ${fKm(d3.sum(nw, x => x[2]))} km. Tap to show running only.` : `Running only: runs, trail runs and treadmill. ${fKm(d3.sum(nw, x => x[2]))} km of walks hidden.`;
+  $('walks-note').textContent = !HAS_WALKS ? 'No walks logged yet.' : on ? `Includes ${nw.length} walk${nw.length === 1 ? '' : 's'}, ${fKm(d3.sum(nw, x => x[2]))} km. Tap to show running only.` : `Running only: ${fKm(d3.sum(nw, x => x[2]))} km of walks hidden from this view. Walks still count for 100 km and the money.`;
   rebuild(); show();
 }
 $('walks').onclick = () => setWalks(!walksOn);
