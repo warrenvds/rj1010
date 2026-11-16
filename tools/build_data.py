@@ -149,7 +149,8 @@ if A.src != '2025':
     if late: report.append(f"  {len(late)} activities from day {D['through'] + 1}+ held back until that day is complete")
 D['target'] = A.target
 D.pop('runs', None)
-D['updated'] = dt.datetime.now().strftime('%Y-%m-%d %H:%M')
+from zoneinfo import ZoneInfo
+D['updated'] = dt.datetime.now(ZoneInfo('Africa/Johannesburg')).strftime('%Y-%m-%dT%H:%M:%S')
 json.dump(D, open(A.out, 'w'), separators=(',', ':'), ensure_ascii=False)
 print(f"{A.out}: {len(D['acts'])} activities, {len({a[0] for a in D['acts']})} people, through day {D.get('through')}, final={D.get('final')}")
 print('\n'.join(report) or 'nothing to flag')
