@@ -60,6 +60,9 @@ if A.src == '2025':
              note='Preview: these are the 2025 results replayed so you can see how the 2026 page will work. '
                   'Live 2026 results start on the morning of Wednesday 2 December, after Day 1.')
     side = A.side or os.path.join(HERE, '..', 'data', '2025')
+    hs26 = os.path.join(HERE, '..', 'data', '2026', 'hosts.csv')
+    if os.path.exists(hs26):
+        with open(hs26, newline='', encoding='utf-8-sig') as fh: D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else (v or '') for k, v in r.items()} for r in csv.DictReader(fh)]
 else:
     import openpyxl
     year = start.year
@@ -124,6 +127,8 @@ if A.src != '2025' or os.path.isdir(side):
             n = tidy(r.get('name')); v = num(r.get('amount'))
             if n.lower().startswith('other') or n.lower().startswith('anon'): n = 'Others'
             if n and v: D['payments'][n] = D['payments'].get(n, 0) + v
+    hs = read('hosts.csv')
+    if hs: D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else v for k, v in r.items()} for r in hs]
     D['crews'] = {tidy(r['name']): r['crew'] for r in read('crews.csv') if r.get('name') and r.get('crew')}
     att = defaultdict(list)
     for r in read('attendance.csv'):

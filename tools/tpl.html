@@ -678,8 +678,8 @@ function drawHosts() {
   $('h-list').replaceChildren(...DATA.hosts.map(h => el('div', { class: 'host' + (h.weekday === 'Sat' || h.weekday === 'Sun' ? ' weekend' : '') },
     el('div', { class: 'hd' }, el('span', {}, 'Day ' + h.day), el('span', {}, DATES[h.day - 1])),
     el('div', { class: 'bd' }, el('div', { class: 'who' }, h.host),
-      el('dl', {}, el('dt', {}, 'Start'), el('dd', {}, h.time), el('dt', {}, 'Meet'), el('dd', {}, h.meeting_point === 'TBC' ? 'To be confirmed' : h.meeting_point),
-        el('dt', {}, 'Route'), el('dd', {}, h.route === 'TBC' ? 'To be confirmed' : h.route), el('dt', {}, 'Treats'), el('dd', {}, h.treats === 'TBC' ? 'A surprise' : h.treats),
+      el('dl', {}, el('dt', {}, 'Start'), el('dd', {}, h.time), el('dt', {}, 'Meet'), el('dd', {}, h.meeting_point === 'TBC' ? 'To be confirmed' : h.meeting_url ? el('a', { href: h.meeting_url, target: '_blank', rel: 'noopener' }, h.meeting_point) : h.meeting_point),
+        el('dt', {}, 'Route'), el('dd', {}, h.route === 'TBC' ? 'To be confirmed' : h.route_url ? el('a', { href: h.route_url, target: '_blank', rel: 'noopener' }, h.route) : h.route), el('dt', {}, 'Treats'), el('dd', {}, h.treats === 'TBC' ? 'A surprise' : h.treats),
         (DATA.attendance || {})[h.day] ? [el('dt', {}, 'Turnout'), el('dd', {}, DATA.attendance[h.day].length + ' ran')] : null,
         el('dt', {}, 'Last year'), el('dd', {}, h.turnout_2025 + ' ran on Day ' + h.day)),
       el('div', { class: 'cal' }, (() => { const b = el('button', { type: 'button' }, 'Add to calendar'); b.onclick = () => icsDownload([h], `rj1010-day${h.day}.ics`); return b; })(),
@@ -696,7 +696,7 @@ function runTimes(h) {
 const tbc = v => !v || v === 'TBC';
 const runTitle = h => `RJ 10/10 Day ${h.day}: run with ${h.host}`;
 const runPlace = h => tbc(h.meeting_point) ? 'Meeting point to be confirmed' : h.meeting_point;
-const runNotes = h => [`Hosted by ${h.host}. Starts ${h.time}; arrive 10 minutes early.`, tbc(h.route) ? '' : 'Route: ' + h.route, tbc(h.treats) ? '' : 'Treats: ' + h.treats,
+const runNotes = h => [`Hosted by ${h.host}. Starts ${h.time}; arrive 10 minutes early.`, tbc(h.meeting_point) || !h.meeting_url ? '' : 'Map: ' + h.meeting_url, tbc(h.route) ? '' : 'Route: ' + (h.route_url || h.route), tbc(h.treats) ? '' : 'Treats: ' + h.treats,
   'Name your run "RJ 10/10 Challenge - Day ' + h.day + '".', 'Details may change; check the dashboard: ' + location.href.split('#')[0] + '#hosts'].filter(Boolean).join('\n');
 const icsText = s => String(s).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1');
 function icsDownload(hosts, file) {
