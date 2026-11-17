@@ -37,6 +37,10 @@ header.top { background: var(--head); color: var(--head-ink); }
 .bar { background: var(--gold); color: #000; }
 .bar .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-top: 7px; padding-bottom: 7px; font-weight: 500; font-size: 15px; }
 .preview { font-size: 13px; color: var(--muted); padding: 10px 0 0; }
+.preview.pv { font-size: 16px; color: var(--ink); border: 2px solid var(--gold); border-left-width: 8px; padding: 14px 16px; margin-top: 16px; display: grid; gap: 8px; }
+.pv .cd { font-family: "Saira Condensed", "Arial Narrow", sans-serif; font-weight: 800; font-size: 28px; text-transform: uppercase; line-height: 1.05; }
+.pv .cd b { color: var(--gold-text); } .pv .row { display: flex; gap: 6px; flex-wrap: wrap; } .pv .row a { text-decoration: none; margin: 0; }
+@media (max-width: 560px) { .preview.pv { font-size: 14px; padding: 10px 12px; gap: 6px; margin-top: 12px; } .pv .cd { font-size: 22px; } .pv .row a { font-size: 13px; padding: 5px 9px; } }
 
 nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 2px solid var(--ink); }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
@@ -837,8 +841,8 @@ async function shareStatus(a, out) {
 let dayPicked = LATEST;
 function drawCurrent() {
   const N = LATEST, S = standings(N), T = totals(N, S);
-  $('c-title').textContent = DATA.final ? 'Final results' : `Standings after Day ${N}`;
-  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(N === 10 ? T.fin : T.onPace)), N === 10 ? ' reached 100 km.' : T.onPace === 1 ? ' is on track for 100 km.' : ' are on track for 100 km.');
+  $('c-title').textContent = DATA.final ? (DATA.preview ? `${DATA.year} final results` : 'Final results') : `Standings after Day ${N}`;
+  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), DATA.final ? ' runners covered ' : ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(N === 10 ? T.fin : T.onPace)), N === 10 ? ' reached 100 km.' : T.onPace === 1 ? ' is on track for 100 km.' : ' are on track for 100 km.');
   statStrip($('c-stats'), T);
   $('c-podium').replaceChildren(...S.slice(0, 3).map((r, i) => el('div', { class: 'pod p' + (i + 1) }, el('div', { class: 'pos' }, ['1st', '2nd', '3rd'][i]), el('div', { class: 'nm' }, rn(r.a)), el('div', { class: 'km' }, fKm(r.total) + ' km'))));
   leaderboard('c', S, N);
@@ -1108,7 +1112,17 @@ function show() {
 }
 // setup
 { const w = document.querySelector('nav.tabs .wrap'), f = () => w.classList.toggle('end', w.scrollLeft + w.clientWidth >= w.scrollWidth - 4); w.addEventListener('scroll', f, { passive: true }); addEventListener('resize', f); requestAnimationFrame(f); }
-$('preview').textContent = DATA.note || '';
+if (DATA.preview) {
+  // landing page before the challenge: last year's results plus a countdown
+  const sast = new Date(Date.now() + 2 * 3600e3), today = Date.UTC(sast.getUTCFullYear(), sast.getUTCMonth(), sast.getUTCDate());
+  const [sy, sm, sd] = DATA.start.split('-').map(Number), days = Math.round((Date.UTC(sy, sm - 1, sd) - today) / 864e5), nxt = sy;
+  const cd = days > 1 ? [el('b', {}, `${days} days`), ` to the ${nxt} challenge`] : days === 1 ? [`The ${nxt} challenge starts `, el('b', {}, 'tomorrow')] : [`The ${nxt} challenge `, el('b', {}, 'has started')];
+  const link = (h, txt, ext) => el('a', ext ? { class: 'btn', href: h, target: '_blank', rel: 'noopener' } : { class: 'btn', href: h }, txt);
+  const p = $('preview'); p.classList.add('pv');
+  p.replaceChildren(el('div', { class: 'cd' }, ...cd),
+    el('div', {}, `Below: the ${DATA.year} final results. Live ${nxt} results start Wednesday 2 December.`),
+    el('div', { class: 'row' }, link('#hosts', 'Hosted runs'), link('https://strava.app.link/mWtqvm0wUOb', 'Join on Strava', true), link('#kids', 'Charities')));
+} else $('preview').textContent = DATA.note || '';
 $('window').textContent = DATA.window || 'Tuesday 1 to Thursday 10 December';
 function setWalks(on) {
   walksOn = on;
@@ -1116,6 +1130,7 @@ function setWalks(on) {
   const b = $('walks'); b.setAttribute('aria-checked', String(on));
   $('walks-lbl').textContent = on ? 'Walks counted' : 'Walks left out';
   const nw = DATA.acts.filter(x => isWalk(x[3]) && x[2] > 0);
+  document.querySelector('.filterbar').style.display = HAS_WALKS ? '' : 'none';
   $('walks-note').textContent = !HAS_WALKS ? 'No walks logged yet.' : on ? `Includes ${nw.length} walk${nw.length === 1 ? '' : 's'}, ${fKm(d3.sum(nw, x => x[2]))} km. Tap to show running only.` : `Running only: ${fKm(d3.sum(nw, x => x[2]))} km of walks hidden from this view. Walks still count for 100 km and the money.`;
   rebuild(); show();
 }

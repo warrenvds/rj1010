@@ -57,7 +57,7 @@ if A.src == '2025':
     for r in csv.DictReader(open(os.path.join(HERE, 'participants_2025.csv'))) if os.path.exists(os.path.join(HERE, 'participants_2025.csv')) else []:
         if num(r.get('paid')): payments['Others' if r['athlete'].lower().startswith('other') else r['athlete']] = num(r['paid'])
     D = dict(base, acts=acts, year=2025, start='2026-12-01', window='Tuesday 1 to Thursday 10 December',
-             through=10, final=True, wagers=wagers, payments=payments, crews={}, attendance={},
+             through=10, final=True, preview=True, wagers=wagers, payments=payments, crews={}, attendance={},
              note='Preview: these are the 2025 results replayed so you can see how the 2026 page will work. '
                   'Live 2026 results start on the morning of Wednesday 2 December, after Day 1.')
     side = A.side or os.path.join(HERE, '..', 'data', '2025')

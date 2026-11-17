@@ -32,7 +32,7 @@ const issues = [], note = (...a) => issues.push(a.join(' '));
     const first = await p.$eval('#c-table tbody tr td.name .rn', e => e.textContent);
     await p.fill('#c-q', first.split(' ')[0]); await p.waitForTimeout(150); console.log(label, 'search', await p.textContent('#c-cnt'));
     await p.fill('#c-q', ''); await p.click('#c-table thead th:nth-child(2) button'); await p.click('#c-table thead th:nth-child(2) button');
-    await p.click('#walks'); await p.waitForTimeout(200); console.log(label, 'walk switch', await p.textContent('#walks-lbl'), '|', await p.textContent('#walks-note')); await p.click('#walks');
+    if (await p.isVisible('#walks')) { await p.click('#walks'); await p.waitForTimeout(200); console.log(label, 'walk switch', await p.textContent('#walks-lbl'), '|', await p.textContent('#walks-note')); await p.click('#walks'); } else console.log(label, 'walk switch hidden (no walks)');
     console.log(label, 'goals:', (await p.textContent('#g-note')).slice(0, 160)); console.log(label, 'records:', (await p.textContent('#r-note')).slice(0, 160));
     // profile + status picture
     await p.click(`#c-table [data-runner="${first}"]`); await p.waitForTimeout(300);
