@@ -25,6 +25,8 @@ Add `--final` from 07:00 on Saturday 12 December. Before 2 December it refuses t
 | `payments.csv` | name, amount, date, note | Warren forwards who paid; one row per payment, repeats add up. Use `Others` for donations not linked to a runner |
 | `crews.csv` | name, crew | Runners who team up; everyone else is in a surname crew |
 | `attendance.csv` | day, name | Hosts' lists of who came to each hosted run |
+| `extras.csv` | name, kind, owner, day, km | Kids (`kid`) and pets (`pet`) without Strava, one row per day; their R1/km goes on the owner's bill, no R2 |
+| `hosts.csv` | day, date, weekday, time, host, meeting_point, meeting_url, route, route_url, treats, turnout_2025 | Hosted-run details as hosts send them |
 
 Names must match the Strava name. Words typed in capitals are tidied automatically.
 

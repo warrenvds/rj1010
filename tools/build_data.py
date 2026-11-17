@@ -10,6 +10,7 @@
                  payments.csv    name,amount[,date,note] (one row per payment; repeats add up)
                  crews.csv       name,crew               (overrides the surname crews)
                  attendance.csv  day,name                (hosted-run attendance from the hosts)
+                 extras.csv      name,kind,owner,day,km  (kids and pets without Strava; kind = kid or pet)
 Prints a report of anything skipped or unmatched so it can be checked before publishing.
 """
 import sys, os, csv, json, re, argparse, datetime as dt
@@ -129,6 +130,13 @@ if A.src != '2025' or os.path.isdir(side):
             if n and v: D['payments'][n] = D['payments'].get(n, 0) + v
     hs = read('hosts.csv')
     if hs: D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else v for k, v in r.items()} for r in hs]
+    # kids and pets have no Strava: one row per day they ran, paired with the parent or owner
+    D['extras'] = {}
+    for r in read('extras.csv'):
+        n, kind, day, km = tidy(r.get('name')), (r.get('kind') or '').lower(), r.get('day', ''), num(r.get('km'))
+        if not n or kind not in ('kid', 'pet') or not day.isdigit() or not km: report.append(f"  extras: skipped row {r}"); continue
+        D['extras'][n] = {'kind': kind, 'owner': tidy(r.get('owner'))}
+        D['acts'].append([n, int(day), round(km, 2), 'Run', None, None, None])
     D['crews'] = {tidy(r['name']): r['crew'] for r in read('crews.csv') if r.get('name') and r.get('crew')}
     att = defaultdict(list)
     for r in read('attendance.csv'):
@@ -137,6 +145,8 @@ if A.src != '2025' or os.path.isdir(side):
 for w in D['wagers']: check(w['payer'], 'wager payer')
 for n in D.get('payments', {}): check(n, 'payment')
 for n in D.get('crews', {}): check(n, 'crew')
+for n, v in D.get('extras', {}).items():
+    if v['owner']: check(v['owner'], f'owner of {n}')
 for d, v in D.get('attendance', {}).items():
     for n in v: check(n, f'attendance day {d}')
 
