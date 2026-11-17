@@ -21,7 +21,7 @@ check('owed total (sum of table)',due,exp.pledged); check('paid total (sum of ta
 check('pledged headline',R(T('m-pledged')),exp.pledged);
 check('received stat',R(stats.match(/R[\d,]+(?=received)/)[0]),exp.received);
 check('people in current table',d.querySelectorAll('#c-table tbody tr').length,exp.runners);
-const lead=T('c-lead'); check('km in lead',R(lead.match(/([\d,]+\.\d) km/)[1]),exp.km); check(exp.N===10?'reached 100 in lead':'on track in lead',R(lead.match(/(\d+) (are on track|reached)/)[1]),exp.N===10?exp.fin:exp.onpace);
+const lead=T('c-lead'); check('km in lead',R(lead.match(/([\d,]+\.\d) km/)[1]),exp.km); check(exp.N===10?'reached 100 in lead':'on track in lead',R(lead.match(/(\d+) (are on track|is on track|reached)/)[1]),exp.N===10?exp.fin:exp.onpace);
 console.log('  status mix:',JSON.stringify(rows.reduce((a,r)=>(a[r[7]]=(a[r[7]]||0)+1,a),{})),'| rows',rows.length);
 console.log('  groupies:',[...d.querySelectorAll('#a-classic .award')].filter(e=>/Groupies/.test(e.textContent)).map(e=>e.textContent).join(''));
 console.log('  crews:',T('c-crews').slice(0,140));

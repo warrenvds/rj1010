@@ -701,7 +701,7 @@ function drawAwards(N, S, T) {
 function recap(N, S, T, C) {
   const next = DATA.hosts.find(h => +h.day === N + 2);
   const L = [`*RJ 10/10 Challenge ${DATA.year}: Day ${N} results* (${DATES[N - 1]})`, '',
-    N === 10 ? `${T.runners} runners, ${fKm(T.km)} km in total. ${T.fin} reached 100 km and ${T.every} ran every day.` : `${T.runners} runners, ${fKm(T.km)} km so far. ${T.onPace} are on track for 100 km and ${T.every} haven’t missed a day.`, '',
+    N === 10 ? `${T.runners} runners, ${fKm(T.km)} km in total. ${T.fin} reached 100 km and ${T.every} ran every day.` : `${T.runners} runners, ${fKm(T.km)} km so far. ${T.onPace} ${T.onPace === 1 ? 'is' : 'are'} on track for 100 km and ${T.every} ${T.every === 1 ? 'hasn’t' : 'haven’t'} missed a day.`, '',
     '*Leaders*', ...S.slice(0, 3).map((r, i) => `${i + 1}. ${r.a}, ${fKm(r.total)} km`), ''];
   if (C[0]) L.push(`*Top crew:* ${C[0].c}, ${fKm(C[0].avg)} km per runner`);
   const DT = dayTotals(), R = REC[N], Rn = REC[N + 1];
@@ -838,7 +838,7 @@ let dayPicked = LATEST;
 function drawCurrent() {
   const N = LATEST, S = standings(N), T = totals(N, S);
   $('c-title').textContent = DATA.final ? 'Final results' : `Standings after Day ${N}`;
-  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(N === 10 ? T.fin : T.onPace)), N === 10 ? ' reached 100 km.' : ' are on track for 100 km.');
+  $('c-lead').replaceChildren(`${DATES[N - 1]}: `, el('b', {}, fInt(T.runners)), ' runners have covered ', el('b', {}, fKm(T.km) + ' km'), ', and ', el('b', {}, fInt(N === 10 ? T.fin : T.onPace)), N === 10 ? ' reached 100 km.' : T.onPace === 1 ? ' is on track for 100 km.' : ' are on track for 100 km.');
   statStrip($('c-stats'), T);
   $('c-podium').replaceChildren(...S.slice(0, 3).map((r, i) => el('div', { class: 'pod p' + (i + 1) }, el('div', { class: 'pos' }, ['1st', '2nd', '3rd'][i]), el('div', { class: 'nm' }, rn(r.a)), el('div', { class: 'km' }, fKm(r.total) + ' km'))));
   leaderboard('c', S, N);

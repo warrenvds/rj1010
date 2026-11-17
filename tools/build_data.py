@@ -86,10 +86,14 @@ else:
         typ = TYPES.get(str(r['activity_type'] or '').strip().lower())
         km = num(r['distance_km'])
         if not typ: skip[f"type {r['activity_type']}"] += 1; continue
-        if not 1 <= day <= 10: skip['outside 1-10 Dec'] += 1; continue
+        if not 1 <= day <= 10: skip['outside the 10 challenge days'] += 1; continue
         if not km or km <= 0: skip['zero distance'] += 1; continue
         if km > 250: skip['over 250 km (check)'] += 1; report.append(f"  check: {r['athlete_name']} {km} km on day {day}"); continue
         el, mv, ela = (r.get(k) for k in ('elevation_gain_m', 'moving_time_s', 'elapsed_time_s'))
+        if mv not in (None, '') and typ != 'Walk':   # counted, but flagged for a human look
+            pace = int(mv) / 60 / km
+            idle = ela not in (None, '') and int(ela) > 0 and int(mv) / int(ela) < 0.3
+            if pace < 2.5 or pace > 20 or idle: report.append(f"  check: {r['athlete_name']} day {day}, {km} km {typ} at {pace:.1f} min/km ('{r.get('activity_name') or ''}')")
         raw.append((str(r.get('athlete_id') or '').strip(), tidy(r['athlete_name']), day, round(km, 2), typ,
                     None if el in (None, '') else float(el), None if mv in (None, '') else int(mv),
                     None if ela in (None, '') else int(ela)))
