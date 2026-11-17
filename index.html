@@ -76,7 +76,7 @@ h3 { font-size: 17px; font-weight: 600; margin: 0; }
 .pod .pos { font-family: "Saira Condensed", sans-serif; font-weight: 800; font-size: 22px; }
 .pod .nm { font-weight: 600; font-size: 17px; line-height: 1.2; }
 .pod .km { font-family: "Saira Condensed", sans-serif; font-weight: 800; font-size: 32px; line-height: 1.1; }
-@media (max-width: 560px) { .podium { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .podium { gap: 6px; } .pod { padding: 8px; } .pod .pos { font-size: 16px; } .pod .nm { font-size: 13px; overflow-wrap: anywhere; } .pod .km { font-size: 22px; } }
 
 .card { background: var(--panel); border: 1px solid var(--line); padding: 16px; position: relative; min-width: 0; }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 16px; }
@@ -228,15 +228,15 @@ footer b { color: var(--gold); }
     </div>
     <div class="stats" id="c-stats"></div>
     <div class="podium" id="c-podium"></div>
-    <div class="grid2">
-      <div class="card"><h3>Where we’ve run to</h3><p class="note" id="g-note"></p><div id="g-route"></div><ol class="goals" id="g-list"></ol></div>
-      <div class="card"><h3>Record-breaking days</h3><p class="note" id="r-note"></p><div class="scroll"><table id="r-table"></table></div></div>
-    </div>
     <div>
       <h2>Leaderboard</h2>
       <p class="note">Daily km for everyone. Gold cells are the longest days. Tap a name for their history and a status picture to share. Badges: ★ ran every day so far, 💯 100 km, 🏅 half marathon in one run, 🎖️ marathon in one run, ↑ beat last year’s total, new = first 10/10.</p>
       <div class="tbar"><input type="search" id="c-q" placeholder="Find a runner or crew" aria-label="Find a runner or crew"><span class="cnt" id="c-cnt"></span></div>
       <div class="scroll"><table id="c-table"></table></div>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>Where we’ve run to</h3><p class="note" id="g-note"></p><div id="g-route"></div><ol class="goals" id="g-list"></ol></div>
+      <div class="card"><h3>Record-breaking days</h3><p class="note" id="r-note"></p><div class="scroll"><table id="r-table"></table></div></div>
     </div>
     <div>
       <h2>Crews</h2>
