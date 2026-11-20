@@ -63,7 +63,9 @@ if A.src == '2025':
     side = A.side or os.path.join(HERE, '..', 'data', '2025')
     hs26 = os.path.join(HERE, '..', 'data', '2026', 'hosts.csv')
     if os.path.exists(hs26):
-        with open(hs26, newline='', encoding='utf-8-sig') as fh: D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else (v or '') for k, v in r.items()} for r in csv.DictReader(fh)]
+        with open(hs26, newline='', encoding='utf-8-sig') as fh: _h = list(csv.DictReader(fh))
+        if len(_h) != 10 or any(None in r for r in _h): sys.exit('hosts.csv is damaged: it needs 10 rows with the same columns (a comma inside a value must be in quotes)')
+        D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else (v or '') for k, v in r.items()} for r in _h]
 else:
     import openpyxl
     year = start.year
@@ -133,6 +135,7 @@ if A.src != '2025' or os.path.isdir(side):
             if n.lower().startswith('other') or n.lower().startswith('anon'): n = 'Others'
             if n and v: D['payments'][n] = D['payments'].get(n, 0) + v
     hs = read('hosts.csv')
+    if hs and (len(hs) != 10 or any(None in r or len(r) != len(hs[0]) for r in hs)): sys.exit('hosts.csv is damaged: it needs 10 rows with the same columns (a comma inside a value must be in quotes)')
     if hs: D['hosts'] = [{k: (v or 'TBC') if k in ('meeting_point', 'route', 'treats') else v for k, v in r.items()} for r in hs]
     # kids and pets have no Strava: one row per day they ran, paired with the parent or owner
     D['extras'] = {}

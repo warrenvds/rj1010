@@ -51,6 +51,7 @@ const issues = [], note = (...a) => issues.push(a.join(' '));
     console.log(label, 'recap last lines:', (await p.inputValue('#recap')).split('\n').slice(-6).join(' / '));
     // hosts: calendar
     await p.goto(URL0 + '#hosts'); await p.waitForTimeout(300);
+    const nh = await p.$$eval('#h-list .host', h => h.length); if (nh !== 10) note(label, 'hosted runs: expected 10 cards, found', nh);
     const [all] = await Promise.all([p.waitForEvent('download', { timeout: 3000 }).catch(() => null), p.click('#h-all')]);
     if (all) { const ics = fs.readFileSync(await all.path(), 'utf8'); console.log(label, 'ics events', (ics.match(/BEGIN:VEVENT/g) || []).length, 'lines >75 chars', ics.split('\r\n').filter(l => l.length > 75).length); } else note(label, 'all-runs calendar download failed');
     // past: every year, name click, sort
