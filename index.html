@@ -717,7 +717,7 @@ function recap(N, S, T, C) {
   else if (N === 9) L.push('*Last day today!* Get your final km in.');
   else L.push(DATA.final ? '*Final results are in.* See what you owe on the Money for the Kids tab: https://warrenvds.github.io/rj1010/#money' : '*That’s a wrap!* Late uploads count until 07:00 on Saturday 12 December. Then the results are final and payment details go out.');
   if (N < 10) L.push('Name your run "RJ 10/10 Challenge - Day n".');
-  L.push('', 'Full leaderboard: ' + location.href.split('#')[0]);
+  L.push('', `Full leaderboard: https://${SITE}/`);
   return L.join('\n');
 }
 
@@ -912,7 +912,7 @@ const tbc = v => !v || v === 'TBC';
 const runTitle = h => `RJ 10/10 Day ${h.day}: run with ${h.host}`;
 const runPlace = h => tbc(h.meeting_point) ? 'Meeting point to be confirmed' : h.meeting_point;
 const runNotes = h => [`Hosted by ${h.host}. Starts ${h.time}; arrive 10 minutes early.`, tbc(h.meeting_point) || !h.meeting_url ? '' : 'Map: ' + h.meeting_url, tbc(h.route) ? '' : 'Route: ' + (h.route_url || h.route), tbc(h.treats) ? '' : 'Treats: ' + h.treats,
-  'Name your run "RJ 10/10 Challenge - Day ' + h.day + '".', 'Details may change; check the dashboard: ' + location.href.split('#')[0] + '#hosts'].filter(Boolean).join('\n');
+  'Name your run "RJ 10/10 Challenge - Day ' + h.day + '".', `Details may change; check the dashboard: https://${SITE}/#hosts`].filter(Boolean).join('\n');
 const icsText = s => String(s).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1');
 function icsDownload(hosts, file) {
   const now = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
