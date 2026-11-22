@@ -101,6 +101,7 @@ dialog#runner::backdrop { background: rgba(0,0,0,.55); }
 .r-strip div { border: 1px solid var(--line); text-align: center; padding: 6px 0; font-size: 13px; }
 .r-strip small { display: block; color: var(--muted); font-size: 11px; }
 .r-aw { margin: 0; padding-left: 1.1rem; } .r-aw li { margin: 3px 0; } .r-aw span { color: var(--muted); }
+.share-run { padding: 4px 18px 18px; } .share-run textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 13px; line-height: 1.4; padding: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); resize: vertical; }
 .cal { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
 .cal button, .cal a { font: inherit; font-size: 14px; font-weight: 600; border: 1px solid var(--ink); background: var(--paper); color: var(--ink); padding: 5px 10px; cursor: pointer; text-decoration: none; }
 .cal button:hover, .cal a:hover { background: var(--gold); color: #000; }
@@ -870,8 +871,35 @@ function drawHosts() {
         (DATA.attendance || {})[h.day] ? [el('dt', {}, 'Turnout'), el('dd', {}, DATA.attendance[h.day].length + ' ran')] : null,
         el('dt', {}, 'Last year'), el('dd', {}, h.turnout_2025 + ' ran on Day ' + h.day)),
       el('div', { class: 'cal' }, (() => { const b = el('button', { type: 'button' }, 'Add to calendar'); b.onclick = () => icsDownload([h], `rj1010-day${h.day}.ics`); return b; })(),
-        el('a', { href: gcal(h), target: '_blank', rel: 'noopener' }, 'Google Calendar'))))));
+        el('a', { href: gcal(h), target: '_blank', rel: 'noopener' }, 'Google Calendar'),
+        (() => { const b = el('button', { type: 'button', 'aria-expanded': 'false' }, 'Share run'); b.onclick = () => shareRun(h, b); return b; })())))));
 }
+// share a hosted run as a ready-made message
+function runMessage(h) {
+  const d = d3.timeDay.offset(START, h.day - 1), [hh, mm] = String(h.time || '05:00').split(':').map(Number);
+  const early = new Date(2000, 0, 1, hh, mm - 10), arrive = `${pad(early.getHours())}:${pad(early.getMinutes())}`;
+  const L = [`🏃‍♂️ RJ 10/10 Challenge ${d.getFullYear()} - Day ${h.day}`, '', `🎉 Hosted by: ${h.host}`, '',
+    `📅 Date: ${d3.timeFormat('%A, %-d %B')(d)}`, `⏰ Time: ${arrive} for ${h.time} start`, '',
+    '🗺️ Route', tbc(h.route) ? 'To be confirmed' : (h.route_url || h.route), '',
+    '📍 Meeting point:', tbc(h.meeting_point) ? 'To be confirmed' : h.meeting_point];
+  if (!tbc(h.meeting_point) && h.meeting_url) L.push(h.meeting_url);
+  L.push('', `🍪☕ Post-run treats: ${tbc(h.treats) ? 'To be confirmed' : h.treats}`, '',
+    `Name your run "RJ 10/10 Challenge - Day ${h.day}"`, `All hosted runs: https://${SITE}/#hosts`, '#ForTheKids');
+  return L.join('\n');
+}
+function shareRun(h, btn) {
+  const card = btn.closest('.host'), old = card.querySelector('.share-run');
+  if (old) { old.remove(); btn.setAttribute('aria-expanded', 'false'); return; }
+  const text = runMessage(h), box = el('div', { class: 'share-run' });
+  const ta = el('textarea', { readonly: '', rows: 12, 'aria-label': `Message for Day ${h.day}` }); ta.value = text;
+  const row = el('div', { class: 'cal' });
+  row.append(el('a', { href: 'https://wa.me/?text=' + encodeURIComponent(text), target: '_blank', rel: 'noopener' }, 'Send on WhatsApp'));
+  if (navigator.share) { const s = el('button', { type: 'button' }, 'Other apps'); s.onclick = () => navigator.share({ title: `RJ 10/10 Day ${h.day}`, text }).catch(() => {}); row.append(s); }
+  const cp = el('button', { type: 'button' }, 'Copy message');
+  cp.onclick = async () => { try { await navigator.clipboard.writeText(text); cp.textContent = 'Copied'; } catch (e) { ta.select(); cp.textContent = 'Select and copy'; } };
+  row.append(cp); box.append(ta, row); card.append(box); btn.setAttribute('aria-expanded', 'true');
+}
+
 // calendar: times are Johannesburg (UTC+2, no daylight saving), written in UTC
 const pad = n => String(n).padStart(2, '0');
 function runTimes(h) {
