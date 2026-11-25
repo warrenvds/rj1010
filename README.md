@@ -33,3 +33,7 @@ Names must match the Strava name. Words typed in capitals are tidied automatical
 ## Tests
 
 `tools/test/gen.py` makes a fake 120-runner challenge export with the usual problems in it. `verify.py` recomputes the totals straight from the export; `tpage.js` checks the built page against them and against JavaScript errors.
+
+## Visit counts
+
+The GitHub site sends one small anonymous count per tab view (tab, phone or desktop, WhatsApp or direct, first visit of the day) to the `rj1010_hits` table in Supabase project WvdS. No names, IP addresses, cookies or IDs. The page's key can only add rows, never read them. Counting is off on the claude.ai copy, in automated tests, and on any device that has opened the site once with `?nostat`.

@@ -825,6 +825,7 @@ async function statusCanvas(a) {
   return { c, me, T, S };
 }
 async function shareStatus(a, out) {
+  hit('status');
   out.replaceChildren(el('p', { class: 'note' }, 'Making your picture…'));
   const { c, me, S } = await statusCanvas(a);
   const blob = await new Promise(r => c.toBlob(r, 'image/png'));
@@ -888,6 +889,7 @@ function runMessage(h) {
   return L.join('\n');
 }
 function shareRun(h, btn) {
+  if (!btn.closest('.host').querySelector('.share-run')) hit('share-run');
   const card = btn.closest('.host'), old = card.querySelector('.share-run');
   if (old) { old.remove(); btn.setAttribute('aria-expanded', 'false'); return; }
   const text = runMessage(h), box = el('div', { class: 'share-run' });
@@ -915,6 +917,7 @@ const runNotes = h => [`Hosted by ${h.host}. Starts ${h.time}; arrive 10 minutes
   'Name your run "RJ 10/10 Challenge - Day ' + h.day + '".', `Details may change; check the dashboard: https://${SITE}/#hosts`].filter(Boolean).join('\n');
 const icsText = s => String(s).replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1');
 function icsDownload(hosts, file) {
+  hit('calendar');
   const now = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
   const ev = hosts.map(h => { const [s, e] = runTimes(h); return ['BEGIN:VEVENT', `UID:rj1010-${DATA.start || DATA.year}-day${h.day}@retrojoes`, 'DTSTAMP:' + now, 'DTSTART:' + s, 'DTEND:' + e,
     'SUMMARY:' + icsText(runTitle(h)), 'LOCATION:' + icsText(runPlace(h)), 'DESCRIPTION:' + icsText(runNotes(h)),
@@ -954,6 +957,7 @@ function profile(a) {
     bestD: bd ? { k: bd[1], y: +bd[0].split('-')[0], d: +bd[0].split('-')[1] } : null };
 }
 function openRunner(a) {
+  hit('profile');
   const P = profile(a), dlg = $('runner');
   $('r-name').replaceChildren(a, paw(a) || '');
   const first = P.rows.length ? d3.min(P.rows, r => r.y) : DATA.year;
@@ -1129,6 +1133,25 @@ for (const y of HYEARS) { const b = el('button', { type: 'button', 'data-year': 
 $('y-q').addEventListener('input', () => pastTable(yearStandings(pastYear), pastYear !== 2018));
 
 const pages = { current: drawCurrent, days: drawDays, awards: () => { const S = standings(LATEST); drawAwards(LATEST, S, totals(LATEST, S)); }, hosts: drawHosts, money: drawMoney, kids: drawKids, past: drawPast };
+// ---------- anonymous visit counter (GitHub site only) ----------
+// One small background request per tab view: tab, phone or desktop, and whether the link came from WhatsApp.
+// No names, IP addresses, cookies or IDs. Never blocks or changes the page; failures are ignored.
+// Open the site once with ?nostat to stop counting your own visits on that device.
+const STAT_URL = 'https://esnxmutvxoarefqkhbgt.supabase.co/rest/v1/rj1010_hits', STAT_KEY = 'sb_publishable_vpidx_br6dHkX_dKo1BjDw_f0z6gbBp';
+const statOn = (() => {
+  if (!/\.github\.io$/.test(location.hostname) || navigator.webdriver) return false;
+  try { if (/[?&]nostat\b/.test(location.search)) localStorage.setItem('rj-nostat', '1'); return localStorage.getItem('rj-nostat') !== '1'; } catch (e) { return true; }
+})();
+const statSource = /whatsapp/i.test(document.referrer) ? 'whatsapp' : document.referrer && !document.referrer.includes(location.hostname) ? 'other' : 'direct';
+const statDevice = matchMedia('(max-width: 760px)').matches || /Mobi|Android|iPhone/i.test(navigator.userAgent) ? 'phone' : 'desktop';
+let statFirst = true, statLast = '';
+function hit(tab) {
+  if (!statOn) return;
+  let first_today = false;
+  if (statFirst) { statFirst = false; try { const d = new Date(Date.now() + 2 * 3600e3).toISOString().slice(0, 10); first_today = localStorage.getItem('rj-day') !== d; localStorage.setItem('rj-day', d); } catch (e) {} }
+  try { fetch(STAT_URL, { method: 'POST', keepalive: true, headers: { apikey: STAT_KEY, 'Content-Type': 'application/json', Prefer: 'return=minimal' }, body: JSON.stringify({ tab, device: statDevice, source: statSource, first_today }) }).catch(() => {}); } catch (e) {}
+}
+
 function show() {
   const [hn, hy] = location.hash.slice(1).split('-');
   if (hn === 'past' && HYEARS.includes(+hy)) pastYear = +hy;
@@ -1137,6 +1160,7 @@ function show() {
   document.querySelectorAll('nav.tabs a').forEach(a => { if (a.dataset.tab === name) { a.setAttribute('aria-current', 'page'); const w = a.parentElement; if (a.offsetLeft + a.offsetWidth > w.scrollLeft + w.clientWidth || a.offsetLeft < w.scrollLeft) w.scrollLeft = a.offsetLeft - 16; } else a.removeAttribute('aria-current'); });
   document.querySelector('.filterbar').hidden = name === 'past' || name === 'money' || name === 'kids';
   pages[name]();
+  if (name !== statLast) { statLast = name; hit(name); }
 }
 // setup
 { const w = document.querySelector('nav.tabs .wrap'), f = () => w.classList.toggle('end', w.scrollLeft + w.clientWidth >= w.scrollWidth - 4); w.addEventListener('scroll', f, { passive: true }); addEventListener('resize', f); requestAnimationFrame(f); }
